@@ -1,0 +1,19 @@
+Source: xubuntu-artwork
+Section: x11
+Priority: optional
+Maintainer: Jani Monoses <jani@ubuntu.com>
+Build-Depends: cdbs, debhelper (>= 4.1.0), libbogl-dev
+Standards-Version: 3.6.2
+
+Package: xubuntu-artwork
+Architecture: all
+Depends: gtk2-engines-clearlooks, xubuntu-artwork-usplash
+Description: Xubuntu themes and artwork
+ This package contains Xubuntu themes, artwork and default settings.
+
+Package: xubuntu-artwork-usplash
+Architecture: any 
+Depends: ${shlibs:Depends}
+Recommends: usplash 
+Description: Xubuntu usplash image
+ The startup screen shown on Xubuntu boot.

@@ -1,0 +1,20 @@
+xubuntu-artwork (0.3) breezy; urgency=low
+
+  * Change copyright to Creative Commons as the ubuntu artwork
+    this is derived from 
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 10 Oct 2005 13:31:52 +0300
+
+xubuntu-artwork (0.2) breezy; urgency=low
+
+  * Add new usplash resembling those in {edu,k,}ubuntu.
+    Artwork done by Steve <radarsat1@gmail.com> and Jozsef Mak <joz_mak@yahoo.ca>
+    
+ -- Jani Monoses <jani@ubuntu.com>  Fri,  7 Oct 2005 15:28:17 +0300
+
+xubuntu-artwork (0.1) breezy; urgency=low
+
+  * Initial release, includes usplash image
+
+ -- Jani Monoses <jani@ubuntu.com>  Sun,  2 Oct 2005 17:08:24 +0300
+
