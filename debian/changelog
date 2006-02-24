@@ -1,3 +1,10 @@
+xubuntu-artwork (0.4) dapper; urgency=low
+
+  * New 640x400 usplash image obtained by resizing the 640x480 one
+    so it's stretched, but it's better than no splash at all.
+
+ -- Jani Monoses <jani@ubuntu.com>  Fri, 24 Feb 2006 13:46:47 +0200
+
 xubuntu-artwork (0.3) breezy; urgency=low
 
   * Change copyright to Creative Commons as the ubuntu artwork
