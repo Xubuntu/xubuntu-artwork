@@ -2,7 +2,7 @@ Source: xubuntu-artwork
 Section: x11
 Priority: optional
 Maintainer: Jani Monoses <jani@ubuntu.com>
-Build-Depends: cdbs, debhelper (>= 4.1.0), libbogl-dev
+Build-Depends: cdbs, debhelper (>= 5.0.0), libbogl-dev
 Standards-Version: 3.6.2
 
 Package: xubuntu-artwork
