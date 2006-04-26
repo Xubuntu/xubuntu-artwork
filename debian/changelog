@@ -1,3 +1,9 @@
+xubuntu-artwork (0.6) dapper; urgency=low
+
+  * Fix color palette in usplash image to not use red text (Daniele Favara) 
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 26 Apr 2006 11:26:29 +0300
+
 xubuntu-artwork (0.5) dapper; urgency=low
 
   * New usplash by Jozsef Mak 
