@@ -1,3 +1,12 @@
+xubuntu-artwork (0.8) dapper; urgency=low
+
+  * Fix usplash image to remove the "glow" around the progress bar,
+    making it consistent with what Ubuntu and Edubuntu are shipping.
+  * Remove the slightly off-black lines from the top and bottom of
+    the usplash image, which were quite noticeable on large screens.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Fri, 26 May 2006 20:48:25 +1000
+
 xubuntu-artwork (0.7) dapper; urgency=low
 
   * New usplash more in line with Ubuntu's from Michiel Sikma 
