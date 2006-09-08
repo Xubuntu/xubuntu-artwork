@@ -1,3 +1,9 @@
+xubuntu-artwork (0.9) edgy; urgency=low
+
+  * New temporary theme for new usplash
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri,  8 Sep 2006 21:37:57 +0100
+
 xubuntu-artwork (0.8) dapper; urgency=low
 
   * Fix usplash image to remove the "glow" around the progress bar,

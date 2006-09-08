@@ -6,6 +6,6 @@ set -e
 
 case "$1" in
   remove)
-    update-alternatives --remove usplash-artwork.so /usr/lib/usplash/xubuntu-splash.so
+    update-alternatives --remove usplash-artwork.so /usr/lib/usplash/usplash-theme-xubuntu.so
     ;;
 esac

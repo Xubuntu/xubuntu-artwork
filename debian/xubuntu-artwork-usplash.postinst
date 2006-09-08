@@ -1,11 +1,12 @@
-#! /bin/sh
+#!/bin/sh
 
 set -e
 
 #DEBHELPER#
 
 case "$1" in
-  configure)
-    update-alternatives --install /usr/lib/usplash/usplash-artwork.so usplash-artwork.so /usr/lib/usplash/xubuntu-splash.so 50
-    ;;
+    configure)
+        update-alternatives --install /usr/lib/usplash/usplash-artwork.so usplash-artwork.so /usr/lib/usplash/usplash-theme-xubuntu.so 10
+        update-initramfs -u
+        ;;
 esac

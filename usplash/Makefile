@@ -1,31 +1,29 @@
-DESTDIR = ../debian/tmp
+C=gcc
+CFLAGS=-g -Wall -fPIC
+LDFLAGS=
+INCLUDES=
 
-BUILT_SOURCES = usplash-artwork.c usplash-artwork.o
+COMPILE = $(CC) $(INCLUDES) $(CFLAGS)
+LINK = $(CC) $(CFLAGS) $(LDFLAGS)
 
-AM_INCLUDES = -I/usr/include/bogl
+INSTALL = /usr/bin/install -c
+INSTALL_DATA = $(INSTALL) -m 644
+INSTALL_PROGRAM = $(INSTALL) -m 755
 
-usplashdir = /usr/lib/usplash
+usplash-theme-xubuntu.so: throbber_back.png.c.o throbber_fore.png.c.o usplash_1024_768.png.c.o usplash_1365_768_scaled.png.c.o usplash_800_600.png.c.o usplash-theme-xubuntu.c.o
+	$(COMPILE) -shared -o $@ $^
+	
+%.png.c: %.png
+	pngtousplash $< > $@
 
-build: xubuntu-splash.so
+%.bdf.c: %.bdf
+	bdftousplash $< > $@
 
-install: install-exec-local
+%.c.o: %.c
+	$(COMPILE) -o $@ -c $<
 
+install:
+	$(INSTALL) -d $(DESTDIR)/usr/lib/usplash
+	$(INSTALL_PROGRAM) usplash-theme-xubuntu.so $(DESTDIR)/usr/lib/usplash/usplash-theme-xubuntu.so
 clean:
-	rm -f usplash-artwork.c usplash-artwork.o xubuntu-splash.so usplash-artwork.png
-
-distclean: clean
-	-rm -f Makefile
-
-install-exec-local: xubuntu-splash.so
-	mkdir -p $(DESTDIR)$(usplashdir)
-	cp xubuntu-splash.so $(DESTDIR)$(usplashdir)
-
-usplash-artwork.c: xusplash.png
-	cp $< usplash-artwork.png
-	pngtobogl usplash-artwork.png >$@
-
-usplash-artwork.o: usplash-artwork.c
-	$(CC) -Os -g -I/usr/include/bogl -fPIC -c $< -o $@
-
-xubuntu-splash.so: usplash-artwork.o
-	$(CC) -shared -Wl,-soname,usplash-artwork.so $< -o $@
+	rm -f *.png.c *.bdf.c *.c.o *.so
