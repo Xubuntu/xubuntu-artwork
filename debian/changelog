@@ -1,3 +1,9 @@
+xubuntu-artwork (0.10) edgy; urgency=low
+
+  * Compile with -fPIC
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 12 Sep 2006 19:44:47 -0400
+
 xubuntu-artwork (0.9) edgy; urgency=low
 
   * New temporary theme for new usplash
