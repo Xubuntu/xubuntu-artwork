@@ -1,3 +1,9 @@
+xubuntu-artwork (0.11) edgy; urgency=low
+
+  * New usplash artwork from Jozsef Mak 
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 26 Sep 2006 07:55:12 +0300
+
 xubuntu-artwork (0.10) edgy; urgency=low
 
   * Compile with -fPIC
