@@ -46,13 +46,13 @@ struct usplash_theme usplash_theme = {
 	.pixmap = &pixmap_usplash_800_600,
 
 	/* Palette indexes */
-	.background             = 0x0,
-  	.progressbar_background = 0x7,
-  	.progressbar_foreground = 0x156,
-	.text_background        = 0x0,
-	.text_foreground        = 0x15,
-	.text_success           = 0x33,
-	.text_failure           = 0x144,
+	.background             = 0,
+  	.progressbar_background = 73,
+  	.progressbar_foreground = 168,
+	.text_background        = 0,
+	.text_foreground        = 168,
+	.text_success           = 128,
+	.text_failure           = 227,
 
 	/* Progress bar position and size in pixels */
   	.progressbar_x      = 292, /* 800/2-216/2 */
@@ -87,13 +87,13 @@ struct usplash_theme usplash_theme_1024_768 = {
 	.pixmap = &pixmap_usplash_1024_768,
 
 	/* Palette indexes */
-	.background             = 0x0,
-  	.progressbar_background = 0x7,
-  	.progressbar_foreground = 0x156,
-	.text_background        = 0x0,
-	.text_foreground        = 0x15,
-	.text_success           = 0x33,
-	.text_failure           = 0x144,
+	.background             = 0,
+  	.progressbar_background = 73,
+  	.progressbar_foreground = 168,
+	.text_background        = 0,
+	.text_foreground        = 168,
+	.text_success           = 128,
+	.text_failure           = 227,
 
 	/* Progress bar position and size in pixels */
   	.progressbar_x      = 404, /* 1024/2 - 216/2 */
@@ -128,13 +128,13 @@ struct usplash_theme usplash_theme_1365_768_scaled = {
 	.pixmap = &pixmap_usplash_1365_768_scaled,
 
 	/* Palette indexes */
-	.background             = 0x0,
-  	.progressbar_background = 0x7,
-  	.progressbar_foreground = 0x156,
-	.text_background        = 0x0,
-	.text_foreground        = 0x15,
-	.text_success           = 0x33,
-	.text_failure           = 0x144,
+	.background             = 0,
+  	.progressbar_background = 73,
+  	.progressbar_foreground = 168,
+	.text_background        = 0,
+	.text_foreground        = 168,
+	.text_success           = 128,
+	.text_failure           = 227,
 
 	/* Progress bar position and size in pixels */
   	.progressbar_x      = 404, /* 1024/2 - 216/2 */

@@ -1,3 +1,15 @@
+xubuntu-artwork (0.13) feisty; urgency=low
+
+  [ Dennis Kaarsemaker ]
+  * Fix broken palette indices. Some colors were just unreadable and some
+    color indices pointed outside the palette which could cause crashes.
+
+  [ Martin Pitt ]
+  * debian/control: Fix build dependency for the usplash-dev ->
+    libusplash-dev rename.
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Mon, 19 Mar 2007 09:30:18 +0100
+
 xubuntu-artwork (0.12) feisty; urgency=low
 
   * New usplash from Jozsef Mak
