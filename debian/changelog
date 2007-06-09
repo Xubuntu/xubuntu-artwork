@@ -1,3 +1,10 @@
+xubuntu-artwork (0.14) gutsy; urgency=low
+
+  * Fixed xubuntu-artwork-usplash.prerm to update-initramfs -u on package
+    remove.	(LP: #83410)
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 09 Jun 2007 15:22:28 +0200
+
 xubuntu-artwork (0.13) feisty; urgency=low
 
   [ Dennis Kaarsemaker ]
