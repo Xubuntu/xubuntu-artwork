@@ -1,3 +1,12 @@
+xubuntu-artwork (0.15) gutsy; urgency=low
+
+  * New usplash from Jozsef Mak.
+  * usplash/Makefile: updated to add the 640x480 png image.
+  * debian/control: replace the gtk2-engines-clearlooks dependency with
+    gtk2-engines-murrine for the xubuntu-artwork binary package.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 15 Aug 2007 00:38:32 +0200
+
 xubuntu-artwork (0.14) gutsy; urgency=low
 
   * Fixed xubuntu-artwork-usplash.prerm to update-initramfs -u on package

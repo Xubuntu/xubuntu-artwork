@@ -1,13 +1,14 @@
 Source: xubuntu-artwork
 Section: x11
 Priority: optional
-Maintainer: Jani Monoses <jani@ubuntu.com>
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Jani Monoses <jani@ubuntu.com>
 Build-Depends: cdbs, debhelper (>= 5.0.0), libusplash-dev
 Standards-Version: 3.7.2
 
 Package: xubuntu-artwork
 Architecture: all
-Depends: gtk2-engines-clearlooks, xubuntu-artwork-usplash
+Depends: gtk2-engines-murrine, xubuntu-artwork-usplash
 Description: Xubuntu themes and artwork
  This package contains Xubuntu themes, artwork and default settings.
 
