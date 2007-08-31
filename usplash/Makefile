@@ -22,7 +22,7 @@ usplash-theme-xubuntu.so: throbber_back.png.c.o throbber_back_16.png.c.o throbbe
 	bdftousplash $< > $@
 
 %.c.o: %.c
-	$(COMPILE) -o $@ -c $<
+	$(COMPILE) -o $@ -c $< -fPIC
 
 install:
 	$(INSTALL) -d $(DESTDIR)/usr/lib/usplash

@@ -1,3 +1,10 @@
+xubuntu-artwork (0.17) gutsy; urgency=low
+
+  * usplash/Makefile: add -fPIC which got lost in the previous upload (fixes 
+    FTBFS on amd64).
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 31 Aug 2007 21:29:05 +0200
+
 xubuntu-artwork (0.16) gutsy; urgency=low
 
   * Resync with the usplash-theme-ubuntu package:
