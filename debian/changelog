@@ -1,3 +1,13 @@
+xubuntu-artwork (0.16) gutsy; urgency=low
+
+  * Resync with the usplash-theme-ubuntu package:
+    - usplash/usplash-theme-xubuntu.c: updated	(LP: #135791)
+    - usplash/Makefile: updated.
+  * Use kubuntu throbber_* images until we figure out why the xubuntu ones
+    break the progressbar.	(LP: #134183)
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 31 Aug 2007 20:36:30 +0200
+
 xubuntu-artwork (0.15) gutsy; urgency=low
 
   * New usplash from Jozsef Mak.
