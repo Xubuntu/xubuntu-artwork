@@ -1,3 +1,10 @@
+xubuntu-artwork (0.18) gutsy; urgency=low
+
+  * Ensure throbber is centred; Change all 'theme' resolution (except
+    640x400x4) -> hardcoded 320px wide throbber, to match the pixmap.
+
+ -- Paul Sladen <sladen@ubuntu.com>  Mon, 24 Sep 2007 17:14:09 +0300
+
 xubuntu-artwork (0.17) gutsy; urgency=low
 
   * usplash/Makefile: add -fPIC which got lost in the previous upload (fixes 
