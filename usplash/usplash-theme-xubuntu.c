@@ -105,7 +105,7 @@ struct usplash_theme usplash_theme_640_480 = {
 	.text_failure           = 227,
 
 	/* Progress bar position and size in pixels */
-  	.progressbar_x      = 120,
+  	.progressbar_x      = 160,
   	.progressbar_y      = 251,
   	.progressbar_width  = 320,
   	.progressbar_height = 18,

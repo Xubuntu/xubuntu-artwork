@@ -1,3 +1,11 @@
+xubuntu-artwork (0.19) gutsy; urgency=low
+
+  * One line change;  for 640x480 non-vga theme mode,
+    centre throbber too far off to left.  Set .progress_x = 160.
+    (LP: #135319)
+
+ -- Paul Sladen <sladen@ubuntu.com>  Fri, 12 Oct 2007 18:43:32 +0300
+
 xubuntu-artwork (0.18) gutsy; urgency=low
 
   * Ensure throbber is centred; Change all 'theme' resolution (except
