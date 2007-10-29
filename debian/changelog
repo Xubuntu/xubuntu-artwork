@@ -1,0 +1,138 @@
+xubuntu-artwork (0.19) gutsy; urgency=low
+
+  * One line change;  for 640x480 non-vga theme mode,
+    centre throbber too far off to left.  Set .progress_x = 160.
+    (LP: #135319)
+
+ -- Paul Sladen <sladen@ubuntu.com>  Fri, 12 Oct 2007 18:43:32 +0300
+
+xubuntu-artwork (0.18) gutsy; urgency=low
+
+  * Ensure throbber is centred; Change all 'theme' resolution (except
+    640x400x4) -> hardcoded 320px wide throbber, to match the pixmap.
+
+ -- Paul Sladen <sladen@ubuntu.com>  Mon, 24 Sep 2007 17:14:09 +0300
+
+xubuntu-artwork (0.17) gutsy; urgency=low
+
+  * usplash/Makefile: add -fPIC which got lost in the previous upload (fixes 
+    FTBFS on amd64).
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 31 Aug 2007 21:29:05 +0200
+
+xubuntu-artwork (0.16) gutsy; urgency=low
+
+  * Resync with the usplash-theme-ubuntu package:
+    - usplash/usplash-theme-xubuntu.c: updated	(LP: #135791)
+    - usplash/Makefile: updated.
+  * Use kubuntu throbber_* images until we figure out why the xubuntu ones
+    break the progressbar.	(LP: #134183)
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 31 Aug 2007 20:36:30 +0200
+
+xubuntu-artwork (0.15) gutsy; urgency=low
+
+  * New usplash from Jozsef Mak.
+  * usplash/Makefile: updated to add the 640x480 png image.
+  * debian/control: replace the gtk2-engines-clearlooks dependency with
+    gtk2-engines-murrine for the xubuntu-artwork binary package.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 15 Aug 2007 00:38:32 +0200
+
+xubuntu-artwork (0.14) gutsy; urgency=low
+
+  * Fixed xubuntu-artwork-usplash.prerm to update-initramfs -u on package
+    remove.	(LP: #83410)
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 09 Jun 2007 15:22:28 +0200
+
+xubuntu-artwork (0.13) feisty; urgency=low
+
+  [ Dennis Kaarsemaker ]
+  * Fix broken palette indices. Some colors were just unreadable and some
+    color indices pointed outside the palette which could cause crashes.
+
+  [ Martin Pitt ]
+  * debian/control: Fix build dependency for the usplash-dev ->
+    libusplash-dev rename.
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Mon, 19 Mar 2007 09:30:18 +0100
+
+xubuntu-artwork (0.12) feisty; urgency=low
+
+  * New usplash from Jozsef Mak
+
+ -- Gauvain Pocentek <gauvainpocentek@ubuntu.com>  Tue,  6 Mar 2007 17:53:56 +0100
+
+xubuntu-artwork (0.11) edgy; urgency=low
+
+  * New usplash artwork from Jozsef Mak 
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 26 Sep 2006 07:55:12 +0300
+
+xubuntu-artwork (0.10) edgy; urgency=low
+
+  * Compile with -fPIC
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 12 Sep 2006 19:44:47 -0400
+
+xubuntu-artwork (0.9) edgy; urgency=low
+
+  * New temporary theme for new usplash
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri,  8 Sep 2006 21:37:57 +0100
+
+xubuntu-artwork (0.8) dapper; urgency=low
+
+  * Fix usplash image to remove the "glow" around the progress bar,
+    making it consistent with what Ubuntu and Edubuntu are shipping.
+  * Remove the slightly off-black lines from the top and bottom of
+    the usplash image, which were quite noticeable on large screens.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Fri, 26 May 2006 20:48:25 +1000
+
+xubuntu-artwork (0.7) dapper; urgency=low
+
+  * New usplash more in line with Ubuntu's from Michiel Sikma 
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 23 May 2006 12:46:56 +0300
+
+xubuntu-artwork (0.6) dapper; urgency=low
+
+  * Fix color palette in usplash image to not use red text (Daniele Favara) 
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 26 Apr 2006 11:26:29 +0300
+
+xubuntu-artwork (0.5) dapper; urgency=low
+
+  * New usplash by Jozsef Mak 
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 24 Apr 2006 00:09:38 +0300
+
+xubuntu-artwork (0.4) dapper; urgency=low
+
+  * New 640x400 usplash image obtained by resizing the 640x480 one
+    so it's stretched, but it's better than no splash at all.
+
+ -- Jani Monoses <jani@ubuntu.com>  Fri, 24 Feb 2006 13:46:47 +0200
+
+xubuntu-artwork (0.3) breezy; urgency=low
+
+  * Change copyright to Creative Commons as the ubuntu artwork
+    this is derived from 
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 10 Oct 2005 13:31:52 +0300
+
+xubuntu-artwork (0.2) breezy; urgency=low
+
+  * Add new usplash resembling those in {edu,k,}ubuntu.
+    Artwork done by Steve <radarsat1@gmail.com> and Jozsef Mak <joz_mak@yahoo.ca>
+    
+ -- Jani Monoses <jani@ubuntu.com>  Fri,  7 Oct 2005 15:28:17 +0300
+
+xubuntu-artwork (0.1) breezy; urgency=low
+
+  * Initial release, includes usplash image
+
+ -- Jani Monoses <jani@ubuntu.com>  Sun,  2 Oct 2005 17:08:24 +0300
+
