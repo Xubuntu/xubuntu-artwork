@@ -1,10 +1,10 @@
 Source: xubuntu-artwork
 Section: x11
 Priority: optional
-Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jani Monoses <jani@ubuntu.com>
 Build-Depends: cdbs, debhelper (>= 5.0.0), libusplash-dev
-Standards-Version: 3.7.2
+Standards-Version: 3.8.0
 
 Package: xubuntu-artwork
 Architecture: all
@@ -15,5 +15,6 @@ Description: Xubuntu themes and artwork
 Package: xubuntu-artwork-usplash
 Architecture: any 
 Depends: ${shlibs:Depends}, initramfs-tools (>= 0.40ubuntu30), usplash (>= 0.4-21)
+Provides: usplash-theme
 Description: Xubuntu usplash image
  The startup screen shown on Xubuntu boot.

@@ -1,3 +1,11 @@
+xubuntu-artwork (0.20) intrepid; urgency=low
+
+  * debian/control:
+    - xubuntu-artwork-usplash now provides usplash-theme.
+    - Bump standards version to 3.8.0.
+
+ -- Cody A.W. Somerville <cody.somerville@canonical.com>  Wed, 10 Sep 2008 19:07:21 -0300
+
 xubuntu-artwork (0.19) gutsy; urgency=low
 
   * One line change;  for 640x480 non-vga theme mode,
