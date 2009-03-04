@@ -1,3 +1,11 @@
+xubuntu-artwork (0.21) jaunty; urgency=low
+
+  * Update for new usplash which supports explicit theme sizes and pixmap
+    positions; see LP #64147 for details.
+  * debian/control: Bump usplash dependencies to >= 0.5.30 (THEME_VERSION==4).
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Wed, 04 Mar 2009 21:50:20 +0100
+
 xubuntu-artwork (0.20) intrepid; urgency=low
 
   * debian/control:
