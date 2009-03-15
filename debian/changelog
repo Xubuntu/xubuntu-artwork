@@ -1,8 +1,13 @@
 xubuntu-artwork (0.22) UNRELEASED; urgency=low
 
-  * debian/control: add Vcs-* fields pointing to LP.
+  * debian/control: add Vcs-* fields pointing to LP
+  * Ship artwork in xubuntu-artwork instead of xubuntu-default-settings:
+    - usr/share/{gdm,pixmaps,themes,xfce4}: added
+    - debian/xubuntu-artwork.install: added
+    - xubuntu-artwork conflicts/replaces xubuntu-default-settings (<= 0.51)
+    - xubuntu-artwork provides gdm-theme.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Mar 2009 15:08:49 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Mar 2009 15:45:21 +0100
 
 xubuntu-artwork (0.21) jaunty; urgency=low
 
