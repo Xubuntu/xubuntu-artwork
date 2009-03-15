@@ -1,3 +1,9 @@
+xubuntu-artwork (0.22) UNRELEASED; urgency=low
+
+  * debian/control: add Vcs-* fields pointing to LP.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Mar 2009 15:08:49 +0100
+
 xubuntu-artwork (0.21) jaunty; urgency=low
 
   * Update for new usplash which supports explicit theme sizes and pixmap

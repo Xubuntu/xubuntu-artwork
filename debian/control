@@ -5,6 +5,8 @@ Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jani Monoses <jani@ubuntu.com>
 Build-Depends: cdbs, debhelper (>= 5.0.0), libusplash-dev (>= 0.5.30)
 Standards-Version: 3.8.0
+Vcs-Bzr: lp:~xubuntu-team/xubuntu-artwork/trunk
+Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-team/xubuntu-artwork/trunk/files
 
 Package: xubuntu-artwork
 Architecture: all
