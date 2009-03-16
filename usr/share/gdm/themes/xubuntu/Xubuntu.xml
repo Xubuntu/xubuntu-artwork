@@ -33,10 +33,12 @@
 		<stock type="caps-lock-warning" />
 	</item>
 	<item type="label" id="timed-label">
+		<show type="timed" />
 		<pos x="220px" y="-125px" anchor="sw" />
 		<normal font="Sans 10" color="#ffffff" />
-		<stock type="timed-label" />
+		<stock type="timed-label"/>
 	</item>
+
 
 	<!-- username and password -->
 	<item type="rect">
@@ -51,7 +53,7 @@
 		</box>
 		<fixed>
 			<item type="entry" id="user-pw-entry">
-				<pos x="200px" y="0" width="100px" height="20px" anchor="nw" />
+				<pos x="200px" y="0" width="150px" height="20px" anchor="nw" />
 			</item>
 		</fixed>
 	</item>
