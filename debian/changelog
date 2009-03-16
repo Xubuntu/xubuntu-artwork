@@ -6,8 +6,9 @@ xubuntu-artwork (0.22) UNRELEASED; urgency=low
     - debian/xubuntu-artwork.install: added
     - xubuntu-artwork conflicts/replaces xubuntu-default-settings (<= 0.51)
     - xubuntu-artwork provides gdm-theme.
+  * usr/share/gdm/themes/xubuntu: new GDM theme by Pasi "knome" Lallinaho.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Mar 2009 15:45:21 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 16 Mar 2009 19:42:20 +0100
 
 xubuntu-artwork (0.21) jaunty; urgency=low
 
