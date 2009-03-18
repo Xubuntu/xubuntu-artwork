@@ -5,16 +5,22 @@ Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jani Monoses <jani@ubuntu.com>
 Build-Depends: cdbs, debhelper (>= 5.0.0), libusplash-dev (>= 0.5.30)
 Standards-Version: 3.8.0
+Vcs-Bzr: lp:~xubuntu-team/xubuntu-artwork/trunk
+Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-team/xubuntu-artwork/trunk/files
 
 Package: xubuntu-artwork
 Architecture: all
-Depends: gtk2-engines-murrine, xubuntu-artwork-usplash
+Depends: gtk2-engines-murrine, xubuntu-artwork-usplash, ${misc:Depends}
+Conflicts: xubuntu-default-settings (<= 0.51)
+Replaces: xubuntu-default-settings (<= 0.51)
+Provides: gdm-theme
 Description: Xubuntu themes and artwork
- This package contains Xubuntu themes, artwork and default settings.
+ This package contains Xubuntu themes and artwork.
 
 Package: xubuntu-artwork-usplash
-Architecture: any 
-Depends: ${shlibs:Depends}, initramfs-tools (>= 0.40ubuntu30), usplash (>= 0.5.30)
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, initramfs-tools (>= 0.40ubuntu30),
+ usplash (>= 0.5.30)
 Provides: usplash-theme
 Description: Xubuntu usplash image
  The startup screen shown on Xubuntu boot.
