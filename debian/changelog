@@ -1,4 +1,4 @@
-xubuntu-artwork (0.22) UNRELEASED; urgency=low
+xubuntu-artwork (0.22) jaunty; urgency=low
 
   * debian/control:
     - add Vcs-* fields pointing to LP
@@ -14,7 +14,7 @@ xubuntu-artwork (0.22) UNRELEASED; urgency=low
     Pasi "knome" Lallinaho as well.
   * usr/share/icons: include gnome-brave.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 18 Mar 2009 20:43:40 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 18 Mar 2009 21:22:36 +0100
 
 xubuntu-artwork (0.21) jaunty; urgency=low
 
