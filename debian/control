@@ -10,7 +10,7 @@ Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-team/xubuntu-artwork/trunk/fil
 
 Package: xubuntu-artwork
 Architecture: all
-Depends: gtk2-engines-murrine, xubuntu-artwork-usplash
+Depends: gtk2-engines-murrine, xubuntu-artwork-usplash, ${misc:Depends}
 Conflicts: xubuntu-default-settings (<= 0.51)
 Replaces: xubuntu-default-settings (<= 0.51)
 Provides: gdm-theme
@@ -19,7 +19,8 @@ Description: Xubuntu themes and artwork
 
 Package: xubuntu-artwork-usplash
 Architecture: any
-Depends: ${shlibs:Depends}, initramfs-tools (>= 0.40ubuntu30), usplash (>= 0.5.30)
+Depends: ${shlibs:Depends}, ${misc:Depends}, initramfs-tools (>= 0.40ubuntu30),
+ usplash (>= 0.5.30)
 Provides: usplash-theme
 Description: Xubuntu usplash image
  The startup screen shown on Xubuntu boot.

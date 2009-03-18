@@ -1,6 +1,8 @@
 xubuntu-artwork (0.22) UNRELEASED; urgency=low
 
-  * debian/control: add Vcs-* fields pointing to LP
+  * debian/control:
+    - add Vcs-* fields pointing to LP
+    - add missing ${misc:Depends}.
   * Ship artwork in xubuntu-artwork instead of xubuntu-default-settings:
     - usr/share/{gdm,pixmaps,themes,xfce4}: added
     - debian/xubuntu-artwork.install: added
@@ -12,7 +14,7 @@ xubuntu-artwork (0.22) UNRELEASED; urgency=low
     Pasi "knome" Lallinaho as well.
   * usr/share/icons: include gnome-brave.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 18 Mar 2009 20:37:25 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 18 Mar 2009 20:43:40 +0100
 
 xubuntu-artwork (0.21) jaunty; urgency=low
 
