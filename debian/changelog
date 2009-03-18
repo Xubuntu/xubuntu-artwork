@@ -5,13 +5,14 @@ xubuntu-artwork (0.22) UNRELEASED; urgency=low
     - usr/share/{gdm,pixmaps,themes,xfce4}: added
     - debian/xubuntu-artwork.install: added
     - xubuntu-artwork conflicts/replaces xubuntu-default-settings (<= 0.51)
-    - xubuntu-artwork provides gdm-theme.
+    - xubuntu-artwork provides gdm-theme
+    - refresh debian/copyright.
   * usr/share/gdm/themes/xubuntu: new GDM theme by Pasi "knome" Lallinaho.
   * usr/share/xfce4/backdrops/xubuntu-jaunty{,-ws}.png: new wallpapers by
     Pasi "knome" Lallinaho as well.
   * usr/share/icons: include gnome-brave.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 16 Mar 2009 21:28:43 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 18 Mar 2009 20:37:25 +0100
 
 xubuntu-artwork (0.21) jaunty; urgency=low
 
