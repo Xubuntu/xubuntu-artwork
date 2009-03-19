@@ -364,7 +364,7 @@ void t_animate_step_16(struct usplash_theme* theme, int pulsating) {
     static int step_width = 2;
     static int num_steps = 0;
     int x1;
-    num_steps = (pixmap_throbber_fore.width - pulse_width)/2;
+    num_steps = (pixmap_throbber_fore_16.width - pulse_width)/2;
 
     if (pulsating) {
         t_draw_progressbar_16(theme, 0);
@@ -372,7 +372,7 @@ void t_animate_step_16(struct usplash_theme* theme, int pulsating) {
         if(pulsate_step < num_steps/2+1)
 	        x1 = 2 * step_width * pulsate_step;
         else
-	        x1 = pixmap_throbber_fore.width - pulse_width - 2 * step_width * (pulsate_step - num_steps/2+1);
+	        x1 = pixmap_throbber_fore_16.width - pulse_width - 2 * step_width * (pulsate_step - num_steps/2+1);
 
         usplash_put_part(theme->progressbar_x + x1, theme->progressbar_y, pulse_width,
                          pixmap_throbber_fore_16.height, &pixmap_throbber_fore_16, x1, 0);
