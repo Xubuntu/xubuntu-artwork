@@ -2,6 +2,7 @@ Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=re
 Upstream-Name: Xubuntu Artwork
 Upstream-Maintainer: Xubuntu Team <xubuntu-devel@lists.ubuntu.com>
 Upstream-Source: https://launchpad.net/xubuntu-artwork
+
 Files: usplash/*
 Copyright: Copyright 2005-2009, Canonical Ltd.
 Copyright: Copyright 2005-2007, Steve <radarsat1@gmail.com>
@@ -267,33 +268,39 @@ License: CC-BY-SA-2.5
  available upon request from time to time.
  
  Creative Commons may be contacted at http://creativecommons.org/
+
 Files: usr/share/gdm/themes/xubuntu/*
 Copyright: Copyright 2009, Pasi Lallinaho <open@knome.fi>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL' file.
+
 Files: usr/share/icons/*
 Copyright: Copyright 2008-2009, Victor C. <perfectska04@gmail.com>
 License: LGPL-2+ | CC-BY-SA-2.5
 License: LGPL-2+
  On Debian systems the full text of the GNU Lesser General Public License can be
  found in the `/usr/share/common-licenses/LGPL' file.
+
 Files: usr/share/pixmaps/*
 Copyright: Copyright 2006-2008, Jozsef Mak <joz_mak@yahoo.ca>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL' file.
+
 Files: /usr/share/themes/MurrinaStormCloud/*
 Copyright: Copyright 2007, Sven Hein
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL' file.
+
 Files: usr/share/xfce4/backdrops/*
 Copyright: Copyright 2009, Pasi Lallinaho <open@knome.fi>
 Copyright: Copyright 2006-2008, Jozsef Mak <joz_mak@yahoo.ca>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL' file.
+
 Files: debian/*
 Copyright: Copyright 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
 Copyright: Copyright 2007-2009, Lionel Le Folgoc <mrpouit@ubuntu.com>
