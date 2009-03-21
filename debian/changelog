@@ -1,9 +1,9 @@
 xubuntu-artwork (0.24) UNRELEASED; urgency=low
 
-  * usr/share/gdm: updated gdm theme to 0.6 (includes an icon for xdmcp,
-    LP: #71412).
+  * usr/share/gdm: updated gdm theme to 0.6 (includes several bugfixes and an
+    icon for xdmcp, LP: #71412).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 19 Mar 2009 22:54:23 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 21 Mar 2009 01:16:41 +0100
 
 xubuntu-artwork (0.23) jaunty; urgency=low
 
