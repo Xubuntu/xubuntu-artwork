@@ -64,114 +64,133 @@
 		<normal color="#000000" alpha="0.15" />
 		<pos y="0" x="200px" width="box" height="32" anchor="nw" />
 		<box xpadding="10" spacing="10" orientation="horizontal">
-		<!-- reboot -->
-		<item type="rect" id="reboot_button" button="true">
-			<show type="reboot" modes="console" />
-			<pos y="50%" width="box" height="box" anchor="w" />
-			<box xpadding="0" spacing="5" orientation="horizontal">
-				<item type="pixmap">
-					<pos height="24px" width="24px" />
-					<normal file="icon_reboot.svg" alpha="0.5" />
-					<prelight file="icon_reboot.svg" alpha="0.75" />
-					<active file="icon_reboot.svg" alpha="1" />
-				</item>
-				<item type="label">
-					<normal font="Sans 9" color="#ffffff" />
-					<prelight font="Sans 9" color="#ffffff" />
-					<active font="Sans 9" color="#ffffff" />
-					<pos y="50%" anchor="w" />
-					<stock type="reboot" />
-				</item>
-			</box>
-		</item>
-		<!-- halt -->
-		<item type="rect" id="halt_button" button="true">
-			<show type="halt" modes="console" />
-			<pos y="50%" width="box" height="box" anchor="w" />
-			<box xpadding="0" spacing="5" orientation="horizontal">
-				<item type="pixmap">
-					<pos height="24px" width="24px" />
-					<normal file="icon_halt.svg" alpha="0.5" />
-					<prelight file="icon_halt.svg" alpha="0.75" />
-					<active file="icon_halt.svg" alpha="1" />
-				</item>
-				<item type="label">
-					<normal font="Sans 9" color="#ffffff" />
-					<prelight font="Sans 9" color="#ffffff" />
-					<active font="Sans 9" color="#ffffff" />
-					<pos y="50%" anchor="w" />
-					<stock type="halt" />
-				</item>
-			</box>
-		</item>
-		<!-- quit / disconnect -->
-		<item type="rect" id="disconnect_button" button="true">
-			<normal/>
-			<show modes="flexi,remote"/>
-			<pos y="50%" width="box" height="box" anchor="w"/>
-			<box xpadding="0" spacing="5" orientation="horizontal">
-				<item type="pixmap">
-					<pos height="24px" width="24px" />
-					<normal file="icon_halt.svg" alpha="0.5" />
-					<prelight file="icon_halt.svg" alpha="0.75" />
-					<active file="icon_halt.svg" alpha="1" />
-				</item>
-				<item type="label">
-					<normal font="Sans 9" color="#ffffff"/>
-					<prelight font="Sans 9" color="#ffffff"/>
-					<active font="Sans 9" color="#ffffff"/>
-					<pos y="50%" anchor="w"/>
-					<stock type="disconnect"/>
-					<show modes="remote"/>
-				</item>
-				<item type="label">
-					<normal font="Sans 9" color="#ffffff"/>
-					<prelight font="Sans 9" color="#ffffff"/>
-					<active font="Sans 9" color="#ffffff"/>
-					<pos y="50%" anchor="w"/>
-					<stock type="quit"/>
-					<show modes="flexi"/>
-				</item>
-			</box>
-		</item>
-		<!-- language -->
-		<item type="rect" id="language_button" button="true">
-			<pos x="50%" y="50%" width="box" height="box" anchor="c"/>
-			<box xpadding="0" spacing="5" orientation="horizontal">
-				<item type="pixmap">
-					<pos width="24" height="24"/>
-					<normal file="icon_language.svg" alpha="0.5" />
-					<prelight file="icon_language.svg" alpha="0.75" />
-					<active file="icon_language.svg" alpha="1" />
-				</item>
-				<item type="label">
-					<normal font="Sans 9" color="#ffffff"/>
-					<prelight font="Sans 9" color="#ffffff"/>
-					<active font="Sans 9" color="#ffffff"/>
-					<pos y="50%" anchor="w"/>
-					<stock type="language"/>
-				</item>
-			</box>
-		</item>
-		<!-- session -->
-		<item type="rect" id="session_button" button="true">
-			<pos x="50%" y="50%" width="box" height="box" anchor="c"/>
-			<box xpadding="0" spacing="5" orientation="horizontal">
-				<item type="pixmap">
-					<pos width="24" height="24"/>
-					<normal file="icon_session.svg" alpha="0.5" />
-					<prelight file="icon_session.svg" alpha="0.75" />
-					<active file="icon_session.svg" alpha="1" />
-				</item>
-				<item type="label">
-					<normal font="Sans 9" color="#ffffff"/>
-					<prelight font="Sans 9" color="#ffffff"/>
-					<active font="Sans 9" color="#ffffff"/>
-					<pos y="50%" anchor="w"/>
-					<stock type="session"/>
-				</item>
-			</box>
-		</item>
+			<!-- reboot -->
+			<item type="rect" id="reboot_button" button="true">
+				<show type="reboot" modes="console" />
+				<pos y="50%" width="box" height="box" anchor="w" />
+				<box xpadding="0" spacing="5" orientation="horizontal">
+					<item type="pixmap">
+						<pos height="24px" width="24px" />
+						<normal file="icon_reboot.svg" alpha="0.5" />
+						<prelight file="icon_reboot.svg" alpha="0.75" />
+						<active file="icon_reboot.svg" alpha="1" />
+					</item>
+					<item type="label">
+						<normal font="Sans 9" color="#ffffff" />
+						<prelight font="Sans 9" color="#ffffff" />
+						<active font="Sans 9" color="#ffffff" />
+						<pos y="50%" anchor="w" />
+						<stock type="reboot" />
+					</item>
+				</box>
+			</item>
+			<!-- halt -->
+			<item type="rect" id="halt_button" button="true">
+				<show type="halt" modes="console" />
+				<pos y="50%" width="box" height="box" anchor="w" />
+				<box xpadding="0" spacing="5" orientation="horizontal">
+					<item type="pixmap">
+						<pos height="24px" width="24px" />
+						<normal file="icon_halt.svg" alpha="0.5" />
+						<prelight file="icon_halt.svg" alpha="0.75" />
+						<active file="icon_halt.svg" alpha="1" />
+					</item>
+					<item type="label">
+						<normal font="Sans 9" color="#ffffff" />
+						<prelight font="Sans 9" color="#ffffff" />
+						<active font="Sans 9" color="#ffffff" />
+						<pos y="50%" anchor="w" />
+						<stock type="halt" />
+					</item>
+				</box>
+			</item>
+			<!-- quit / disconnect -->
+			<item type="rect" id="disconnect_button" button="true">
+				<normal/>
+				<show modes="flexi,remote"/>
+				<pos y="50%" width="box" height="box" anchor="w"/>
+				<box xpadding="0" spacing="5" orientation="horizontal">
+					<item type="pixmap">
+						<pos height="24px" width="24px" />
+						<normal file="icon_halt.svg" alpha="0.5" />
+						<prelight file="icon_halt.svg" alpha="0.75" />
+						<active file="icon_halt.svg" alpha="1" />
+					</item>
+					<item type="label">
+						<normal font="Sans 9" color="#ffffff" />
+						<prelight font="Sans 9" color="#ffffff" />
+						<active font="Sans 9" color="#ffffff" />
+						<pos y="50%" anchor="w" />
+						<stock type="disconnect" />
+						<show modes="remote" />
+					</item>
+					<item type="label">
+						<normal font="Sans 9" color="#ffffff" />
+						<prelight font="Sans 9" color="#ffffff" />
+						<active font="Sans 9" color="#ffffff" />
+						<pos y="50%" anchor="w" />
+						<stock type="quit" />
+						<show modes="flexi" />
+					</item>
+				</box>
+			</item>
+			<!-- language -->
+			<item type="rect" id="language_button" button="true">
+				<pos x="50%" y="50%" width="box" height="box" anchor="c" />
+				<box xpadding="0" spacing="5" orientation="horizontal">
+					<item type="pixmap">
+						<pos width="24" height="24"/>
+						<normal file="icon_language.svg" alpha="0.5" />
+						<prelight file="icon_language.svg" alpha="0.75" />
+						<active file="icon_language.svg" alpha="1" />
+					</item>
+					<item type="label">
+						<normal font="Sans 9" color="#ffffff" />
+						<prelight font="Sans 9" color="#ffffff" />
+						<active font="Sans 9" color="#ffffff" />
+						<pos y="50%" anchor="w" />
+						<stock type="language" />
+					</item>
+				</box>
+			</item>
+			<!-- session -->
+			<item type="rect" id="session_button" button="true">
+				<pos x="50%" y="50%" width="box" height="box" anchor="c" />
+				<box xpadding="0" spacing="5" orientation="horizontal">
+					<item type="pixmap">
+						<pos width="24" height="24"/>
+						<normal file="icon_session.svg" alpha="0.5" />
+						<prelight file="icon_session.svg" alpha="0.75" />
+						<active file="icon_session.svg" alpha="1" />
+					</item>
+					<item type="label">
+						<normal font="Sans 9" color="#ffffff" />
+						<prelight font="Sans 9" color="#ffffff" />
+						<active font="Sans 9" color="#ffffff" />
+						<pos y="50%" anchor="w" />
+						<stock type="session" />
+					</item>
+				</box>
+			</item>
+			<!-- xdmcp login -->
+			<item type="rect" id="chooser_button" button="true">
+				<pos x="50%" y="50%" width="box" height="box" anchor="c" />
+				<box xpadding="0" spacing="5" orientation="horizontal">
+					<item type="pixmap">
+						<pos width="24" height="24"/>
+						<normal file="icon_xdmcp.svg" alpha="0.5" />
+						<prelight file="icon_xdmcp.svg" alpha="0.75" />
+						<active file="icon_xdmcp.svg" alpha="1" />
+					</item>
+					<item type="label">
+						<normal font="Sans 9" color="#ffffff" />
+						<prelight font="Sans 9" color="#ffffff" />
+						<active font="Sans 9" color="#ffffff" />
+						<pos y="50%" anchor="w" />
+						<stock type="chooser" />
+					</item>
+				</box>
+			</item>
 		</box>
 	</item>
 
