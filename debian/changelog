@@ -1,3 +1,18 @@
+xubuntu-artwork (0.25) jaunty; urgency=high
+
+  * Modified the theme to use PNGs vs. SVGs due to speed
+    issues on slower architectures, especially ARM (LP: #351588)
+  * Makefile:
+    - Takes the source SVGs and converts to PNGs at build time
+  * gdm_svg/Makefile:
+    - New file to generate pngs, and install them into the DESTDIR
+  * debian/control:
+    - Added build-dep on librsvg2-bin
+  * debian/xubuntu-artwork.install:
+    - Install the new PNGs into their proper places
+
+ -- Michael Casadevall <mcasadevall@ubuntu.com>  Mon, 30 Mar 2009 10:52:21 -0400
+
 xubuntu-artwork (0.24) jaunty; urgency=low
 
   * usr/share/gdm: updated gdm theme to 0.6 (includes several bugfixes and an
