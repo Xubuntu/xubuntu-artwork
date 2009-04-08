@@ -2,7 +2,6 @@ Source: xubuntu-artwork
 Section: x11
 Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
-XSBC-Original-Maintainer: Jani Monoses <jani@ubuntu.com>
 Build-Depends: cdbs, debhelper (>= 5.0.0), libusplash-dev (>= 0.5.30), librsvg2-bin
 Standards-Version: 3.8.0
 Vcs-Bzr: lp:~xubuntu-team/xubuntu-artwork/trunk
