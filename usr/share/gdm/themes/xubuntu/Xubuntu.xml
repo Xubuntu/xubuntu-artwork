@@ -172,22 +172,23 @@
 					</item>
 				</box>
 			</item>
-			<!-- xdmcp login -->
-			<item type="rect" id="chooser_button" button="true">
+			<!-- xdmcp login = chooser_button/chooser, icon_xdmcp -->
+			<!-- options menu -->
+			<item type="rect" id="system_button" button="true">
 				<pos x="50%" y="50%" width="box" height="box" anchor="c" />
 				<box xpadding="0" spacing="5" orientation="horizontal">
 					<item type="pixmap">
 						<pos width="24" height="24"/>
-						<normal file="icon_xdmcp.png" alpha="0.5" />
-						<prelight file="icon_xdmcp.png" alpha="0.75" />
-						<active file="icon_xdmcp.png" alpha="1" />
+						<normal file="icon_options.png" alpha="0.5" />
+						<prelight file="icon_options.png" alpha="0.75" />
+						<active file="icon_options.png" alpha="1" />
 					</item>
 					<item type="label">
 						<normal font="Sans 9" color="#ffffff" />
 						<prelight font="Sans 9" color="#ffffff" />
 						<active font="Sans 9" color="#ffffff" />
 						<pos y="50%" anchor="w" />
-						<stock type="chooser" />
+						<stock type="system" />
 					</item>
 				</box>
 			</item>
