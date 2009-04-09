@@ -14,6 +14,7 @@ xubuntu-artwork (0.26) UNRELEASED; urgency=low
    - Created gdm_svg/icons/Makefile and gdm_svg/background/Makefile using bits
      and pieces of gdm_svg/Makefile.
    - Stripped gdm_svg/Makefile to simply call respective subdirectory Makefiles.
+  * debian/control: Removed XSBC-Original-Maintainer field.
    
  -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Wed, 08 Apr 2009 21:25:55 -0300
 
