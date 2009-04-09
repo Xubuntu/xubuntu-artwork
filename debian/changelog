@@ -1,4 +1,4 @@
-xubuntu-artwork (0.26) UNRELEASED; urgency=low
+xubuntu-artwork (0.26) jaunty; urgency=low
 
   [Pasi Lallinaho]
   * Use "application-exit" -icon with "Quit/Disconnect" rather than a halt icon.
