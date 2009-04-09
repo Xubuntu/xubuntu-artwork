@@ -1,3 +1,22 @@
+xubuntu-artwork (0.26) UNRELEASED; urgency=low
+
+  [Pasi Lallinaho]
+  * Use "application-exit" -icon with "Quit/Disconnect" rather than a halt icon.
+  * Replace the XDMCP-login button with Options -menu button.
+  * /usr/share/gdm/themes/xubuntu/mist.png: Moved to gdm_svg/
+  * Updated the xubuntu-jaunty.svg to refer to local mist.png to fix png export.
+  
+  [Cody A.W. Somerville]
+  * Updated gdm_svg/* to allow for Pasi's changes to build correctly and be
+    more tidy:
+   - Moved icons in gdm_svg into icons subdirectory and background related 
+     images into background subdirectory.
+   - Created gdm_svg/icons/Makefile and gdm_svg/background/Makefile using bits
+     and pieces of gdm_svg/Makefile.
+   - Stripped gdm_svg/Makefile to simply call respective subdirectory Makefiles.
+   
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Wed, 08 Apr 2009 21:25:55 -0300
+
 xubuntu-artwork (0.25) jaunty; urgency=high
 
   * Modified the theme to use PNGs vs. SVGs due to speed
