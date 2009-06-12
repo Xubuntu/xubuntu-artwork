@@ -1,3 +1,23 @@
+xubuntu-artwork (0.27) karmic; urgency=low
+
+  * Split xubuntu-artwork in several binary packages (LP: #344130):
+    - ship wallpapers in xubuntu-wallpapers and the gdm theme in
+      xubuntu-gdm-theme
+    - rename xubuntu-artwork-usplash to usplash-theme-xubuntu (keep the former
+      as a transitional package)
+    - xubuntu-artwork now depends on usplash-theme-xubuntu, xubuntu-gdm-theme
+      and xubuntu-wallpapers.
+  * Switch to dh:
+    - debian/rules: use rules.tiny
+    - debian/control: drop cdbs b-dep, bump debhelper to >= 7.0.13.
+  * debian/control:
+    - update Vcs-* fields
+    - bump Standards-Version to 3.8.1
+    - add some missing ${misc:Depends}.
+  * debian/compat: bump to 7.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 12 Jun 2009 19:58:45 +0200
+
 xubuntu-artwork (0.26) jaunty; urgency=low
 
   [Pasi Lallinaho]
