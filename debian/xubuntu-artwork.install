@@ -1,2 +1,3 @@
-usr/
-debian/tmp/usr/share
+usr/share/icons
+usr/share/pixmaps
+usr/share/themes
