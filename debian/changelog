@@ -1,4 +1,4 @@
-xubuntu-artwork (0.27) UNRELEASED; urgency=low
+xubuntu-artwork (0.27) karmic; urgency=low
 
   * Split xubuntu-artwork in several binary packages (LP: #344130):
     - ship wallpapers in xubuntu-wallpapers and the gdm theme in
@@ -16,7 +16,7 @@ xubuntu-artwork (0.27) UNRELEASED; urgency=low
     - add some missing ${misc:Depends}.
   * debian/compat: bump to 7.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 12 Jun 2009 19:39:17 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 12 Jun 2009 19:58:45 +0200
 
 xubuntu-artwork (0.26) jaunty; urgency=low
 
