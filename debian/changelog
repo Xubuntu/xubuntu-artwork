@@ -1,4 +1,4 @@
-xubuntu-artwork (0.28) UNRELEASED; urgency=low
+xubuntu-artwork (0.28) karmic; urgency=low
 
   * usr/share/icons: dropped.
   * debian/xubuntu-artwork.install: drop usr/share/icons.
@@ -6,7 +6,7 @@ xubuntu-artwork (0.28) UNRELEASED; urgency=low
     - bump Standards-Version to 3.8.2, no changes
     - xubuntu-artwork now depends on gnome-brave-icon-theme (LP: #395269).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 03 Jul 2009 20:17:04 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 03 Jul 2009 22:32:52 +0200
 
 xubuntu-artwork (0.27) karmic; urgency=low
 
