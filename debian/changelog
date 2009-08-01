@@ -1,3 +1,9 @@
+xubuntu-artwork (0.30) karmic; urgency=low
+
+  * Reupload with a correct tarball (no $dvcs directory).
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 01 Aug 2009 17:55:42 +0200
+
 xubuntu-artwork (0.29) karmic; urgency=low
 
   * Include new GTK theme 'MurrinaXubuntu' for testing.
