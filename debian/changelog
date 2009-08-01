@@ -1,3 +1,9 @@
+xubuntu-artwork (0.29) karmic; urgency=low
+
+  * Include new GTK theme 'MurrinaXubuntu' for testing.
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Sat, 01 Aug 2009 11:39:40 -0300
+
 xubuntu-artwork (0.28) karmic; urgency=low
 
   * usr/share/icons: dropped.
