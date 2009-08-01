@@ -1,3 +1,9 @@
+xubuntu-artwork (0.30) UNRELEASED; urgency=low
+
+  * Reupload with a correct tarball (no .bzr directory).
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 01 Aug 2009 17:53:36 +0200
+
 xubuntu-artwork (0.29) karmic; urgency=low
 
   * Include new GTK theme 'MurrinaXubuntu' for testing.
