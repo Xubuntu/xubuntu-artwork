@@ -1,9 +1,9 @@
-xubuntu-artwork (0.31) UNRELEASED; urgency=low
+xubuntu-artwork (0.31) karmic; urgency=low
 
   * debian/usplash-theme-xubuntu.postinst: increase priority, so that the
     xubuntu theme is preferred over the ubuntu one (LP: #412659)
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 09 Sep 2009 18:58:02 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 09 Sep 2009 19:27:25 +0200
 
 xubuntu-artwork (0.30) karmic; urgency=low
 
