@@ -6,7 +6,7 @@ set -e
 
 case "$1" in
     configure)
-        update-alternatives --install /usr/lib/usplash/usplash-artwork.so usplash-artwork.so /usr/lib/usplash/usplash-theme-xubuntu.so 10
+        update-alternatives --install /usr/lib/usplash/usplash-artwork.so usplash-artwork.so /usr/lib/usplash/usplash-theme-xubuntu.so 55
         update-initramfs -u
         ;;
 esac

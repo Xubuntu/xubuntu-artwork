@@ -1,3 +1,10 @@
+xubuntu-artwork (0.31) UNRELEASED; urgency=low
+
+  * debian/usplash-theme-xubuntu.postinst: increase priority, so that the
+    xubuntu theme is preferred over the ubuntu one (LP: #412659)
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 09 Sep 2009 18:58:02 +0200
+
 xubuntu-artwork (0.30) karmic; urgency=low
 
   * Reupload with a correct tarball (no $dvcs directory).
