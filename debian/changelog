@@ -1,8 +1,8 @@
 xubuntu-artwork (0.32) UNRELEASED; urgency=low
 
-  * usr/share/pixmaps/xubuntu-logo.png: refreshed.
+  * usr/share/pixmaps/xubuntu-logo.*: refreshed.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 12 Sep 2009 20:30:29 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 12 Sep 2009 20:52:42 +0200
 
 xubuntu-artwork (0.31) karmic; urgency=low
 
