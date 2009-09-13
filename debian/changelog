@@ -1,8 +1,8 @@
-xubuntu-artwork (0.32) UNRELEASED; urgency=low
+xubuntu-artwork (0.32) karmic; urgency=low
 
-  * usr/share/pixmaps/xubuntu-logo.*: refreshed.
+  * usr/share/pixmaps/xubuntu-logo.png: refreshed, and add a svg version.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 12 Sep 2009 20:52:42 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 13 Sep 2009 14:06:08 +0200
 
 xubuntu-artwork (0.31) karmic; urgency=low
 
