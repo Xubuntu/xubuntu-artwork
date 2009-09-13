@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="90"
+   height="90"
+   id="svg2381"
+   sodipodi:version="0.32"
+   inkscape:version="0.47pre1 r21720"
+   version="1.0"
+   sodipodi:docname="xubuntu-logo-simple.svg"
+   inkscape:export-filename="/home/knome/Stuff/xubuntu-logo-draft-5.png"
+   inkscape:export-xdpi="205.63655"
+   inkscape:export-ydpi="205.63655"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2383">
+    <linearGradient
+       id="linearGradient3812">
+      <stop
+         style="stop-color:#eff7ff;stop-opacity:0.68103451;"
+         offset="0"
+         id="stop3814" />
+      <stop
+         style="stop-color:#84c5ff;stop-opacity:0;"
+         offset="1"
+         id="stop3816" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3790">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.75;"
+         offset="0"
+         id="stop3792" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3794" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3721">
+      <stop
+         style="stop-color:#0d1e2f;stop-opacity:1;"
+         offset="0"
+         id="stop3723" />
+      <stop
+         style="stop-color:#23507b;stop-opacity:0;"
+         offset="1"
+         id="stop3725" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3711">
+      <stop
+         style="stop-color:#2b689d;stop-opacity:1;"
+         offset="0"
+         id="stop3713" />
+      <stop
+         style="stop-color:#b4d1ea;stop-opacity:0;"
+         offset="1"
+         id="stop3715" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3681">
+      <stop
+         style="stop-color:#16314d;stop-opacity:1;"
+         offset="0"
+         id="stop3683" />
+      <stop
+         style="stop-color:#639ad2;stop-opacity:0;"
+         offset="1"
+         id="stop3685" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3436">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3438" />
+      <stop
+         style="stop-color:#232323;stop-opacity:1;"
+         offset="1"
+         id="stop3440" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 60 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="247 : 60 : 1"
+       inkscape:persp3d-origin="123.5 : 40 : 1"
+       id="perspective2486" />
+    <inkscape:perspective
+       id="perspective2552"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3681"
+       id="radialGradient3689"
+       cx="48.325523"
+       cy="66.789909"
+       fx="48.325523"
+       fy="66.789909"
+       r="20.946276"
+       gradientTransform="matrix(2.7074415,0,0,1.7779105,-82.513005,-61.49156)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3711"
+       id="radialGradient3717"
+       cx="48.163013"
+       cy="56.326168"
+       fx="48.163013"
+       fy="56.326168"
+       r="8.7228374"
+       gradientTransform="matrix(6.5059086,-4.8416477e-7,3.1727796e-7,4.2633863,-265.18116,-183.18401)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3721"
+       id="radialGradient3727"
+       cx="48.163013"
+       cy="48.682281"
+       fx="48.163013"
+       fy="48.682281"
+       r="20.94858"
+       gradientTransform="matrix(2.7090143,0,0,1.777877,-82.311282,-29.594925)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3436"
+       id="radialGradient3736"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.4763314,0,24.625864)"
+       cx="28.814602"
+       cy="47.025661"
+       fx="28.814602"
+       fy="47.025661"
+       r="59.750523" />
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask3732">
+      <path
+         transform="matrix(0.9643998,0.2644485,-0.2644485,0.9643998,25.824431,30.39583)"
+         d="m 88.565125,47.025661 a 59.750523,28.461048 0 1 1 -119.501046,0 59.750523,28.461048 0 1 1 119.501046,0 z"
+         sodipodi:ry="28.461048"
+         sodipodi:rx="59.750523"
+         sodipodi:cy="47.025661"
+         sodipodi:cx="28.814602"
+         id="path3734"
+         style="opacity:0.2;fill:url(#radialGradient3736);fill-opacity:1;stroke:#0a2a49;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask3768">
+      <rect
+         style="opacity:0.45;fill:#ffffff;fill-opacity:1;stroke:#0a2a49;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3770"
+         width="123.56692"
+         height="115.96552"
+         x="-9.7343292"
+         y="9.2979126"
+         mask="url(#mask3732)"
+         transform="translate(6.8942911,3.1819806)" />
+    </mask>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3790"
+       id="radialGradient3798"
+       cx="156.59937"
+       cy="145.1391"
+       fx="156.59937"
+       fy="145.1391"
+       r="191.25"
+       gradientTransform="matrix(0.6604906,-0.2313727,0.2966736,0.8469022,22.75866,34.794226)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3790"
+       id="linearGradient3802"
+       x1="141"
+       y1="77.230003"
+       x2="67.5"
+       y2="-58.519997"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3812"
+       id="radialGradient3818"
+       cx="256.7764"
+       cy="215.69891"
+       fx="256.7764"
+       fy="215.69891"
+       r="175.045"
+       gradientTransform="matrix(1.1641006,-0.698131,0.5272518,0.8791673,-155.13848,131.83364)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3681"
+       id="radialGradient4081"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.7074415,0,0,1.7779105,-82.513005,-61.49156)"
+       cx="48.325523"
+       cy="66.789909"
+       fx="48.325523"
+       fy="66.789909"
+       r="20.946276" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3711"
+       id="radialGradient4083"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(6.5059086,-4.8416477e-7,3.1727796e-7,4.2633863,-265.18116,-183.18401)"
+       cx="48.163013"
+       cy="56.326168"
+       fx="48.163013"
+       fy="56.326168"
+       r="8.7228374" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3721"
+       id="radialGradient4085"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.7090143,0,0,1.777877,-82.311282,-29.594925)"
+       cx="48.163013"
+       cy="48.682281"
+       fx="48.163013"
+       fy="48.682281"
+       r="20.94858" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3681"
+       id="radialGradient4110"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.7074415,0,0,1.7779105,-82.513005,-61.49156)"
+       cx="48.325523"
+       cy="66.789909"
+       fx="48.325523"
+       fy="66.789909"
+       r="20.946276" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3711"
+       id="radialGradient4112"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(6.5059086,-4.8416477e-7,3.1727796e-7,4.2633863,-265.18116,-183.18401)"
+       cx="48.163013"
+       cy="56.326168"
+       fx="48.163013"
+       fy="56.326168"
+       r="8.7228374" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3721"
+       id="radialGradient4114"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.7090143,0,0,1.777877,-82.311282,-29.594925)"
+       cx="48.163013"
+       cy="48.682281"
+       fx="48.163013"
+       fy="48.682281"
+       r="20.94858" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="173.47706"
+     inkscape:cy="14.17594"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="247px"
+     height="120px"
+     inkscape:window-width="1280"
+     inkscape:window-height="778"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       orientation="0,1"
+       position="28.749694,15.250751"
+       id="guide3703" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="20.749694,15.500751"
+       id="guide3705" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="77.499694,-6.2492488"
+       id="guide3707" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2386">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.4130119,-2.2061833)">
+    <path
+       i:knockout="Off"
+       d="m 58.115165,29.763993 c 8.78091,0 16.06436,6.519729 17.27032,14.971457 l 12.08115,0 c -0.54914,-6.641248 -3.30255,-12.831029 -7.90566,-17.714096 -2.94876,1.502837 -6.57434,1.531294 -9.65385,-0.246884 -3.08181,-1.778946 -4.86999,-4.935366 -5.0415,-8.2433 -2.18811,-0.509918 -4.44852,-0.77526 -6.75046,-0.77526 -4.40776,0 -8.66785,0.962154 -12.54108,2.787247 l 6.0475,10.47602 c 2.00814,-0.809101 4.2001,-1.255184 6.49358,-1.255184 z"
+       id="path2111"
+       style="fill:#639ad2;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-4.png"
+       inkscape:export-xdpi="770.21002"
+       inkscape:export-ydpi="770.21002" />
+    <path
+       i:knockout="Off"
+       d="m 75.387025,49.680045 c -1.20366,8.455573 -8.48942,14.979147 -17.27186,14.979147 -2.29579,0 -4.48698,-0.446851 -6.49666,-1.255953 l -6.04749,10.476018 c 3.874,1.826632 8.13485,2.788786 12.54415,2.788786 2.30425,0 4.56696,-0.264573 6.75661,-0.77603 0.16921,-3.311008 1.95661,-6.472042 5.04228,-8.253296 3.0795,-1.778947 6.70662,-1.749721 9.65615,-0.246115 4.60003,-4.883067 7.35036,-11.072079 7.89797,-17.711788 l -12.08115,0 0,-7.69e-4 z"
+       id="path2113"
+       style="fill:#23507b;fill-opacity:1"
+       inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-4.png"
+       inkscape:export-xdpi="770.21002"
+       inkscape:export-ydpi="770.21002" />
+    <circle
+       transform="matrix(0.769108,0,0,0.769108,-1.1299701,10.963893)"
+       i:knockout="Off"
+       cx="98.936996"
+       cy="9.1700001"
+       r="9.1680002"
+       id="circle2117"
+       sodipodi:cx="98.936996"
+       sodipodi:cy="9.1700001"
+       sodipodi:rx="9.1680002"
+       sodipodi:ry="9.1680002"
+       style="fill:#10518b;fill-opacity:1"
+       inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-4.png"
+       inkscape:export-xdpi="770.21002"
+       inkscape:export-ydpi="770.21002"
+       d="m 108.105,9.1700001 c 0,5.0633469 -4.10466,9.1679999 -9.168004,9.1679999 -5.063346,0 -9.168,-4.104653 -9.168,-9.1679999 0,-5.0633467 4.104654,-9.16800024 9.168,-9.16800024 5.063344,0 9.168004,4.10465354 9.168004,9.16800024 z" />
+    <circle
+       transform="matrix(0.769108,0,0,0.769108,-1.1299701,10.963893)"
+       i:knockout="Off"
+       cx="33.206001"
+       cy="47.130001"
+       r="9.1680002"
+       id="circle2107"
+       sodipodi:cx="33.206001"
+       sodipodi:cy="47.130001"
+       sodipodi:rx="9.1680002"
+       sodipodi:ry="9.1680002"
+       style="fill:#4b9aeb;fill-opacity:1"
+       inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-4.png"
+       inkscape:export-xdpi="770.21002"
+       inkscape:export-ydpi="770.21002"
+       d="m 42.374002,47.130001 c 0,5.063347 -4.104654,9.168 -9.168001,9.168 -5.063346,0 -9.168,-4.104653 -9.168,-9.168 0,-5.063347 4.104654,-9.168 9.168,-9.168 5.063347,0 9.168001,4.104653 9.168001,9.168 z" />
+    <path
+       i:knockout="Off"
+       d="m 40.667945,47.211977 c 0,-5.559112 2.61266,-10.518321 6.67432,-13.715503 l -6.04673,-10.473712 c -1.41823,0.990611 -2.76032,2.112739 -4.008587,3.361002 -3.499441,3.50021 -6.00981,7.725689 -7.390358,12.336492 2.782632,1.80202 4.625415,4.930751 4.625415,8.49249 0,3.56174 -1.842783,6.690471 -4.625415,8.491722 1.380548,4.61234 3.890917,8.837051 7.390358,12.335723 1.247497,1.249031 2.588817,2.369622 4.005517,3.360233 l 6.04827,-10.475251 c -4.06167,-3.197951 -6.67279,-8.15639 -6.67279,-13.713196 z"
+       id="path2115"
+       style="fill:#b4d1ea;fill-opacity:1"
+       inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-4.png"
+       inkscape:export-xdpi="770.21002"
+       inkscape:export-ydpi="770.21002" />
+    <circle
+       style="fill:#83bef1;fill-opacity:1"
+       sodipodi:ry="9.1689997"
+       sodipodi:rx="9.1689997"
+       sodipodi:cy="85.073997"
+       sodipodi:cx="98.945"
+       id="circle3484"
+       r="9.1689997"
+       cy="85.073997"
+       cx="98.945"
+       i:knockout="Off"
+       transform="matrix(0.769108,0,0,0.769108,-1.1299701,10.963893)"
+       inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-4.png"
+       inkscape:export-xdpi="770.21002"
+       inkscape:export-ydpi="770.21002"
+       d="m 108.114,85.073997 c 0,5.063899 -4.1051,9.169 -9.169,9.169 -5.063899,0 -9.169,-4.105101 -9.169,-9.169 0,-5.063898 4.105101,-9.168999 9.169,-9.168999 5.0639,0 9.169,4.105101 9.169,9.168999 z" />
+    <path
+       inkscape:export-ydpi="770.21002"
+       inkscape:export-xdpi="770.21002"
+       inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-4.png"
+       style="fill:#639ad2;fill-opacity:0;stroke:none"
+       id="path3679"
+       d="m 58.115165,29.763993 c 8.78091,0 16.06436,6.519729 17.27032,14.971457 l 12.08115,0 c -0.54914,-6.641248 -3.30255,-12.831029 -7.90566,-17.714096 -2.94876,1.502837 -6.57434,1.531294 -9.65385,-0.246884 -3.08181,-1.778946 -4.86999,-4.935366 -5.0415,-8.2433 -2.18811,-0.509918 -4.44852,-0.77526 -6.75046,-0.77526 -4.40776,0 -8.66785,0.962154 -12.54108,2.787247 l 6.0475,10.47602 c 2.00814,-0.809101 4.2001,-1.255184 6.49358,-1.255184 z"
+       i:knockout="Off" />
+    <path
+       inkscape:export-ydpi="770.21002"
+       inkscape:export-xdpi="770.21002"
+       inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-4.png"
+       style="fill:#b4d1ea;fill-opacity:0"
+       id="path3691"
+       d="m 40.667945,47.211977 c 0,-5.559112 2.61266,-10.518321 6.67432,-13.715503 l -6.04673,-10.473712 c -1.41823,0.990611 -2.76032,2.112739 -4.008587,3.361002 -3.499441,3.50021 -6.00981,7.725689 -7.390358,12.336492 2.782632,1.80202 4.625415,4.930751 4.625415,8.49249 0,3.56174 -1.842783,6.690471 -4.625415,8.491722 1.380548,4.61234 3.890917,8.837051 7.390358,12.335723 1.247497,1.249031 2.588817,2.369622 4.005517,3.360233 l 6.04827,-10.475251 c -4.06167,-3.197951 -6.67279,-8.15639 -6.67279,-13.713196 z"
+       i:knockout="Off" />
+    <path
+       inkscape:export-ydpi="770.21002"
+       inkscape:export-xdpi="770.21002"
+       inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-4.png"
+       style="fill:#23507b;fill-opacity:0"
+       id="path3719"
+       d="m 75.387025,49.680045 c -1.20366,8.455573 -8.48942,14.979147 -17.27186,14.979147 -2.29579,0 -4.48698,-0.446851 -6.49666,-1.255953 l -6.04749,10.476018 c 3.874,1.826632 8.13485,2.788786 12.54415,2.788786 2.30425,0 4.56696,-0.264573 6.75661,-0.77603 0.16921,-3.311008 1.95661,-6.472042 5.04228,-8.253296 3.0795,-1.778947 6.70662,-1.749721 9.65615,-0.246115 4.60003,-4.883067 7.35036,-11.072079 7.89797,-17.711788 l -12.08115,0 0,-7.69e-4 z"
+       i:knockout="Off" />
+    <g
+       id="g3583"
+       inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-4.png"
+       inkscape:export-xdpi="770.21002"
+       inkscape:export-ydpi="770.21002"
+       transform="translate(9.9448369,-8.7592463)">
+      <path
+         inkscape:export-ydpi="1026.8827"
+         inkscape:export-xdpi="1026.8827"
+         inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-2.png"
+         style="fill:#0a2a49;fill-opacity:1;fill-rule:evenodd;stroke:#0a2a49;stroke-width:0.22460442pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path14"
+         d="m 24.061618,45.222977 c 0.120837,-0.02021 3.133906,1.570209 5.159163,2.119817 3.611415,0.922899 6.907934,3.700583 8.501279,5.296173 0.118139,0.136559 1.368513,-0.936152 2.677061,-0.858888 1.787399,0.108259 7.318062,1.663421 8.057004,0.604411 0.448089,-0.621706 0.415973,-1.384462 0.975013,-1.696887 0.30097,-0.08423 -1.118754,-2.680879 0.390138,-3.512813 1.075856,-0.537703 1.987527,2.47267 2.263786,2.810026 0.123755,0.150934 0.780276,0.187769 0.702565,-0.1561 -0.08423,-0.373517 -1.146162,-3.262155 0.156097,-3.746851 2.115101,-0.83755 1.740238,3.69609 1.795261,3.825013 0.117025,0.274467 7.366352,0.486044 7.805905,3.746851 0.254251,1.794589 -5.807821,4.114079 -6.400775,4.527351 -0.592729,0.413273 -0.543323,1.074283 -0.312202,1.483288 0.265708,0.443594 2.031773,1.940807 1.795485,2.653925 -0.162387,0.411925 -3.458453,-1.097866 -3.668907,-0.7805 -0.47998,0.606208 2.399447,2.123635 1.405123,3.200389 -0.394182,0.257846 -4.929398,-1.898806 -4.917941,-1.873426 -0.121734,0.04627 -6.408413,1.148402 -11.240555,-0.312424 -0.17025,-0.04807 -3.101334,2.831363 -3.434646,2.732312 -0.455723,-0.167105 0.671791,-2.504339 0.546461,-2.966351 -0.204839,-0.257396 -2.077814,1.045085 -2.185625,0.390364 -0.128923,-0.86046 1.643655,-1.849619 1.561225,-2.419889 -0.45707,-3.239694 0.204165,-5.131537 1.326961,-6.712977 0.374421,-0.582175 -4.400448,-4.187974 -7.857334,-5.611067 -3.456662,-1.423094 -5.306055,-2.62922 -5.100542,-2.741747 z" />
+      <path
+         inkscape:export-ydpi="1026.8827"
+         inkscape:export-xdpi="1026.8827"
+         inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-2.png"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0a2a49;stroke-width:0.13476264pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path7"
+         d="m 55.12719,56.055065 c -0.03797,-0.132516 2.359018,-1.582338 2.706033,-1.249025 0.624621,0.226401 -2.684026,1.417253 -2.706033,1.249025 z" />
+      <path
+         inkscape:export-ydpi="1026.8827"
+         inkscape:export-xdpi="1026.8827"
+         inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-2.png"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0a2a49;stroke-width:0.13476264pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path8"
+         d="m 56.271995,57.373493 c -0.211127,-0.127576 1.435,-2.047045 1.838834,-1.838836 0.589585,0.585768 -1.866457,1.88443 -1.838834,1.838836 z" />
+      <path
+         inkscape:export-ydpi="1026.8827"
+         inkscape:export-xdpi="1026.8827"
+         inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-2.png"
+         style="fill:#0a2a49;fill-opacity:1;fill-rule:evenodd;stroke:#0a2a49;stroke-width:0.13476264pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path13"
+         d="m 62.759692,48.49196 c -0.20012,-0.165533 -1.769434,2.310506 -1.422421,2.567453 0.208657,0.156101 1.511814,-2.479183 1.422421,-2.567453 z" />
+      <ellipse
+         inkscape:export-ydpi="1026.8827"
+         inkscape:export-xdpi="1026.8827"
+         inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-2.png"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0a2a49;stroke-width:0.6pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="ellipse17"
+         cx="288.86475"
+         cy="374.58655"
+         rx="3.012037"
+         ry="3.398196"
+         transform="matrix(0.2078264,0,0,0.2097329,-4.371806,-26.527264)"
+         sodipodi:cx="288.86475"
+         sodipodi:cy="374.58655"
+         sodipodi:rx="3.012037"
+         sodipodi:ry="3.398196"
+         d="m 291.87678,374.58655 c 0,1.87677 -1.34853,3.39819 -3.01203,3.39819 -1.66351,0 -3.01204,-1.52142 -3.01204,-3.39819 0,-1.87677 1.34853,-3.3982 3.01204,-3.3982 1.6635,0 3.01203,1.52143 3.01203,3.3982 z" />
+      <path
+         inkscape:export-ydpi="1026.8827"
+         inkscape:export-xdpi="1026.8827"
+         inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-2.png"
+         style="fill:#0a2a49;fill-opacity:1;fill-rule:evenodd;stroke:#0a2a49;stroke-width:0.13476264pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path18"
+         d="m 60.955646,48.14503 c -0.09905,-0.114998 -0.624621,2.553302 -0.381602,2.671444 0.208656,0.156101 0.57207,-2.532639 0.381602,-2.671444 z" />
+      <path
+         inkscape:export-ydpi="1026.8827"
+         inkscape:export-xdpi="1026.8827"
+         inkscape:export-filename="/home/knome/Stuff/xubuntu-mouse-draft-2.png"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0a2a49;stroke-width:0.13476264pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path21"
+         d="m 54.25687,51.756136 c -0.622383,0.440001 0.341623,2.929965 1.927104,1.476101 -1.245656,0.03661 -1.66118,-0.328148 -1.927104,-1.476101 z" />
+    </g>
+  </g>
+</svg>
