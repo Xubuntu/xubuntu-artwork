@@ -2,15 +2,15 @@ Source: xubuntu-artwork
 Section: x11
 Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
-Build-Depends: debhelper (>= 7.0.13), libusplash-dev (>= 0.5.30), librsvg2-bin
+Build-Depends: debhelper (>= 7.0.50~), libusplash-dev (>= 0.5.30)
 Standards-Version: 3.8.3
 Vcs-Bzr: lp:xubuntu-artwork
 Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-team/xubuntu-artwork/karmic/files
 
 Package: xubuntu-artwork
 Architecture: all
-Depends: ${misc:Depends}, xubuntu-gdm-theme, usplash-theme-xubuntu,
- xubuntu-wallpapers, gtk2-engines-murrine, gnome-brave-icon-theme
+Depends: ${misc:Depends}, gtk2-engines-murrine, gnome-brave-icon-theme
+Recommends: usplash-theme-xubuntu, xubuntu-gdm-theme, xubuntu-wallpapers
 Conflicts: xubuntu-default-settings (<= 0.51)
 Replaces: xubuntu-default-settings (<= 0.51)
 Description: Xubuntu themes and artwork
@@ -26,7 +26,8 @@ Description: Xubuntu Wallpapers
 
 Package: xubuntu-gdm-theme
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, feh
+Recommends: xfce4-power-manager, xfce4-settings, xfwm4 
 Conflicts: xubuntu-default-settings (<= 0.51)
 Replaces: xubuntu-default-settings (<= 0.51), xubuntu-artwork (<< 0.27~)
 Provides: gdm-theme

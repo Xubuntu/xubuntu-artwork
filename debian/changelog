@@ -1,3 +1,28 @@
+xubuntu-artwork (0.33) karmic; urgency=low
+
+  * gdm_svg: dropped, was for gdm legacy.
+  * Makefile: don't build gdm_svg.
+  * usr/share/themes/Albatross: added, new xubuntu gtk theme.
+  * debian/copyright: refreshed.
+  * debian/control:
+    - don't build-depend on librsvg2-bin, unneeded
+    - only recommends usplash-theme-xubuntu (LP: #433010), xubuntu-gdm-theme,
+      xubuntu-wallpapers
+    - xubuntu-gdm-theme depends on feh, and recommends xfwm4 and xfce4-settings
+      and xfce4-power-manager.
+  * usr/share/gdm: drop gdm legacy theme and provide desktop files for some
+    useful apps (power manager, window manager, settings manager…).
+  * debian/xubuntu-gdm-theme.gconf-defaults: added, set logo_icon_name to
+    xubuntu-logo.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 Sep 2009 14:22:55 +0200
+
+xubuntu-artwork (0.32) karmic; urgency=low
+
+  * usr/share/pixmaps/xubuntu-logo.png: refreshed, and add a svg version.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 13 Sep 2009 14:06:08 +0200
+
 xubuntu-artwork (0.31) karmic; urgency=low
 
   * debian/usplash-theme-xubuntu.postinst: increase priority, so that the
