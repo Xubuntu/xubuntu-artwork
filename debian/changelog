@@ -5,8 +5,9 @@ xubuntu-artwork (0.33) UNRELEASED; urgency=low
   * usr/share/themes/Albatross: added, new gtk theme.
   * debian/copyright: refreshed.
   * debian/control, debian/xubuntu-gdm-theme.install: dropped.
+  * debian/control: only recommends usplash-theme-xubuntu (LP: #433010).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 Sep 2009 13:04:22 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 Sep 2009 13:13:38 +0200
 
 xubuntu-artwork (0.32) karmic; urgency=low
 

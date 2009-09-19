@@ -9,8 +9,8 @@ Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-team/xubuntu-artwork/karmic/fi
 
 Package: xubuntu-artwork
 Architecture: all
-Depends: ${misc:Depends}, usplash-theme-xubuntu, xubuntu-wallpapers,
- gtk2-engines-murrine, gnome-brave-icon-theme
+Depends: ${misc:Depends}, gtk2-engines-murrine, gnome-brave-icon-theme
+Recommends: usplash-theme-xubuntu, xubuntu-wallpapers
 Conflicts: xubuntu-default-settings (<= 0.51)
 Replaces: xubuntu-default-settings (<= 0.51)
 Description: Xubuntu themes and artwork
