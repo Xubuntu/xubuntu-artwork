@@ -1,3 +1,13 @@
+xubuntu-artwork (0.33) UNRELEASED; urgency=low
+
+  * gdm_svg, usr/share/gdm: dropped, was for gdm legacy.
+  * Makefile: don't build gdm_svg.
+  * usr/share/themes/Albatross: added, new gtk theme.
+  * debian/copyright: refreshed.
+  * debian/control, debian/xubuntu-gdm-theme.install: dropped.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 Sep 2009 13:04:22 +0200
+
 xubuntu-artwork (0.32) karmic; urgency=low
 
   * usr/share/pixmaps/xubuntu-logo.png: refreshed, and add a svg version.
