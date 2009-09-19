@@ -1,4 +1,4 @@
-xubuntu-artwork (0.33) UNRELEASED; urgency=low
+xubuntu-artwork (0.33) karmic; urgency=low
 
   * gdm_svg: dropped, was for gdm legacy.
   * Makefile: don't build gdm_svg.
@@ -15,7 +15,7 @@ xubuntu-artwork (0.33) UNRELEASED; urgency=low
   * debian/xubuntu-gdm-theme.gconf-defaults: added, set logo_icon_name to
     xubuntu-logo.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 Sep 2009 13:59:50 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 Sep 2009 14:22:55 +0200
 
 xubuntu-artwork (0.32) karmic; urgency=low
 
