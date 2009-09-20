@@ -1,3 +1,13 @@
+xubuntu-artwork (0.34~) UNRELEASED; urgency=low
+
+  * usr/share/images/xsplash: add an xplash theme.
+  * debian/control:
+    - P/C/R for xsplash-artwork
+    - Update description
+    - Recommends for xsplash.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 20 Sep 2009 14:44:28 +0200
+
 xubuntu-artwork (0.33) karmic; urgency=low
 
   * gdm_svg: dropped, was for gdm legacy.
