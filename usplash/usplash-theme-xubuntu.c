@@ -22,7 +22,8 @@
 #include <usplash-theme.h>
 /* Needed for the custom drawing functions */
 #include <usplash_backend.h>
-extern struct usplash_pixmap pixmap_usplash_300_200, pixmap_usplash_400_300, pixmap_usplash_600_500;
+extern struct usplash_pixmap pixmap_logo_xsmall, pixmap_logo_small,
+       pixmap_logo_med, pixmap_logo_large, pixmap_logo_xlarge;
 extern struct usplash_pixmap pixmap_throbber_back;
 extern struct usplash_pixmap pixmap_throbber_back_16;
 extern struct usplash_pixmap pixmap_throbber_back_32;
@@ -65,15 +66,15 @@ struct usplash_theme usplash_theme = {
     .ratio = USPLASH_16_9,
 
 	/* Background and font */
-	.pixmap = &pixmap_usplash_300_200,
+	.pixmap = &pixmap_logo_xsmall,
 
         /* theme resolution; if 0, use width/height of pixmap */
         .theme_width = 640,
         .theme_height = 400,
 
         /* position of pixmap */
-        .pixmap_x = 170,
-        .pixmap_y = 100,
+        .pixmap_x = 292,
+        .pixmap_y = 165,
 
 	/* Palette indexes */
 	.background             = 0,
@@ -115,15 +116,15 @@ struct usplash_theme usplash_theme_640_480 = {
     .ratio = USPLASH_4_3,
 
 	/* Background and font */
-	.pixmap = &pixmap_usplash_300_200,
+	.pixmap = &pixmap_logo_xsmall,
 
         /* theme resolution; if 0, use width/height of pixmap */
         .theme_width = 640,
         .theme_height = 480,
 
         /* position of pixmap */
-        .pixmap_x = 170,
-        .pixmap_y = 140,
+        .pixmap_x = 292,
+        .pixmap_y = 204,
 
 	/* Palette indexes */
 	.background             = 0,
@@ -165,15 +166,15 @@ struct usplash_theme usplash_theme_800_500 = {
     .ratio = USPLASH_16_9,
 
 	/* Background and font */
-	.pixmap = &pixmap_usplash_300_200,
+	.pixmap = &pixmap_logo_xsmall,
 
         /* theme resolution; if 0, use width/height of pixmap */
         .theme_width = 800,
         .theme_height = 500,
 
         /* position of pixmap */
-        .pixmap_x = 250,
-        .pixmap_y = 150,
+        .pixmap_x = 372,
+        .pixmap_y = 213,
 
 	/* Palette indexes */
 	.background             = 0,
@@ -215,15 +216,15 @@ struct usplash_theme usplash_theme_800_600 = {
     .ratio = USPLASH_4_3,
 
 	/* Background and font */
-	.pixmap = &pixmap_usplash_300_200,
+	.pixmap = &pixmap_logo_xsmall,
 
         /* theme resolution; if 0, use width/height of pixmap */
         .theme_width = 800,
         .theme_height = 600,
 
         /* position of pixmap */
-        .pixmap_x = 250,
-        .pixmap_y = 200,
+        .pixmap_x = 372,
+        .pixmap_y = 261,
 
 	/* Palette indexes */
 	.background             = 0,
@@ -265,15 +266,15 @@ struct usplash_theme usplash_theme_896_672 = {
     .ratio = USPLASH_4_3,
 
 	/* Background and font */
-	.pixmap = &pixmap_usplash_300_200,
+	.pixmap = &pixmap_logo_xsmall,
 
         /* theme resolution; if 0, use width/height of pixmap */
         .theme_width = 896,
         .theme_height = 672,
 
         /* position of pixmap */
-        .pixmap_x = 298,
-        .pixmap_y = 236,
+        .pixmap_x = 420,
+        .pixmap_y = 296,
 
 	/* Palette indexes */
 	.background             = 0,
@@ -314,15 +315,15 @@ struct usplash_theme usplash_theme_1024_576 = {
     .ratio = USPLASH_16_9,
 
 	/* Background and font */
-	.pixmap = &pixmap_usplash_400_300,
+	.pixmap = &pixmap_logo_small,
 
         /* theme resolution; if 0, use width/height of pixmap */
         .theme_width = 1024,
         .theme_height = 576,
 
         /* position of pixmap */
-        .pixmap_x = 312,
-        .pixmap_y = 138,
+        .pixmap_x = 467,
+        .pixmap_y = 215,
 
 	/* Palette indexes */
 	.background             = 0,
@@ -363,15 +364,15 @@ struct usplash_theme usplash_theme_1024_600 = {
     .ratio = USPLASH_16_9,
 
 	/* Background and font */
-	.pixmap = &pixmap_usplash_400_300,
+	.pixmap = &pixmap_logo_small,
 
         /* theme resolution; if 0, use width/height of pixmap */
         .theme_width = 1024,
         .theme_height = 600,
 
         /* position of pixmap */
-        .pixmap_x = 312,
-        .pixmap_y = 150,
+        .pixmap_x = 467,
+        .pixmap_y = 220,
 
 	/* Palette indexes */
 	.background             = 0,
@@ -412,15 +413,15 @@ struct usplash_theme usplash_theme_1024_640 = {
     .ratio = USPLASH_16_9,
 
 	/* Background and font */
-	.pixmap = &pixmap_usplash_400_300,
+	.pixmap = &pixmap_logo_small,
 
         /* theme resolution; if 0, use width/height of pixmap */
         .theme_width = 1024,
         .theme_height = 640,
 
         /* position of pixmap */
-        .pixmap_x = 312,
-        .pixmap_y = 170,
+        .pixmap_x = 467,
+        .pixmap_y = 290,
 
 	/* Palette indexes */
 	.background             = 0,
@@ -461,15 +462,15 @@ struct usplash_theme usplash_theme_1024_768 = {
     .ratio = USPLASH_4_3,
 
 	/* Background and font */
-	.pixmap = &pixmap_usplash_400_300,
+	.pixmap = &pixmap_logo_small,
 
         /* theme resolution; if 0, use width/height of pixmap */
         .theme_width = 1024,
         .theme_height = 768,
 
         /* position of pixmap */
-        .pixmap_x = 312,
-        .pixmap_y = 234,
+        .pixmap_x = 467,
+        .pixmap_y = 325,
 
 	/* Palette indexes */
 	.background             = 0,
@@ -510,15 +511,15 @@ struct usplash_theme usplash_theme_1152_720 = {
     .ratio = USPLASH_4_3,
 
 	/* Background and font */
-	.pixmap = &pixmap_usplash_400_300,
+	.pixmap = &pixmap_logo_small,
 
         /* theme resolution; if 0, use width/height of pixmap */
         .theme_width = 1152,
         .theme_height = 720,
 
         /* position of pixmap */
-        .pixmap_x = 376,
-        .pixmap_y = 210,
+        .pixmap_x = 531,
+        .pixmap_y = 302,
 
 	/* Palette indexes */
 	.background             = 0,
@@ -559,15 +560,15 @@ struct usplash_theme usplash_theme_1280_800 = {
     .ratio = USPLASH_16_9,
 
 	/* Background and font */
-	.pixmap = &pixmap_usplash_400_300,
+	.pixmap = &pixmap_logo_med,
 
         /* theme resolution; if 0, use width/height of pixmap */
         .theme_width = 1280,
         .theme_height = 800,
 
         /* position of pixmap */
-        .pixmap_x = 440,
-        .pixmap_y = 250,
+        .pixmap_x = 584,
+        .pixmap_y = 330,
 
 	/* Palette indexes */
 	.background             = 0,
@@ -608,15 +609,15 @@ struct usplash_theme usplash_theme_1280_1024 = {
     .ratio = USPLASH_4_3,
 
 	/* Background and font */
-	.pixmap = &pixmap_usplash_400_300,
+	.pixmap = &pixmap_logo_med,
 
         /* theme resolution; if 0, use width/height of pixmap */
         .theme_width = 1280,
         .theme_height = 1024,
 
         /* position of pixmap */
-        .pixmap_x = 440,
-        .pixmap_y = 362,
+        .pixmap_x = 584,
+        .pixmap_y = 437,
 
 	/* Palette indexes */
 	.background             = 0,
@@ -657,15 +658,15 @@ struct usplash_theme usplash_theme_1440_900 = {
     .ratio = USPLASH_16_9,
 
 	/* Background and font */
-	.pixmap = &pixmap_usplash_600_500,
+	.pixmap = &pixmap_logo_med,
 
         /* theme resolution; if 0, use width/height of pixmap */
         .theme_width = 1440,
         .theme_height = 900,
 
         /* position of pixmap */
-        .pixmap_x = 420,
-        .pixmap_y = 200,
+        .pixmap_x = 664,
+        .pixmap_y = 350,
 
 	/* Palette indexes */
 	.background             = 0,
@@ -706,15 +707,15 @@ struct usplash_theme usplash_theme_1600_1200 = {
     .ratio = USPLASH_4_3,
 
 	/* Background and font */
-	.pixmap = &pixmap_usplash_600_500,
+	.pixmap = &pixmap_logo_large,
 
         /* theme resolution; if 0, use width/height of pixmap */
         .theme_width = 1600,
         .theme_height = 1200,
 
         /* position of pixmap */
-        .pixmap_x = 500,
-        .pixmap_y = 350,
+        .pixmap_x = 730,
+        .pixmap_y = 509,
 
 	/* Palette indexes */
 	.background             = 0,
@@ -755,15 +756,15 @@ struct usplash_theme usplash_theme_1920_1200 = {
     .ratio = USPLASH_16_9,
 
 	/* Background and font */
-	.pixmap = &pixmap_usplash_600_500,
+	.pixmap = &pixmap_logo_large,
 
         /* theme resolution; if 0, use width/height of pixmap */
         .theme_width = 1920,
         .theme_height = 1200,
 
         /* position of pixmap */
-        .pixmap_x = 660,
-        .pixmap_y = 350,
+        .pixmap_x = 890,
+        .pixmap_y = 509,
 
 	/* Palette indexes */
 	.background             = 0,
@@ -804,6 +805,9 @@ void t_init(struct usplash_theme *theme) {
     theme->progressbar_x = (x - usplash_theme_width(theme))/2 + theme->progressbar_x;
     theme->progressbar_y = (y - usplash_theme_height(theme))/2 + theme->progressbar_y;
 }
+
+#if 0 
+/* disable progress bar in Ubuntu 9.10 due to faster boot */
 
 void t_clear_progressbar(struct usplash_theme *theme) {
     usplash_put(theme->progressbar_x, theme->progressbar_y, &pixmap_throbber_back);
@@ -985,3 +989,15 @@ void t_animate_step_32(struct usplash_theme* theme, int pulsating) {
         pulsate_step = (pulsate_step + 1) % num_steps;
     }
 }
+
+#endif
+
+void t_clear_progressbar(struct usplash_theme *theme) {}
+void t_clear_progressbar_16(struct usplash_theme *theme) {}
+void t_clear_progressbar_32(struct usplash_theme *theme) {}
+void t_draw_progressbar(struct usplash_theme *theme, int percentage) {}
+void t_draw_progressbar_16(struct usplash_theme *theme, int percentage) {}
+void t_draw_progressbar_32(struct usplash_theme *theme, int percentage) {}
+void t_animate_step(struct usplash_theme* theme, int pulsating) {}
+void t_animate_step_16(struct usplash_theme* theme, int pulsating) {}
+void t_animate_step_32(struct usplash_theme* theme, int pulsating) {}

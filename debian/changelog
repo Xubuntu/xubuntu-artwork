@@ -1,3 +1,9 @@
+xubuntu-artwork (0.34) UNRELEASED; urgency=low
+
+  * Merge changes with usplash-theme-ubuntu.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 23 Sep 2009 23:19:17 +0200
+
 xubuntu-artwork (0.33) karmic; urgency=low
 
   * gdm_svg: dropped, was for gdm legacy.

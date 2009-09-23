@@ -11,9 +11,9 @@ INSTALL_DATA = $(INSTALL) -m 644
 INSTALL_PROGRAM = $(INSTALL) -m 755
 
 usplash-theme-xubuntu.so: throbber_back.png.c.o throbber_back_16.png.c.o throbber_fore.png.c.o throbber_fore_16.png.c.o \
-						 throbber_back_32.png.c.o throbber_fore_32.png.c.o \
-						 usplash_300_200.png.c.o usplash_400_300.png.c.o usplash_600_500.png.c.o \
-						 usplash-theme-xubuntu.c.o
+		 throbber_back_32.png.c.o throbber_fore_32.png.c.o \
+		 logo_xsmall.png.c.o logo_small.png.c.o logo_med.png.c.o logo_large.png.c.o logo_xlarge.png.c.o \
+		 usplash-theme-xubuntu.c.o
 	$(COMPILE) -shared -o $@ $^
 
 %.png.c: %.png
