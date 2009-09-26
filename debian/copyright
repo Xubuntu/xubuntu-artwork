@@ -4,6 +4,7 @@ Upstream-Maintainer: Xubuntu Team <xubuntu-devel@lists.ubuntu.com>
 Upstream-Source: https://launchpad.net/xubuntu-artwork
 
 Files: usplash/*
+Copyright: © 2009, Pasi Lallinaho <open@knome.fi>
 Copyright: © 2005-2009, Canonical Ltd.
 Copyright: © 2005-2007, Steve <radarsat1@gmail.com>
 Copyright: © 2006-2008, Jozsef Mak <joz_mak@yahoo.ca>
