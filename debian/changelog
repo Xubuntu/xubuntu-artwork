@@ -1,4 +1,4 @@
-xubuntu-artwork (0.34) UNRELEASED; urgency=low
+xubuntu-artwork (0.34) karmic; urgency=low
 
   * usr/share/icons/elementaryXubuntu: new icon theme, inspired of elementary.
   * debian/control: xubuntu-artwork depends on gnome-icon-theme instead of
@@ -10,7 +10,7 @@ xubuntu-artwork (0.34) UNRELEASED; urgency=low
     switcher. LP: #360175
   * usr/share/xfce4/backdrops/xubuntu-karmic*.png: add new wallpapers.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 27 Sep 2009 13:21:40 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 27 Sep 2009 22:25:15 +0200
 
 xubuntu-artwork (0.33) karmic; urgency=low
 
