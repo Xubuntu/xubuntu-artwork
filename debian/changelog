@@ -8,8 +8,9 @@ xubuntu-artwork (0.34) UNRELEASED; urgency=low
   * Merge changes with usplash-theme-ubuntu, with a new logo. LP: #360499
   * usr/share/themes/Albatross/gtk-2.0/gtkrc: add theming for the application
     switcher. LP: #360175
+  * usr/share/xfce4/backdrops/xubuntu-karmic*.png: add new wallpapers.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 27 Sep 2009 12:58:56 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 27 Sep 2009 13:21:40 +0200
 
 xubuntu-artwork (0.33) karmic; urgency=low
 
