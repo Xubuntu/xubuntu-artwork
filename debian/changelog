@@ -3,12 +3,13 @@ xubuntu-artwork (0.34) UNRELEASED; urgency=low
   * usr/share/icons/elementaryXubuntu: new icon theme, inspired of elementary.
   * debian/control: xubuntu-artwork depends on gnome-icon-theme instead of
     gnome-brave-icon-theme.
+  * debian/xubuntu-artwork.install: ship elementaryXubuntu.
   * debian/copyright: refreshed.
   * Merge changes with usplash-theme-ubuntu, with a new logo. LP: #360499
   * usr/share/themes/Albatross/gtk-2.0/gtkrc: add theming for the application
     switcher. LP: #360175
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 27 Sep 2009 12:45:14 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 27 Sep 2009 12:58:56 +0200
 
 xubuntu-artwork (0.33) karmic; urgency=low
 
