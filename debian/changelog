@@ -1,3 +1,12 @@
+xubuntu-artwork (0.34) UNRELEASED; urgency=low
+
+  * usr/share/icons/elementaryXubuntu: new icon theme, inspired of elementary.
+  * debian/control: xubuntu-artwork depends on gnome-icon-theme instead of
+    gnome-brave-icon-theme.
+  * debian/copyright: refreshed.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 27 Sep 2009 12:45:14 +0200
+
 xubuntu-artwork (0.33) karmic; urgency=low
 
   * gdm_svg: dropped, was for gdm legacy.
