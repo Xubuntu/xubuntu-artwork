@@ -233,10 +233,6 @@ style "treeview" {
 	}
 }
 
-style "frame-title" {
-	fg[NORMAL] = lighter (@fg_color)
-}
-
 style "tooltips" = "wider" {
 	bg[NORMAL] = @tooltip_bg_color
 	fg[NORMAL] = @tooltip_fg_color
@@ -425,7 +421,6 @@ widget_class "*.<GtkTreeView>.<GtkButton>" style "treeview-header"
 widget_class "*.<GtkCTree>.<GtkButton>" style "treeview-header"
 widget_class "*.<GtkList>.<GtkButton>" style "treeview-header"
 widget_class "*.<GtkCList>.<GtkButton>" style "treeview-header"
-widget_class "*.<GtkFrame>.<GtkLabel>" style "frame-title"
 
 widget "gtk-tooltip*" style "tooltips"
 
