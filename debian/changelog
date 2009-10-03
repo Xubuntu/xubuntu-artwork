@@ -1,3 +1,16 @@
+xubuntu-artwork (0.35) karmic; urgency=low
+
+  [ Steve Dodier ]
+  * usr/share/themes/Albatross: 
+    - added theming for icons background in xfdesktop.
+    - added new Albatross xfwm4 theme.
+  * usr/share/icons/elementaryXubuntu: removed notification icons and fixed symlinks.
+
+  [ Lionel Le Folgoc ]
+  * debian/control: update Vcs-Browser field.
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Sat, 03 Oct 2009 19:04:35 -0300
+
 xubuntu-artwork (0.34) karmic; urgency=low
 
   * usr/share/icons/elementaryXubuntu: new icon theme, inspired of elementary.
