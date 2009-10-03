@@ -1,3 +1,9 @@
+xubuntu-artwork (0.37) UNRELEASED; urgency=low
+
+  * usr/share/themes/Albatross: added the xfwm4 theme.
+
+ -- Steve Dodier <sidnioulz@gmail.com>  Sat, 03 Oct 2009 23:37:11 +0200
+ 
 xubuntu-artwork (0.36) UNRELEASED; urgency=low
 
   * usr/share/themes/Albatross: fixed a problem with checkboxes becoming red.
