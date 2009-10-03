@@ -5,9 +5,9 @@ xubuntu-artwork (0.35) UNRELEASED; urgency=low
   * usr/share/icons/elementaryXubuntu: removed notification icons and fixed symlinks.
 
   [ Lionel Le Folgoc ]
-  * debian/control: update Vcs-* fields.
+  * debian/control: update Vcs-Browser field.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 03 Oct 2009 18:37:52 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 03 Oct 2009 18:39:26 +0200
 
 xubuntu-artwork (0.34) karmic; urgency=low
 
