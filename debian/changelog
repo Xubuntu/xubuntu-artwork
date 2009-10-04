@@ -1,4 +1,4 @@
-xubuntu-artwork (0.34) UNRELEASED; urgency=low
+xubuntu-artwork (0.36) UNRELEASED; urgency=low
 
   * usr/share/images/xsplash: add an xplash theme.
   * debian/control:
@@ -7,6 +7,33 @@ xubuntu-artwork (0.34) UNRELEASED; urgency=low
     - Recommends for xsplash.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 04 Oct 2009 14:20:05 +0200
+
+xubuntu-artwork (0.35) karmic; urgency=low
+
+  [ Steve Dodier ]
+  * usr/share/themes/Albatross: 
+    - added theming for icons background in xfdesktop.
+    - added new Albatross xfwm4 theme.
+  * usr/share/icons/elementaryXubuntu: removed notification icons and fixed symlinks.
+
+  [ Lionel Le Folgoc ]
+  * debian/control: update Vcs-Browser field.
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Sat, 03 Oct 2009 19:04:35 -0300
+
+xubuntu-artwork (0.34) karmic; urgency=low
+
+  * usr/share/icons/elementaryXubuntu: new icon theme, inspired of elementary.
+  * debian/control: xubuntu-artwork depends on gnome-icon-theme instead of
+    gnome-brave-icon-theme.
+  * debian/xubuntu-artwork.install: ship elementaryXubuntu.
+  * debian/copyright: refreshed.
+  * Merge changes with usplash-theme-ubuntu, with a new logo. LP: #360499
+  * usr/share/themes/Albatross/gtk-2.0/gtkrc: add theming for the application
+    switcher. LP: #360175
+  * usr/share/xfce4/backdrops/xubuntu-karmic*.png: add new wallpapers.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 27 Sep 2009 22:25:15 +0200
 
 xubuntu-artwork (0.33) karmic; urgency=low
 
