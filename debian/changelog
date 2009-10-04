@@ -1,12 +1,13 @@
 xubuntu-artwork (0.36) UNRELEASED; urgency=low
 
   * usr/share/images/xsplash: add an xplash theme.
+  * debian/copyright: updated.
   * debian/control:
     - P/C/R for xsplash-artwork
     - Update description
     - Recommends for xsplash.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 04 Oct 2009 14:20:05 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 04 Oct 2009 14:53:03 +0200
 
 xubuntu-artwork (0.35) karmic; urgency=low
 
