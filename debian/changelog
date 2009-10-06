@@ -1,3 +1,10 @@
+xubuntu-artwork (0.37) karmic; urgency=low
+
+  * debian/control:
+   - xubuntu-gdm-theme: recommend 'xsplash' instead of 'xplash' (LP: #444957)
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Tue, 06 Oct 2009 21:38:13 -0300 
+
 xubuntu-artwork (0.36) karmic; urgency=low
 
   [ Lionel Le Folgoc ]
