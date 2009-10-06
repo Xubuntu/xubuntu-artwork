@@ -27,11 +27,12 @@ Description: Xubuntu Wallpapers
 Package: xubuntu-gdm-theme
 Architecture: all
 Depends: ${misc:Depends}, feh
-Recommends: xfce4-power-manager, xfce4-settings, xfwm4 
-Conflicts: xubuntu-default-settings (<= 0.51)
-Replaces: xubuntu-default-settings (<= 0.51), xubuntu-artwork (<< 0.27~)
-Provides: gdm-theme
-Description: Xubuntu gdm greeter theme
+Recommends: xplash, xfce4-power-manager, xfce4-settings, xfwm4 
+Conflicts: xubuntu-default-settings (<= 0.51), xsplash-artwork, xsplash (<< 0.8)
+Replaces: xubuntu-default-settings (<= 0.51), xubuntu-artwork (<< 0.27~),
+ xsplash-artwork, xsplash (<< 0.8)
+Provides: gdm-theme, xsplash-artwork
+Description: Xubuntu GDM & Xsplash greeter themes
  The GDM greeter theme used for a standalone Xubuntu installation.
  .
  This package can also be safely installed on other Ubuntu desktops desiring to

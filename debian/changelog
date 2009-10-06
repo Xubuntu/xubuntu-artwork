@@ -1,3 +1,19 @@
+xubuntu-artwork (0.36) karmic; urgency=low
+
+  [ Lionel Le Folgoc ]
+  * usr/share/images/xsplash: add an xplash theme. LP: #442848
+  * debian/copyright: updated.
+  * debian/control:
+    - P/C/R for xsplash-artwork
+    - Update description
+    - Recommends for xsplash.
+
+  [ Steve Dodier ]
+  * usr/share/themes/Albatross: set link-color to workaround a problem in
+    firefox.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 06 Oct 2009 10:32:57 +0200
+
 xubuntu-artwork (0.35) karmic; urgency=low
 
   [ Steve Dodier ]

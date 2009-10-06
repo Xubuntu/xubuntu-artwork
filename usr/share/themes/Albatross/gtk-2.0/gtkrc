@@ -36,6 +36,8 @@ style "default" {
 
 	GtkMenu::horizontal-padding = 0
 	GtkMenu::vertical-padding = 0
+	GtkWidget::link-color = "#4d75bf"
+	GtkWidget::visited-link-color = "#884dbf"
 
 	# GtkWidget::focus-padding = 0
   	GtkScrolledWindow::scrollbar-spacing = 1
