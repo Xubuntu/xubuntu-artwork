@@ -1,11 +1,6 @@
-xubuntu-artwork (0.37) UNRELEASED; urgency=low
-
-  * usr/share/themes/Albatross: set link-color to workaround a problem in firefox
-
- -- Steve Dodier <sidnioulz@gmail.com>  Mon, 05 Oct 2009 23:47:49 +0200
-
 xubuntu-artwork (0.36) UNRELEASED; urgency=low
 
+  [ Lionel Le Folgoc ]
   * usr/share/images/xsplash: add an xplash theme. LP: #442848
   * debian/copyright: updated.
   * debian/control:
@@ -13,7 +8,11 @@ xubuntu-artwork (0.36) UNRELEASED; urgency=low
     - Update description
     - Recommends for xsplash.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 05 Oct 2009 11:35:35 +0200
+  [ Steve Dodier ]
+  * usr/share/themes/Albatross: set link-color to workaround a problem in
+    firefox.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 06 Oct 2009 10:30:09 +0200
 
 xubuntu-artwork (0.35) karmic; urgency=low
 
