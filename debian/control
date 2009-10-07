@@ -27,7 +27,7 @@ Description: Xubuntu Wallpapers
 Package: xubuntu-gdm-theme
 Architecture: all
 Depends: ${misc:Depends}, feh
-Recommends: xplash, xfce4-power-manager, xfce4-settings, xfwm4 
+Recommends: xsplash, xfce4-power-manager, xfce4-settings, xfwm4 
 Conflicts: xubuntu-default-settings (<= 0.51), xsplash-artwork, xsplash (<< 0.8)
 Replaces: xubuntu-default-settings (<= 0.51), xubuntu-artwork (<< 0.27~),
  xsplash-artwork, xsplash (<< 0.8)
