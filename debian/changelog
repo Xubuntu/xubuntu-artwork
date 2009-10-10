@@ -2,9 +2,10 @@ xubuntu-artwork (0.38) UNRELEASED; urgency=low
 
   * debian/xubuntu-gdm-theme.postinst: added, set back gdm theme to
     MurrinaStormCloud. LP: #437169
-  * debian/control: xubuntu-gdm-theme depends on xfconf for xfconf-query.
+  * debian/control: xubuntu-gdm-theme depends on xfconf and libxfconf-0-2
+    for xfconf-query.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 10 Oct 2009 16:25:28 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 10 Oct 2009 16:56:51 +0200
 
 xubuntu-artwork (0.37) karmic; urgency=low
 
