@@ -515,3 +515,6 @@ style "xfdesktop-icon-view" {
 }
 widget_class "*XfdesktopIconView*" style "xfdesktop-icon-view"
 
+## workaround for the evil GDM 2.28
+widget_class "*GdmGreeterPanel*" style "dark"
+
