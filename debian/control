@@ -5,12 +5,13 @@ Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 Build-Depends: debhelper (>= 7.0.50~), libusplash-dev (>= 0.5.30)
 Standards-Version: 3.8.3
 Vcs-Bzr: lp:xubuntu-artwork
-Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-art/xubuntu-artwork/karmic/files
+Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-art/xubuntu-artwork/lucid/files
 
 Package: xubuntu-artwork
 Architecture: all
-Depends: ${misc:Depends}, gtk2-engines-murrine, gnome-icon-theme
-Recommends: usplash-theme-xubuntu, xubuntu-gdm-theme, xubuntu-wallpapers
+Depends: ${misc:Depends}, gtk2-engines-murrine
+Recommends: xubuntu-gdm-theme, xubuntu-wallpapers, xubuntu-icon-theme
+Suggests: usplash-theme-xubuntu
 Conflicts: xubuntu-default-settings (<= 0.51)
 Replaces: xubuntu-default-settings (<= 0.51)
 Description: Xubuntu themes and artwork
@@ -46,6 +47,14 @@ Replaces: xubuntu-artwork-usplash (<< 0.27~)
 Provides: usplash-theme
 Description: Usplash theme for Xubuntu
  Usplash theme for Xubuntu
+
+Package: xubuntu-icon-theme
+Architecture: all
+Depends: ${misc:Depends}, gnome-icon-theme
+Conflicts: xubuntu-artwork (>> 0.33), xubuntu-artwork (<< 0.39~)
+Replaces: xubuntu-artwork (>> 0.33), xubuntu-artwork (<< 0.39~)
+Description: Xubuntu icon theme
+ The default icon theme for Xubuntu.
 
 Package: xubuntu-artwork-usplash
 Architecture: all
