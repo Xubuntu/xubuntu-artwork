@@ -1,3 +1,16 @@
+xubuntu-artwork (0.39) UNRELEASED; urgency=low
+
+  * debian/control:
+    - update Vcs-Browser field for lucid
+    - xubuntu-artwork: demote usplash-theme-xubuntu to Suggests, and recommends
+      xubuntu-icon-theme
+    - move icons to their own package, xubuntu-icon-theme. C/R previous
+      revisions of xubuntu-artwork.
+  * xubuntu-icon-theme.install: added, ship usr/share/icons (dropped from
+    debian/xubuntu-artwork.install).
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 12 Dec 2009 16:14:31 +0100
+
 xubuntu-artwork (0.38) karmic; urgency=low
 
   * usr/share/themes/Albatross/gtk-2.0/gtkrc: add a workaround for the
