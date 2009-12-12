@@ -50,7 +50,7 @@ Description: Usplash theme for Xubuntu
 
 Package: xubuntu-icon-theme
 Architecture: all
-Depends: gnome-icon-theme
+Depends: ${misc:Depends}, gnome-icon-theme
 Conflicts: xubuntu-artwork (>> 0.33), xubuntu-artwork (<< 0.39~)
 Replaces: xubuntu-artwork (>> 0.33), xubuntu-artwork (<< 0.39~)
 Description: Xubuntu icon theme
