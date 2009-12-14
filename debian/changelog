@@ -1,3 +1,17 @@
+xubuntu-artwork (0.40) UNRELEASED; urgency=low
+
+  * Switch from our ugly hack(tm)(r)(c) to gnome-settings-daemon for gdm:
+    - usr/share/gdm/autostart/LoginWindow/:
+      + xubuntu-gdm-{background-picture,settings-manager}.desktop: dropped
+    - debian/control: xubuntu-gdm-theme binary package:
+      + drop dependency on feh & recommendation on xfce4-settings
+      + recommends gnome-settings-daemon
+      + demotes xfce4-power-manager to Suggests
+    - debian/xubuntu-gdm-theme.gconf-defaults: set icon & gtk themes, reenable
+      buttons.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 14 Dec 2009 23:36:39 +0100
+
 xubuntu-artwork (0.39) lucid; urgency=low
 
   * debian/control:
