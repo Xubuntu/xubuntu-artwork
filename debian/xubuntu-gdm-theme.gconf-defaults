@@ -1,1 +1,5 @@
 /apps/gdm/simple-greeter/logo_icon_name xubuntu-logo
+/desktop/gnome/interface/buttons_have_icons true
+/desktop/gnome/interface/menus_have_icons true
+/desktop/gnome/interface/icon_theme elementaryXubuntu
+/desktop/gnome/interface/gtk_theme Albatross
