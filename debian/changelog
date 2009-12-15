@@ -1,4 +1,4 @@
-xubuntu-artwork (0.40) UNRELEASED; urgency=low
+xubuntu-artwork (0.40) lucid; urgency=low
 
   * Test: switch from our ugly hack(tm)(r)(c) to gnome-settings-daemon for gdm:
     - usr/share/gdm/autostart/LoginWindow/:
@@ -11,7 +11,7 @@ xubuntu-artwork (0.40) UNRELEASED; urgency=low
       icons.
   * debian/control: drop spurious conflicts breaking the iso build.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 15 Dec 2009 12:11:06 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 15 Dec 2009 12:13:08 +0100
 
 xubuntu-artwork (0.39) lucid; urgency=low
 
