@@ -9,8 +9,9 @@ xubuntu-artwork (0.40) UNRELEASED; urgency=low
       + demotes xfce4-power-manager to Suggests
     - debian/xubuntu-gdm-theme.gconf-defaults: set icon & gtk themes, reenable
       buttons.
+  * debian/control: drop spurious conflicts breaking the iso build.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 14 Dec 2009 23:36:39 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 15 Dec 2009 12:05:07 +0100
 
 xubuntu-artwork (0.39) lucid; urgency=low
 
