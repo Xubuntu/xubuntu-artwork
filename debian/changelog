@@ -4,6 +4,8 @@ xubuntu-artwork (10.04.0) UNRELEASED; urgency=low
   * Revert previous upload (test of gnome-settings-daemon for gdm), it doesn't
     work as everything is harcoded for ubuntu in the gdm package…
   * usr/share/xubuntu/xdg-gdm: add minimum config for gdm.
+  * debian/xubuntu-gdm-theme.postinst: make sure previous config bits are
+    erased on upgrades.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 31 Jan 2010 21:27:56 +0100
 

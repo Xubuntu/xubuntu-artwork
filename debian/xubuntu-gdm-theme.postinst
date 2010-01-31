@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -e
+
+GDM_HOMEDIR="/var/lib/gdm/"
+
+case "$1" in
+	upgrade)
+		if [ -d $GDM_HOMEDIR ]; then
+			rm -f $GDM_HOMEDIR/.fehbg
+			rm -f $GDM_HOMEDIR/.fehrc
+			rm -rf $GDM_HOMEDIR/.config/xfce4/
+		fi
+		;;
+esac
+
+#DEBHELPER#
