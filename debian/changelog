@@ -1,3 +1,12 @@
+xubuntu-artwork (10.04.0) UNRELEASED; urgency=low
+
+  * New versioning scheme.
+  * Revert previous upload (test of gnome-settings-daemon for gdm), it doesn't
+    work as everything is harcoded for ubuntu in the gdm package…
+  * usr/share/xubuntu/xdg-gdm: add minimum config for gdm.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 31 Jan 2010 21:27:56 +0100
+
 xubuntu-artwork (0.40) lucid; urgency=low
 
   * Test: switch from our ugly hack(tm)(r)(c) to gnome-settings-daemon for gdm:
