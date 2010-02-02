@@ -2,17 +2,19 @@
 
 set -e
 
+GDM_HOMEDIR="/var/lib/gdm/"
+
 case "$1" in
-	upgrade)
-		if [ -d /var/lib/gdm ]; then
-			if [ -f /var/lib/gdm/.fehbg ]; then
-				rm /var/lib/gdm/.fehbg
+	configure)
+		if [ -d $GDM_HOMEDIR ]; then
+			if [ -f $GDM_HOMEDIR/.fehbg ]; then
+				rm $GDM_HOMEDIR/.fehbg
 			fi
-			if [ -f /var/lib/gdm/.fehrc ]; then
-				rm /var/lib/gdm/.fehrc
+			if [ -f $GDM_HOMEDIR/.fehrc ]; then
+				rm $GDM_HOMEDIR/.fehrc
 			fi
-			if [ -d /var/lib/gdm/.config/xfce4/ ]; then
-				rm -r /var/lib/gdm/.config/xfce4/
+			if [ -d $GDM_HOMEDIR/.config/xfce4/ ]; then
+				rm -r $GDM_HOMEDIR/.config/xfce4/
 			fi
 		fi
 		;;
