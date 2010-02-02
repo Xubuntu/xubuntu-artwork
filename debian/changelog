@@ -1,4 +1,4 @@
-xubuntu-artwork (10.04.0) UNRELEASED; urgency=low
+xubuntu-artwork (10.04.0) lucid; urgency=low
 
   * New versioning scheme.
   * debian/control: xubuntu-gdm-theme depends on gdm...
@@ -10,7 +10,7 @@ xubuntu-artwork (10.04.0) UNRELEASED; urgency=low
   * debian/xubuntu-gdm-theme.postinst: make sure previous config bits are
     erased on upgrades.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 31 Jan 2010 21:27:56 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 02 Feb 2010 21:53:25 +0100
 
 xubuntu-artwork (0.40) lucid; urgency=low
 
