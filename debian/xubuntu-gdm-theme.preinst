@@ -5,8 +5,8 @@ set -e
 case "$1" in
 	install|upgrade)
 		dpkg-divert --package xubuntu-gdm-theme --add --rename \
-			--divert var/lib/gdm/.gconf.defaults/%gconf-tree.xml.ubuntu \
-			var/lib/gdm/.gconf.defaults/%gconf-tree.xml
+			--divert /var/lib/gdm/.gconf.defaults/%gconf-tree.xml.ubuntu \
+			/var/lib/gdm/.gconf.defaults/%gconf-tree.xml
 		;;
 esac
 
