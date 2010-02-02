@@ -1,9 +1,12 @@
 xubuntu-artwork (10.04.0) UNRELEASED; urgency=low
 
   * New versioning scheme.
-  * Revert previous upload (test of gnome-settings-daemon for gdm), it doesn't
-    work as everything is harcoded for ubuntu in the gdm package…
-  * usr/share/xubuntu/xdg-gdm: add minimum config for gdm.
+  * debian/control: xubuntu-gdm-theme depends on gdm...
+  * var/lib/gdm/.gconf.defaults/%gconf-tree.xml: force gtk/icon themes, and
+    icons in buttons/menus.
+  * debian/xubuntu-gdm-theme.{postrm,preinst}: handles diversion of gdm's
+    default gconf schema.
+  * usr/share/xubuntu/xdg-gdm: add minimum config (xfwm4) for gdm.
   * debian/xubuntu-gdm-theme.postinst: make sure previous config bits are
     erased on upgrades.
 

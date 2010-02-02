@@ -11,19 +11,9 @@ if [ -x /usr/lib/xfconfd ]; then
     exec /usr/lib/xfconfd
 fi
 
-# Settings manager
-if [ -x /usr/bin/xfsettingsd ]; then
-    exec /usr/bin/xfsettingsd
-fi
-
 # Window manager
 if [ -x /usr/bin/xfwm4 ]; then
     exec /usr/bin/xfwm4
-fi
-
-# Desktop manager
-if [ -x /usr/bin/xfdesktop ]; then
-    exec /usr/bin/xfdesktop
 fi
 
 # and finally, power manager

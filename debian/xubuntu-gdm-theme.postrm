@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+	remove)
+		dpkg-divert --package xubuntu-gdm-theme --remove --rename \
+			--divert var/lib/gdm/.gconf.defaults/%gconf-tree.xml.ubuntu \
+			var/lib/gdm/.gconf.defaults/%gconf-tree.xml
+		;;
+esac
+
+#DEBHELPER#
