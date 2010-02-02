@@ -8,15 +8,15 @@ export XDG_CONFIG_DIRS="/usr/share/xubuntu/xdg-gdm:/etc/xdg/xdg-xubuntu"
 
 # Xfconf
 if [ -x /usr/lib/xfconfd ]; then
-    exec /usr/lib/xfconfd
+    /usr/lib/xfconfd &
 fi
 
 # Window manager
 if [ -x /usr/bin/xfwm4 ]; then
-    exec /usr/bin/xfwm4
+    /usr/bin/xfwm4 &
 fi
 
 # and finally, power manager
 if [ -x /usr/bin/xfce4-power-manager ]; then
-    exec /usr/bin/xfce4-power-manager
+    /usr/bin/xfce4-power-manager &
 fi

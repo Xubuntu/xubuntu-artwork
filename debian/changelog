@@ -10,7 +10,7 @@ xubuntu-artwork (10.04.0) lucid; urgency=low
   * debian/xubuntu-gdm-theme.postinst: make sure previous config bits are
     erased on upgrades.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 02 Feb 2010 21:53:25 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 02 Feb 2010 21:59:47 +0100
 
 xubuntu-artwork (0.40) lucid; urgency=low
 
