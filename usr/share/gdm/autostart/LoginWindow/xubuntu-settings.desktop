@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Xfce Settings
+TryExec=/usr/share/xubuntu/gdm.sh
+Exec=/usr/share/xubuntu/gdm.sh

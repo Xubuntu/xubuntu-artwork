@@ -1,2 +1,4 @@
 usr/share/gdm
 usr/share/images
+usr/share/xubuntu
+var/lib/gdm

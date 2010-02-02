@@ -1,3 +1,17 @@
+xubuntu-artwork (10.04.0) lucid; urgency=low
+
+  * New versioning scheme.
+  * debian/control: xubuntu-gdm-theme depends on gdm...
+  * var/lib/gdm/.gconf.defaults/%gconf-tree.xml: force gtk/icon themes, and
+    icons in buttons/menus.
+  * debian/xubuntu-gdm-theme.{postrm,preinst}: handles diversion of gdm's
+    default gconf schema.
+  * usr/share/xubuntu/xdg-gdm: add minimum config (xfwm4) for gdm.
+  * debian/xubuntu-gdm-theme.postinst: make sure previous config bits are
+    erased on upgrades.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 02 Feb 2010 21:59:47 +0100
+
 xubuntu-artwork (0.40) lucid; urgency=low
 
   * Test: switch from our ugly hack(tm)(r)(c) to gnome-settings-daemon for gdm:
