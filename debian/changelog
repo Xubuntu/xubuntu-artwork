@@ -1,3 +1,12 @@
+xubuntu-artwork (10.04.1) UNRELEASED; urgency=low
+
+  * usr/share/themes: drop Albatross, shipped in murrine-themes.
+  * debian/control: xubuntu-artwork depends on murrine-themes instead of
+    gtk2-engines-murrine.
+  * debian/copyright: remove references to Albatross as well.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 03 Feb 2010 18:40:35 +0100
+
 xubuntu-artwork (10.04.0) lucid; urgency=low
 
   * New versioning scheme.
