@@ -9,7 +9,7 @@ Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-art/xubuntu-artwork/lucid/file
 
 Package: xubuntu-artwork
 Architecture: all
-Depends: ${misc:Depends}, gtk2-engines-murrine
+Depends: ${misc:Depends}, murrine-themes
 Recommends: xubuntu-gdm-theme, xubuntu-wallpapers, xubuntu-icon-theme
 Suggests: usplash-theme-xubuntu
 Conflicts: xubuntu-default-settings (<= 0.51)

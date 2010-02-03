@@ -48,14 +48,6 @@ License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL' file.
 
-Files: /usr/share/themes/Albatross/*
-Copyright: © 2009, James Schriver <jws141@gmail.com>
-Copyright: © 2009, Steve Dodier <sidnioulz@gmail.com>
-Copyright: © 2009, Pasi Lallinaho <open@knome.fi>
-License: GPL-3+
- On Debian systems the full text of the GNU General Public License can be found
- in the `/usr/share/common-licenses/GPL' file.
-
 Files: /usr/share/themes/MurrinaXubuntu/*
 Copyright: © 2009, Pasi Lallinaho <open@knome.fi>
 License: GPL-3+
@@ -71,7 +63,7 @@ License: GPL-2+
 
 Files: debian/*
 Copyright: © 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
-Copyright: © 2007-2009, Lionel Le Folgoc <mrpouit@ubuntu.com>
+Copyright: © 2007-2010, Lionel Le Folgoc <mrpouit@ubuntu.com>
 Copyright: © 2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
 Copyright: © 2005-2008, Jani Monoses <jani@ubuntu.com>
 License: GPL-2+
