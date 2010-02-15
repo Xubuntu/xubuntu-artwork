@@ -1,3 +1,10 @@
+xubuntu-artwork (10.04.2) UNRELEASED; urgency=low
+
+  * usr/share/pixmaps/xubuntu-logo-menu.{png,svg}: new menu icon, more visible
+    with dark themes. lp: #453587
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 15 Feb 2010 21:11:44 +0100
+
 xubuntu-artwork (10.04.1) lucid; urgency=low
 
   * usr/share/themes: drop Albatross, shipped in murrine-themes. lp: #516336
