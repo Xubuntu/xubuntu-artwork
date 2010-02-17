@@ -1,3 +1,12 @@
+xubuntu-artwork (10.04.2) lucid; urgency=low
+
+  * usr/share/pixmaps/xubuntu-logo-menu.{png,svg}: new menu icon, more visible
+    with dark themes. lp: #453587
+  * usr/share/xfce4/backdrops: drop old (pre-hardy) wallpapers, and optimize
+    for size remaining ones.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 17 Feb 2010 23:15:12 +0100
+
 xubuntu-artwork (10.04.1) lucid; urgency=low
 
   * usr/share/themes: drop Albatross, shipped in murrine-themes. lp: #516336
