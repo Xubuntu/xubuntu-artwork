@@ -10,7 +10,8 @@ Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-art/xubuntu-artwork/lucid/file
 Package: xubuntu-artwork
 Architecture: all
 Depends: ${misc:Depends}, murrine-themes
-Recommends: xubuntu-gdm-theme, xubuntu-wallpapers, xubuntu-icon-theme
+Recommends: xubuntu-plymouth-theme, xubuntu-gdm-theme, xubuntu-wallpapers,
+ xubuntu-icon-theme
 Suggests: usplash-theme-xubuntu
 Conflicts: xubuntu-default-settings (<= 0.51)
 Replaces: xubuntu-default-settings (<= 0.51)
@@ -48,6 +49,12 @@ Replaces: xubuntu-artwork-usplash (<< 0.27~)
 Provides: usplash-theme
 Description: Usplash theme for Xubuntu
  Usplash theme for Xubuntu
+
+Package: xubuntu-plymouth-theme
+Architecture: all
+Depends: ${misc:Depends}, plymouth
+Description: Plymouth theme for Xubuntu
+ Plymouth theme for Xubuntu
 
 Package: xubuntu-icon-theme
 Architecture: all

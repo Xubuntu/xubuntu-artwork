@@ -19,6 +19,12 @@ License: CC-BY-SA-3.0
  letter to Creative Commons, 171 Second Street, Suite 300, San Francisco,
  California, 94105, USA.
 
+Files: lib/*
+Copyright: Copyright (C) 2009 Canonical Ltd.
+License: GPL-2+
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL-2' file.
+
 Files: usr/share/icons/elementaryXubuntu/*
 Copyright: © 2008-2009, Daniel Fore <Daniel.P.Fore@gmail.com>
 License: GPL-2+
