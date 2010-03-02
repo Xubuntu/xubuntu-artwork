@@ -4,6 +4,7 @@ xubuntu-artwork (10.04.3) UNRELEASED; urgency=low
     be visible on white themes too. lp: #526660
   * Add new package, xubuntu-plymouth-theme, recommended by xubuntu-artwork.
   * lib/, debian/xubuntu-plymouth-theme.*: added.
+  * Drop usplash theme.
   * debian/copyright: updated.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 24 Feb 2010 21:14:05 +0100
