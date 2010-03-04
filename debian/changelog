@@ -11,6 +11,7 @@ xubuntu-artwork (10.04.3) UNRELEASED; urgency=low
   * debian/control: xubuntu-gdm-theme: demotes xsplash to suggests, doesn't
     interact well with xfce4-settings-helper, and doesn't seem actively
     maintained anyway. lp: #531410
+  * usr/share/xfce4/backdrops: dropped some old wallpapers again.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 24 Feb 2010 21:14:05 +0100
 
