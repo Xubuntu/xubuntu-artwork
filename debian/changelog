@@ -3,7 +3,9 @@ xubuntu-artwork (10.04.3) UNRELEASED; urgency=low
   * usr/share/pixmaps/xubuntu-logo-menu.{png,svg}: new version, should
     be visible on white themes too. lp: #526660
   * Add new package, xubuntu-plymouth-theme, recommended by xubuntu-artwork.
-  * lib/, debian/xubuntu-plymouth-theme.*: added.
+  * lib/, debian/xubuntu-plymouth-theme.*: added, new *temporary* plymouth
+    theme, until the new artwork is ready (the letter 'x' isn't ready in
+    the new font ;).
   * Drop usplash theme.
   * usr/share/themes/MurrinaXubuntu: dropped, not maintained by the artwork
     team, was just a test.
