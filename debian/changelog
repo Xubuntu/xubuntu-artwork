@@ -1,7 +1,8 @@
-xubuntu-artwork (10.04.3) UNRELEASED; urgency=low
+xubuntu-artwork (10.04.3) lucid; urgency=low
 
   * usr/share/pixmaps/xubuntu-logo-menu.{png,svg}: new version, should
-    be visible on white themes too. lp: #526660
+    be visible on white themes too (also temporary, new artwork on its way).
+    lp: #526660
   * Add new package, xubuntu-plymouth-theme, recommended by xubuntu-artwork.
   * lib/, debian/xubuntu-plymouth-theme.*: added, new *temporary* plymouth
     theme, until the new artwork is ready (the letter 'x' isn't ready in
@@ -15,7 +16,7 @@ xubuntu-artwork (10.04.3) UNRELEASED; urgency=low
     maintained anyway. lp: #531410
   * usr/share/xfce4/backdrops: dropped some old wallpapers again.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 24 Feb 2010 21:14:05 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 06 Mar 2010 01:08:55 +0100
 
 xubuntu-artwork (10.04.2) lucid; urgency=low
 
