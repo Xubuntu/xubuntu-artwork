@@ -55,7 +55,7 @@ Window.SetBackgroundTopColor (0, 0, 0);     # Nice blue on top of the screen fad
 Window.SetBackgroundBottomColor (0, 0, 0);  # an equally nice brown on the bottom
 
 
-logo.image = Image ("special://logo"); # "special://logo" is a special keyword which finds the logo image
+logo.image = Image ("xubuntu-logo.png");
 
 logo.sprite = Sprite ();
 logo.sprite.SetImage (logo.image);
