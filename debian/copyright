@@ -3,21 +3,11 @@ Upstream-Name: Xubuntu Artwork
 Upstream-Maintainer: Xubuntu Team <xubuntu-devel@lists.ubuntu.com>
 Upstream-Source: https://launchpad.net/xubuntu-artwork
 
-Files: usplash/*.c
-Copyright: © 2005-2009, Canonical Ltd.
+Files: lib/*
+Copyright: Copyright (C) 2009 Canonical Ltd.
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
- in the `/usr/share/common-licenses/GPL' file.
-
-Files: usplash/*.png
-Copyright: © 2009, Pasi Lallinaho <open@knome.fi>
-Copyright: © 2005-2009, Canonical Ltd.
-License: CC-BY-SA-3.0
- Unless otherwise indicated, artwork is available under the Creative Commons
- Attribution Share-alike license v3.0 or any later version.  To view a copy of
- this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a
- letter to Creative Commons, 171 Second Street, Suite 300, San Francisco,
- California, 94105, USA.
+ in the `/usr/share/common-licenses/GPL-2' file.
 
 Files: usr/share/icons/elementaryXubuntu/*
 Copyright: © 2008-2009, Daniel Fore <Daniel.P.Fore@gmail.com>
