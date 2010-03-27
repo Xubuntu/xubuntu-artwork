@@ -1,9 +1,9 @@
-xubuntu-artwork (10.04.4) UNRELEASED; urgency=low
+xubuntu-artwork (10.04.4) lucid; urgency=low
 
   * Port xubuntu-plymouth-theme to the new system using
     update-alternatives. lp: #549699
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 27 Mar 2010 20:33:51 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 27 Mar 2010 21:38:51 +0100
 
 xubuntu-artwork (10.04.3) lucid; urgency=low
 
