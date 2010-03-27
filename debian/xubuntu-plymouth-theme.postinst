@@ -4,8 +4,14 @@ set -e
 
 case "$1" in
 	configure)
-		# FIXME: do this with alternatives
-		/usr/sbin/plymouth-set-default-theme --rebuild-initrd xubuntu-logo
+		update-alternatives \
+			--install /lib/plymouth/themes/default.plymouth default.plymouth \
+				/lib/plymouth/themes/xubuntu-logo/xubuntu-logo.plymouth 150
+		
+		if which update-initramfs >/dev/null 2>&1
+		then
+			update-initramfs -u
+		fi
 		;;
 esac
 
