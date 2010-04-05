@@ -42,7 +42,7 @@ Description: Xubuntu GDM & Xsplash greeter themes
 
 Package: xubuntu-plymouth-theme
 Architecture: all
-Depends: ${misc:Depends}, plymouth
+Depends: ${misc:Depends}, plymouth, plymouth-label
 Description: Plymouth theme for Xubuntu
  The Plymouth theme for Xubuntu
 
