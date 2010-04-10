@@ -1,8 +1,10 @@
 xubuntu-artwork (10.04.6) UNRELEASED; urgency=low
 
   * usr/share/icons/elementaryXubuntu: resynced with elementary.
+  * debian/control: xubuntu-icon-theme depends on ubuntu-mono instead of
+    gnome-icon-theme.
 
- -- Lionel Le Folgoc <mrpouit@gmail.com>  Sat, 10 Apr 2010 15:57:27 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 10 Apr 2010 15:57:27 +0200
 
 xubuntu-artwork (10.04.5) lucid; urgency=low
 
