@@ -50,6 +50,7 @@ Description: Plymouth theme for Xubuntu - transitional package
 
 Package: plymouth-theme-xubuntu-logo
 Architecture: all
+Replaces: xubuntu-plymouth-theme (<< 10.04.6~)
 Depends: ${misc:Depends}, plymouth, plymouth-label
 Provides: plymouth-theme
 Description: graphical boot animation and logger - xubuntu-logo theme
