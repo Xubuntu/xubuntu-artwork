@@ -761,7 +761,7 @@ fun update_status_callback (status) {
 #    my_string = update_strings[0] + " " + update_strings[1] + " " + update_strings[2];
 #    Debug(my_string);
     # Let's assume that we're dealing with these strings fsck:sda1:40
-    if ((string_it == 2) && (update_strings[0] == "fsck")) {
+    if ((string_it >= 2) && (update_strings[0] == "fsck")) {
         
         device = update_strings[1];
         progress = update_strings[2];

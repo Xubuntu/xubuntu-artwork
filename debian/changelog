@@ -1,3 +1,11 @@
+xubuntu-artwork (10.04.6) lucid; urgency=low
+
+  * lib/plymouth/themes/xubuntu-logo/xubuntu-logo.script:
+    - Don't fail to update the status if more than 2 parameters are passed
+      to the update callback.
+
+ -- Alberto Milone <alberto.milone@canonical.com>  Tue, 13 Apr 2010 18:59:55 +0200
+
 xubuntu-artwork (10.04.5) lucid; urgency=low
 
   * xubuntu-plymouth-theme needs to depend on plymouth-label.
