@@ -1,13 +1,10 @@
-xubuntu-artwork (10.04.6) UNRELEASED; urgency=low
+xubuntu-artwork (10.04.6) lucid; urgency=low
 
-  * usr/share/icons/elementaryXubuntu: resynced with elementary.
-  * debian/control:
-    - renamed xubuntu-plymouth-theme to plymouth-theme-xubuntu-logo, and
-      provide plymouth-theme. lp: #553485
-    - xubuntu-icon-theme depends on ubuntu-mono instead of
-      gnome-icon-theme.
+  * lib/plymouth/themes/xubuntu-logo/xubuntu-logo.script:
+    - Don't fail to update the status if more than 2 parameters are passed
+      to the update callback.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 10 Apr 2010 15:57:27 +0200
+ -- Alberto Milone <alberto.milone@canonical.com>  Tue, 13 Apr 2010 18:59:55 +0200
 
 xubuntu-artwork (10.04.5) lucid; urgency=low
 

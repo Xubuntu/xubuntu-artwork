@@ -10,7 +10,7 @@ Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-art/xubuntu-artwork/lucid/file
 Package: xubuntu-artwork
 Architecture: all
 Depends: ${misc:Depends}, murrine-themes
-Recommends: plymouth-theme-xubuntu-logo, xubuntu-gdm-theme, xubuntu-wallpapers,
+Recommends: xubuntu-plymouth-theme, xubuntu-gdm-theme, xubuntu-wallpapers,
  xubuntu-icon-theme
 Conflicts: xubuntu-default-settings (<= 0.51)
 Replaces: xubuntu-default-settings (<= 0.51)
@@ -42,27 +42,13 @@ Description: Xubuntu GDM & Xsplash greeter themes
 
 Package: xubuntu-plymouth-theme
 Architecture: all
-Depends: plymouth-theme-xubuntu-logo
-Description: Plymouth theme for Xubuntu - transitional package
- The Plymouth theme for Xubuntu.
- .
- This package can be safely removed.
-
-Package: plymouth-theme-xubuntu-logo
-Architecture: all
-Replaces: xubuntu-plymouth-theme (<< 10.04.6~)
 Depends: ${misc:Depends}, plymouth, plymouth-label
-Provides: plymouth-theme
-Description: graphical boot animation and logger - xubuntu-logo theme
- Plymouth is an application that runs very early in the boot process (even
- before the root filesystem is mounted!) that provides a graphical boot
- animation while the boot process happens in the background.
- .
- This package contains the default xubuntu-logo theme.
+Description: Plymouth theme for Xubuntu
+ The Plymouth theme for Xubuntu
 
 Package: xubuntu-icon-theme
 Architecture: all
-Depends: ${misc:Depends}, ubuntu-mono
+Depends: ${misc:Depends}, gnome-icon-theme
 Replaces: xubuntu-artwork (<< 0.39~)
 Description: Xubuntu icon theme
  The default icon theme for Xubuntu.
