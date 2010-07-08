@@ -1,3 +1,11 @@
+xubuntu-artwork (10.10.0) UNRELEASED; urgency=low
+
+  * usr/share/themes/MurrinaStormCloud: dropped, was only kept for
+    hardy -> lucid upgrades.
+  * Switch to dpkg-source 3.0 (native) format.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 08 Jul 2010 19:07:01 +0200
+
 xubuntu-artwork (10.04.6) lucid; urgency=low
 
   * lib/plymouth/themes/xubuntu-logo/xubuntu-logo.script:
