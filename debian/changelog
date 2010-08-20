@@ -2,9 +2,16 @@ xubuntu-artwork (10.10.0) UNRELEASED; urgency=low
 
   * usr/share/themes/MurrinaStormCloud: dropped, was only kept for
     hardy -> lucid upgrades.
+  * usr/share/images, debian/control,debian/xubuntu-gdm-theme.install:
+    drop xsplash support.
   * Switch to dpkg-source 3.0 (native) format.
+  * debian/control:
+    - bump Standards-Version to 3.9.1
+    - drop pre-lucid conflicts.
+  * debian/xubuntu-gdm-theme.postinst: dropped, was only pre-lucid code.
+  * debian/copyright: cleaned.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 08 Jul 2010 19:07:01 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 20 Aug 2010 19:59:04 +0200
 
 xubuntu-artwork (10.04.6) lucid; urgency=low
 

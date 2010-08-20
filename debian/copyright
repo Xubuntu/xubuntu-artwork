@@ -15,25 +15,9 @@ License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL' file.
 
-Files: usr/share/images/xsplash/*
-Copyright: © 2009, Pasi Lallinaho <open@knome.fi>
-Copyright: © 2009, Mads Rosendahl <madsrh@gmail.com>
-License: CC-BY-SA-3.0
- Unless otherwise indicated, artwork is available under the Creative Commons
- Attribution Share-alike license v3.0 or any later version.  To view a copy of
- this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a
- letter to Creative Commons, 171 Second Street, Suite 300, San Francisco,
- California, 94105, USA.
-
 Files: usr/share/pixmaps/*
 Copyright: © 2009, Pasi Lallinaho <open@knome.fi>
 Copyright: © 2006-2008, Jozsef Mak <joz_mak@yahoo.ca>
-License: GPL-2+
- On Debian systems the full text of the GNU General Public License can be found
- in the `/usr/share/common-licenses/GPL' file.
-
-Files: /usr/share/themes/MurrinaStormCloud/*
-Copyright: © 2007, Sven Hein
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL' file.

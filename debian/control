@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.8.3
+Standards-Version: 3.9.1
 Vcs-Bzr: lp:xubuntu-artwork
 Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-art/xubuntu-artwork/lucid/files
 
@@ -12,16 +12,12 @@ Architecture: all
 Depends: ${misc:Depends}, murrine-themes
 Recommends: xubuntu-plymouth-theme, xubuntu-gdm-theme, xubuntu-wallpapers,
  xubuntu-icon-theme
-Conflicts: xubuntu-default-settings (<= 0.51)
-Replaces: xubuntu-default-settings (<= 0.51)
 Description: Xubuntu themes and artwork
  This package contains Xubuntu themes and artwork.
 
 Package: xubuntu-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Conflicts: xubuntu-default-settings (<= 0.51)
-Replaces: xubuntu-default-settings (<= 0.51), xubuntu-artwork (<< 0.27~)
 Description: Xubuntu Wallpapers
  The default Wallpapers for Xubuntu.
 
@@ -29,12 +25,9 @@ Package: xubuntu-gdm-theme
 Architecture: all
 Depends: ${misc:Depends}, gdm
 Recommends: gnome-settings-daemon, xfwm4
-Suggests: xfce4-power-manager, xsplash
-Conflicts: xubuntu-default-settings (<= 0.51), xsplash-artwork, xsplash (<< 0.8)
-Replaces: xubuntu-default-settings (<= 0.51), xubuntu-artwork (<< 0.27~),
- xsplash-artwork, xsplash (<< 0.8)
-Provides: gdm-theme, xsplash-artwork
-Description: Xubuntu GDM & Xsplash greeter themes
+Suggests: xfce4-power-manager
+Provides: gdm-theme
+Description: Xubuntu GDM greeter theme
  The GDM greeter theme used for a standalone Xubuntu installation.
  .
  This package can also be safely installed on other Ubuntu desktops desiring to
@@ -49,6 +42,5 @@ Description: Plymouth theme for Xubuntu
 Package: xubuntu-icon-theme
 Architecture: all
 Depends: ${misc:Depends}, gnome-icon-theme
-Replaces: xubuntu-artwork (<< 0.39~)
 Description: Xubuntu icon theme
  The default icon theme for Xubuntu.
