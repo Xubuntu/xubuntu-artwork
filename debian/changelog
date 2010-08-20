@@ -11,6 +11,7 @@ xubuntu-artwork (10.10.0) UNRELEASED; urgency=low
   * debian/xubuntu-gdm-theme.postinst: dropped, was only pre-lucid code.
   * debian/copyright: cleaned.
   * usr/share/pixmaps/xubuntu-logo.{png,svg}: use the new one.
+  * usr/share/xfce4/backdrops: drop all pre-jaunty wallpapers.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 20 Aug 2010 19:59:04 +0200
 
