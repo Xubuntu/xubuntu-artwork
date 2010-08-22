@@ -22,12 +22,6 @@ License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL' file.
 
-Files: /usr/share/themes/MurrinaXubuntu/*
-Copyright: © 2009, Pasi Lallinaho <open@knome.fi>
-License: GPL-3+
- On Debian systems the full text of the GNU General Public License can be found
- in the `/usr/share/common-licenses/GPL' file.
-
 Files: usr/share/xfce4/backdrops/*
 Copyright: © 2009-2010, Pasi Lallinaho <open@knome.fi>
 License: GPL-2+
