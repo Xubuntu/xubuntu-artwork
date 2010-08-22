@@ -8,7 +8,7 @@ xubuntu-artwork (10.10.0) UNRELEASED; urgency=low
   * debian/control:
     - bump Standards-Version to 3.9.1
     - drop pre-lucid conflicts
-    - xubuntu-icon-theme depends on elmentary-icon-theme instead of
+    - xubuntu-icon-theme depends on elementary-icon-theme instead of
       gnome-icon-theme.
   * debian/xubuntu-gdm-theme.postinst: dropped, was only pre-lucid code.
   * debian/copyright: cleaned.
