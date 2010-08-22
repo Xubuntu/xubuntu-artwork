@@ -1,4 +1,4 @@
-xubuntu-artwork (10.10.0) UNRELEASED; urgency=low
+xubuntu-artwork (10.10.0) maverick; urgency=low
 
   * usr/share/themes/MurrinaStormCloud,debian/xubuntu-artwork.install:
     drop this theme, was only kept for hardy -> lucid upgrades.
@@ -18,7 +18,7 @@ xubuntu-artwork (10.10.0) UNRELEASED; urgency=low
     - drop all icons, inherits from elementary
     - add xfce4-power-manager icons (in elementary/trunk, but not in 2.4).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 22 Aug 2010 14:21:21 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 22 Aug 2010 15:52:05 +0200
 
 xubuntu-artwork (10.04.6) lucid; urgency=low
 
