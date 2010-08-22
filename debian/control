@@ -41,6 +41,6 @@ Description: Plymouth theme for Xubuntu
 
 Package: xubuntu-icon-theme
 Architecture: all
-Depends: ${misc:Depends}, gnome-icon-theme
+Depends: ${misc:Depends}, elementary-icon-theme
 Description: Xubuntu icon theme
  The default icon theme for Xubuntu.

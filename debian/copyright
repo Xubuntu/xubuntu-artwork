@@ -10,23 +10,22 @@ License: GPL-2+
  in the `/usr/share/common-licenses/GPL-2' file.
 
 Files: usr/share/icons/elementaryXubuntu/*
-Copyright: © 2008-2009, Daniel Fore <Daniel.P.Fore@gmail.com>
+Copyright: © 2008-2010, Daniel Fore <Daniel.P.Fore@gmail.com>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
- in the `/usr/share/common-licenses/GPL' file.
+ in the `/usr/share/common-licenses/GPL-2' file.
 
 Files: usr/share/pixmaps/*
 Copyright: © 2009-2010, Pasi Lallinaho <open@knome.fi>
-Copyright: © 2006-2008, Jozsef Mak <joz_mak@yahoo.ca>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
- in the `/usr/share/common-licenses/GPL' file.
+ in the `/usr/share/common-licenses/GPL-2' file.
 
 Files: usr/share/xfce4/backdrops/*
 Copyright: © 2009-2010, Pasi Lallinaho <open@knome.fi>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
- in the `/usr/share/common-licenses/GPL' file.
+ in the `/usr/share/common-licenses/GPL-2' file.
 
 Files: debian/*
 Copyright: © 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
@@ -35,4 +34,4 @@ Copyright: © 2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
 Copyright: © 2005-2008, Jani Monoses <jani@ubuntu.com>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
- in the `/usr/share/common-licenses/GPL' file.
+ in the `/usr/share/common-licenses/GPL-2' file.

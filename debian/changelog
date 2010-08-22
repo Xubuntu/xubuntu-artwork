@@ -1,19 +1,24 @@
 xubuntu-artwork (10.10.0) UNRELEASED; urgency=low
 
-  * usr/share/themes/MurrinaStormCloud: dropped, was only kept for
-    hardy -> lucid upgrades.
+  * usr/share/themes/MurrinaStormCloud,debian/xubuntu-artwork.install:
+    drop this theme, was only kept for hardy -> lucid upgrades.
   * usr/share/images, debian/control,debian/xubuntu-gdm-theme.install:
     drop xsplash support.
   * Switch to dpkg-source 3.0 (native) format.
   * debian/control:
     - bump Standards-Version to 3.9.1
-    - drop pre-lucid conflicts.
+    - drop pre-lucid conflicts
+    - xubuntu-icon-theme depends on elmentary-icon-theme instead of
+      gnome-icon-theme.
   * debian/xubuntu-gdm-theme.postinst: dropped, was only pre-lucid code.
   * debian/copyright: cleaned.
   * usr/share/pixmaps/xubuntu-logo.{png,svg}: use the new one.
   * usr/share/xfce4/backdrops: drop all pre-jaunty wallpapers.
+  * usr/share/icons/elementaryXubuntu:
+    - drop all icons, inherits from elementary
+    - add xfce4-power-manager icons (in elementary/trunk, but not in 2.4).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 20 Aug 2010 19:59:04 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 22 Aug 2010 14:21:21 +0200
 
 xubuntu-artwork (10.04.6) lucid; urgency=low
 
