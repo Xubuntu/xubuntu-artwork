@@ -1,0 +1,216 @@
+style "pixbuf-check" 
+{
+	GtkCheckButton::indicator-size = 16
+
+	text[ACTIVE]   = @fg_color
+	text[SELECTED] = @fg_color
+	text[NORMAL]   = @fg_color
+	
+	bg[PRELIGHT]   = @bg_color
+	
+	# States the OUT status of the button. In this case it's an empty checkbutton.
+	
+	engine "pixmap" {
+	image
+	{function       = CHECK
+	state           = NORMAL
+	shadow          = OUT
+	overlay_file    = "Radiocheck/check-shadow-out.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = CHECK
+	state           = PRELIGHT
+	shadow          = OUT
+	overlay_file    = "Radiocheck/check-p-shadow-out.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = CHECK
+	state           = ACTIVE
+	shadow          = OUT
+	overlay_file    = "Radiocheck/check-shadow-out.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = CHECK
+	state           = SELECTED
+	shadow          = OUT
+	overlay_file    = "Radiocheck/check-s-shadow-out.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = CHECK
+	state           = INSENSITIVE
+	shadow          = OUT
+	overlay_file    = "Radiocheck/check-i-shadow-out.png"
+	overlay_stretch = FALSE}
+
+	# States the IN status of the button. In this case it's a filled checkbutton.
+	
+	image
+	{function       = CHECK
+	recolorable     = TRUE
+	state           = NORMAL
+	shadow          = IN
+	overlay_file    = "Radiocheck/check-shadow-in.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = CHECK
+	recolorable     = TRUE
+	state           = PRELIGHT
+	shadow          = IN
+	overlay_file    = "Radiocheck/check-p-shadow-in.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = CHECK
+	recolorable     = TRUE
+	state           = ACTIVE
+	shadow          = IN
+	overlay_file    = "Radiocheck/check-shadow-in.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = CHECK
+	recolorable     = TRUE
+	state           = SELECTED
+	shadow          = IN
+	overlay_file    = "Radiocheck/check-s-shadow-in.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = CHECK
+	recolorable     = TRUE
+	state           = INSENSITIVE
+	shadow          = IN
+	overlay_file    = "Radiocheck/check-i-shadow-in.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = FLAT_BOX
+	recolorable     = TRUE
+	file            = "Radiocheck/checkbg.png"
+	border          = {5,5,5,5}
+	stretch         = TRUE}
+
+	image
+	{function       = FOCUS
+	file            = "Null/null.png"}
+
+}
+}
+
+style "pixbuf-radio" 
+{
+	GtkCheckButton::indicator-size       	  	= 16
+
+	text[ACTIVE]    = @fg_color
+	text[SELECTED]  = @fg_color
+	text[NORMAL]    = @fg_color
+
+	engine "pixmap" {
+
+	image
+	{function       = OPTION
+	state           = NORMAL
+	shadow          = OUT
+	overlay_file    = "Radiocheck/radio-shadow-out.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = OPTION
+	state           = PRELIGHT
+	shadow          = OUT
+	overlay_file    = "Radiocheck/radio-p-shadow-out.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = OPTION
+	state           = ACTIVE
+	shadow          = OUT
+	overlay_file    = "Radiocheck/radio-shadow-out.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = OPTION
+	state           = SELECTED
+	shadow          = OUT
+	overlay_file    = "Radiocheck/radio-s-shadow-out.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = OPTION
+	state           = INSENSITIVE
+	shadow          = OUT
+	overlay_file    = "Radiocheck/check-i-shadow-out.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = OPTION
+	recolorable     = TRUE
+	state           = NORMAL
+	shadow          = IN
+	overlay_file    = "Radiocheck/radio-shadow-in.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = OPTION
+	recolorable     = TRUE
+	state           = PRELIGHT
+	shadow          = IN
+	overlay_file    = "Radiocheck/radio-p-shadow-in.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = OPTION
+	recolorable     = TRUE
+	state           = ACTIVE
+	shadow          = IN
+	overlay_file    = "Radiocheck/check-shadow-in.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = OPTION
+	recolorable     = TRUE
+	state           = SELECTED
+	shadow          = IN
+	overlay_file    = "Radiocheck/check-s-shadow-in.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = OPTION
+	recolorable     = TRUE
+	state           = INSENSITIVE
+	shadow          = IN
+	overlay_file    = "Radiocheck/radio-i-shadow-in.png"
+	overlay_stretch = FALSE}
+
+	image
+	{function       = FLAT_BOX
+	recolorable     = TRUE
+	file            = "Radiocheck/checkbg.png"
+	border          = { 5 ,5 , 5 ,5}
+	stretch         = TRUE}
+
+	image
+	{function       = FOCUS
+	file            = "Null/null.png"}
+
+}
+}
+
+style "radiocheck-menu"
+{
+	fg[PRELIGHT]   = @text_color
+	text[PRELIGHT] = @text_color
+		
+	engine "murrine" {}
+}
+
+class "GtkRadio*"                        style:highest "pixbuf-radio"
+class "GtkCheck*"                        style:highest "pixbuf-check"
+
+class "GtkCheckMenuItem"                 style:highest "radiocheck-menu"
+class "GtkRadioMenuItem"                 style:highest "radiocheck-menu"
