@@ -1,6 +1,8 @@
 xubuntu-artwork (10.10.1) UNRELEASED; urgency=low
 
   * debian/xubuntu-artwork.install,usr/share/themes: include Zuki Blues.
+  * debian/control: xubuntu-artwork depends on gtk2-engines-equinox for this
+    new theme to work.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 22 Aug 2010 20:31:15 +0200
 
