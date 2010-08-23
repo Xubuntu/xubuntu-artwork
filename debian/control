@@ -40,10 +40,14 @@ Description: Plymouth theme for Xubuntu
 
 Package: plymouth-theme-xubuntu-logo
 Architecture: all
-Depends: ${misc:Depends}, plymouth-label
+Depends: ${misc:Depends}, plymouth, plymouth-label
 Provides: plymouth-theme
-Description: Plymouth theme for Xubuntu
- This package contains the default Plymouth theme for Xubuntu.
+Description: graphical boot animation and logger - xubuntu-logo theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the default xubuntu-logo theme.
 
 Package: xubuntu-icon-theme
 Architecture: all

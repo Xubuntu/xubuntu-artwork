@@ -5,6 +5,7 @@ xubuntu-artwork (10.10.1) UNRELEASED; urgency=low
     - xubuntu-artwork depends on gtk2-engines-equinox for this
       new theme to work
     - updated the Vcs-Browser url for maverick
+    - improved long descriptions
     - renamed xubuntu-plymouth-theme to plymouth-theme-xubuntu-logo, which
       provides plymouth-theme. lp: #553485
 
