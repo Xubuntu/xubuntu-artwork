@@ -5,7 +5,7 @@ Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.1
 Vcs-Bzr: lp:xubuntu-artwork
-Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-art/xubuntu-artwork/lucid/files
+Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-art/xubuntu-artwork/maverick/files
 
 Package: xubuntu-artwork
 Architecture: all
@@ -18,8 +18,8 @@ Description: Xubuntu themes and artwork
 Package: xubuntu-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Description: Xubuntu Wallpapers
- The default Wallpapers for Xubuntu.
+Description: Xubuntu wallpapers
+ This package contains the default wallpapers for Xubuntu.
 
 Package: xubuntu-gdm-theme
 Architecture: all
@@ -28,19 +28,25 @@ Recommends: gnome-settings-daemon, xfwm4
 Suggests: xfce4-power-manager
 Provides: gdm-theme
 Description: Xubuntu GDM greeter theme
- The GDM greeter theme used for a standalone Xubuntu installation.
- .
- This package can also be safely installed on other Ubuntu desktops desiring to
- use this theme.
+ This package contains the default GDM greeter theme for Xubuntu.
 
 Package: xubuntu-plymouth-theme
 Architecture: all
-Depends: ${misc:Depends}, plymouth, plymouth-label
+Depends: ${misc:Depends}, plymouth-theme-xubuntu-logo
 Description: Plymouth theme for Xubuntu
- The Plymouth theme for Xubuntu
+ Transitional package for plymouth-theme-xubuntu-logo.
+ .
+ This package can be safely removed.
+
+Package: plymouth-theme-xubuntu-logo
+Architecture: all
+Depends: ${misc:Depends}, plymouth-label
+Provides: plymouth-theme
+Description: Plymouth theme for Xubuntu
+ This package contains the default Plymouth theme for Xubuntu.
 
 Package: xubuntu-icon-theme
 Architecture: all
 Depends: ${misc:Depends}, elementary-icon-theme
 Description: Xubuntu icon theme
- The default icon theme for Xubuntu.
+ This package contains the default icon theme for Xubuntu.
