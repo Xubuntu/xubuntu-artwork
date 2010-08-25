@@ -10,7 +10,7 @@ Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-art/xubuntu-artwork/maverick/f
 Package: xubuntu-artwork
 Architecture: all
 Depends: ${misc:Depends}, murrine-themes, gtk2-engines-equinox
-Recommends: xubuntu-plymouth-theme, xubuntu-gdm-theme, xubuntu-wallpapers,
+Recommends: plymouth-theme-xubuntu-logo, xubuntu-gdm-theme, xubuntu-wallpapers,
  xubuntu-icon-theme
 Description: Xubuntu themes and artwork
  This package contains Xubuntu themes and artwork.
@@ -41,6 +41,7 @@ Description: Plymouth theme for Xubuntu
 Package: plymouth-theme-xubuntu-logo
 Architecture: all
 Depends: ${misc:Depends}, plymouth, plymouth-label
+Replaces: xubuntu-plymouth-theme
 Provides: plymouth-theme
 Description: graphical boot animation and logger - xubuntu-logo theme
  Plymouth is an application that runs very early in the boot process
