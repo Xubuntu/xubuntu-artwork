@@ -1,7 +1,7 @@
-xubuntu-artwork (10.10.1) UNRELEASED; urgency=low
+xubuntu-artwork (10.10.1) maverick; urgency=low
 
   * debian/xubuntu-artwork.install,usr/share/themes,
-    usr/share/xfce4/backdrops/: include Bluebird 0.1.0.
+    usr/share/xfce4/backdrops: include Bluebird 0.1.0.
   * var/lib/gdm/.gconf.defaults/%gconf-tree.xml: use new artwork.
   * lib/plymouth/themes/xubuntu-logo/xubuntu-logo.script: fix typo. lp: #591176
   * debian/control:
@@ -13,7 +13,7 @@ xubuntu-artwork (10.10.1) UNRELEASED; urgency=low
       provides plymouth-theme. lp: #553485
   * debian/copyright: updated.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 22 Aug 2010 20:31:15 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 25 Aug 2010 22:36:41 +0200
 
 xubuntu-artwork (10.10.0) maverick; urgency=low
 
