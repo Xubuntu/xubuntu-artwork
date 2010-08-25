@@ -97,7 +97,7 @@ style "pixbuf-check"
 
 	image
 	{function       = FOCUS
-	file            = "Null/null.png"}
+	file            = "Others/null.png"}
 
 }
 }
@@ -196,7 +196,7 @@ style "pixbuf-radio"
 
 	image
 	{function       = FOCUS
-	file            = "Null/null.png"}
+	file            = "Others/null.png"}
 
 }
 }

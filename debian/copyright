@@ -27,6 +27,13 @@ License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL-2' file.
 
+Files: usr/share/xfce4/backdrops/*
+Copyright: © 2010, Pasi Lallinaho <open@knome.fi>
+Copyright: © 2010, Simon Steinbeiß <simon.steinbeiss@elfenbeinturm.at>
+License: GPL-3+
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL-3' file.
+
 Files: debian/*
 Copyright: © 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
 Copyright: © 2007-2010, Lionel Le Folgoc <mrpouit@ubuntu.com>

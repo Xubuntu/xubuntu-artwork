@@ -1,6 +1,9 @@
 xubuntu-artwork (10.10.1) UNRELEASED; urgency=low
 
-  * debian/xubuntu-artwork.install,usr/share/themes: include Zuki Blues.
+  * debian/xubuntu-artwork.install,usr/share/themes,
+    usr/share/xfce4/backdrops/: include Bluebird 0.1.0.
+  * var/lib/gdm/.gconf.defaults/%gconf-tree.xml: use new artwork.
+  * lib/plymouth/themes/xubuntu-logo/xubuntu-logo.script: fix typo. lp: #591176
   * debian/control:
     - xubuntu-artwork depends on gtk2-engines-equinox for this
       new theme to work
@@ -8,6 +11,7 @@ xubuntu-artwork (10.10.1) UNRELEASED; urgency=low
     - improved long descriptions
     - renamed xubuntu-plymouth-theme to plymouth-theme-xubuntu-logo, which
       provides plymouth-theme. lp: #553485
+  * debian/copyright: updated.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 22 Aug 2010 20:31:15 +0200
 

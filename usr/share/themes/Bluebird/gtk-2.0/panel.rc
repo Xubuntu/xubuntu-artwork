@@ -3,8 +3,8 @@ style "theme-panel"
 	xthickness		= 1
 	ythickness		= 0
 
-	bg_pixmap[NORMAL]	= "/Panel/panel-bg.png" # Disable for normal panel backgrounds.
-
+	#bg_pixmap[NORMAL]	= "/Panel/panel-bg.png" # Disable for normal panel backgrounds.
+	bg[NORMAL]     = "#06355b"
 	fg[NORMAL]     = "#f5f5f5"
 	fg[PRELIGHT]   = "#ffffff"
 	fg[ACTIVE]     = "#f5f5f5"

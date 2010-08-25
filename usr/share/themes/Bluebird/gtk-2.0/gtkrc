@@ -1,6 +1,7 @@
-# Author: lassekongo83
-# Theme: Zuki Blues
-# Description: This theme is 100% free and open source.
+# Author: Simon Steinbeiß and Pasi Lallinaho
+# Theme: Bluebird
+# based on "Zuki Blues" by lassekongo83
+# Description: As is the original theme, this theme is 100% free and open source.
 
 # NOTE: Uncommenting means to delete the "#" at the beginning of a line. Commenting means to add a "#" at the beginning of a line. The "#" tells the theme wether to ignore the specified line or not.
 
@@ -16,7 +17,7 @@ gtk_color_scheme = "frame_color:#CDCDCD\ninactive_frame_color:#CDCDCD" # Fix for
 ### EXTERNAL FILES ###
 include "panel.rc"       # This includes the file that handles panel theming.
 include "scrollbar.rc"   # This includes the file that styles the scrollbars.
-include "radiocheck.rc"  # Styles the radio check buttons.
+#include "radiocheck.rc"  # Styles the radio check buttons.
 include "bars.rc"        # Styles the menubar.
 
 ### ICONS ###
@@ -599,4 +600,4 @@ widget_class "*Statusbar*" style "smaller-text"
 ### EXTERNAL FILES ###
 
 include "nautilus.rc" # Nautilus styling
-include "firefox.rc" # Firefox styling
+#include "firefox.rc" # Firefox styling

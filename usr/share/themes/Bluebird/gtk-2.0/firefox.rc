@@ -8,7 +8,7 @@ style	"ff-statusbar"
 	ythickness	= 3
 }
 
-style "ff-tool" = "menubar"
+style "ff-tool" = "murrine-default"
 {
 	GtkToolbar:: shadow-type = GTK_SHADOW_NONE
 }

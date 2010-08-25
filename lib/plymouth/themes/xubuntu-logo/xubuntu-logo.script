@@ -68,7 +68,7 @@ logo.z = 1000;
 logo.sprite.SetX (logo.x);
 # label_area_y = logo_area_y + (*label_height * 2) + 60;
 logo.sprite.SetY (logo.y);
-logo.sprite.SetY (logo.z);
+logo.sprite.SetZ (logo.z);
 logo.sprite.SetOpacity (1);
 
 # Spacing below the logo - in pixels
