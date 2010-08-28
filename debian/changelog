@@ -2,7 +2,7 @@ xubuntu-artwork (10.10.2) UNRELEASED; urgency=low
 
   * usr/share/xubuntu/xdg-gdm/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml: set
     Bluebird theme for gdm as well.
-  * Pull Bluebird 0.1.2 bugfixes:
+  * Pull Bluebird 0.1.2 bugfixes (lp: #625930):
     - Fixed Firefox menubar
     - Fix Xfce application menu submenus. Make toolbar/statusbar text
       larger (default size)
