@@ -48,5 +48,11 @@ style "menubar-menuitem"
 	text[SELECTED] = @selected_fg_color
 }
 
+style "menubar-menuitem-prelight"
+{
+	fg[PRELIGHT] = @selected_fg_color
+}
+
 widget_class "*<GtkMenuBar>.<GtkMenuItem>*" style "menubar-menuitem"
+widget_class "*<GtkMenuItem>*" style "menubar-menuitem-prelight"
 widget_class "*<GtkMenuBar>*" style "pixbuf-menubar"

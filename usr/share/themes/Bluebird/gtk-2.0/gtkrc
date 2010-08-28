@@ -8,7 +8,7 @@
 # These are the defined colors for the theme, you can change them in GNOME's appearance preferences.
 gtk_color_scheme = "bg_color:#DCDCDC\nselected_bg_color:#7E9EBD\nbase_color:#F7F7F7" # Background, base.
 gtk_color_scheme = "fg_color:#3C3C3C\nselected_fg_color:#f5f5f5\ntext_color:#3C3C3C" # Foreground, text.
-gtk_color_scheme = "tooltip_bg_color:#F5F5B5\ntooltip_fg_color:#000000" # Tooltips.
+gtk_color_scheme = "tooltip_bg_color:#000000\ntooltip_fg_color:#E1E1E1" # Tooltips.
 gtk_color_scheme = "link_color:#08c" # Hyperlinks
 gtk_color_scheme = "panel_bg:#303030" # Panel bg color. Not used here though.
 gtk_color_scheme = "fm_color:#F7F7F7" # Color used in Nautilus and Thunar.
@@ -247,7 +247,7 @@ style "murrine-entry" = "murrine-wider" {
 style "murrine-button" = "murrine-wider"
 {
 	bg[NORMAL]        = shade (1.06, @bg_color) 
-	bg[PRELIGHT]      = shade (1.2, @selected_bg_color)  
+	bg[PRELIGHT]      = shade (1.35, @selected_bg_color)  
 	bg[ACTIVE]        = shade (0.85, @bg_color)
 	bg[SELECTED]      = shade (1.0, @selected_bg_color)  
 	bg[INSENSITIVE]   = shade (0.95, @bg_color)
@@ -371,8 +371,18 @@ style "murrine-frame-title"
 
 style "murrine-tooltips" = "murrine-wider"
 {
+	xthickness = 7
+	ythickness = 4
+
 	bg[NORMAL] = @tooltip_bg_color
+	bg[SELECTED] = "#000000"
 	fg[NORMAL] = @tooltip_fg_color
+
+	engine "murrine"
+	{
+		roundness	= 0
+		trough_shades	= { 0.15, 0.3 }
+	}
 }
 
 style "metacity-frame" = "murrine-default"
@@ -592,11 +602,19 @@ widget_class "*XfdesktopIconView*" style "xfdesktop-icon-view"
 # Makes the text in the toolbar and statusbar smaller. Remove if you want to use the default size.
 style "smaller-text"
 {
-	font_name = "7"
+#	font_name = "7"
 }
 widget_class "*ToolButton*" style "smaller-text"
 widget_class "*Statusbar*" style "smaller-text"
 
+# Fix Firefox menubar
+style "murrine-menubar-fixes" = "murrine-menu-item"
+{
+	fg[NORMAL] = @selected_fg_color
+}
+
+widget_class "*Fix*.GtkMenuBar*"	style "murrine-menubar-fixes"
+ 
 ### EXTERNAL FILES ###
 
 include "nautilus.rc" # Nautilus styling
