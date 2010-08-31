@@ -8,6 +8,8 @@ xubuntu-artwork (10.10.2) UNRELEASED; urgency=low
       larger (default size)
     - Fix xfwm4 menu buttons
     - Fix tooltip-style (optimizations regarding no/compositing).
+  * Pull Bluebird 0.2.0 bugfix:
+    - Improve xfwm4 close prelight and pressed buttons.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 28 Aug 2010 18:18:48 +0200
 
