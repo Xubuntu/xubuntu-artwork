@@ -1,4 +1,4 @@
-xubuntu-artwork (10.10.2) UNRELEASED; urgency=low
+xubuntu-artwork (10.10.2) maverick; urgency=low
 
   * usr/share/xubuntu/xdg-gdm/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml: set
     Bluebird theme for gdm as well.
@@ -11,7 +11,7 @@ xubuntu-artwork (10.10.2) UNRELEASED; urgency=low
   * Pull Bluebird 0.2.0 bugfix:
     - Improve xfwm4 close prelight and pressed buttons.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 28 Aug 2010 18:18:48 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 03 Sep 2010 22:38:51 +0200
 
 xubuntu-artwork (10.10.1) maverick; urgency=low
 
