@@ -1,4 +1,4 @@
-xubuntu-artwork (10.10.3) UNRELEASED; urgency=low
+xubuntu-artwork (10.10.3) maverick; urgency=low
 
   * Pull Bluebird 0.2.1 bugfixes:
     - Remove equinox-engine dependency (Progressbar, Scale), no need to have
@@ -12,7 +12,7 @@ xubuntu-artwork (10.10.3) UNRELEASED; urgency=low
     - depends on gtk2-engines-murrine explicitely, and demote murrines-themes to
       Recommends, for people who still want to use Albatross.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 04 Sep 2010 13:02:55 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 04 Sep 2010 13:20:57 +0200
 
 xubuntu-artwork (10.10.2) maverick; urgency=low
 
