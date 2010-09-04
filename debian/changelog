@@ -1,3 +1,19 @@
+xubuntu-artwork (10.10.3) UNRELEASED; urgency=low
+
+  * Pull Bluebird 0.2.1 bugfixes:
+    - Remove equinox-engine dependency (Progressbar, Scale), no need to have
+      two engines
+    - Improved Scale and ProgressBar widget styling. Removed etched textstyle
+    - Fix OpenOffice's menubar
+  * Pull Bluebird 0.2.2 bugfixes:
+    - Various cleanups.
+  * debian/control:
+    - drop dependency on gtk2-engines-equinox
+    - depends on gtk2-engines-murrine explicitely, and demote murrines-themes to
+      Recommends, for people who still want to use Albatross.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 04 Sep 2010 13:02:55 +0200
+
 xubuntu-artwork (10.10.2) maverick; urgency=low
 
   * usr/share/xubuntu/xdg-gdm/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml: set

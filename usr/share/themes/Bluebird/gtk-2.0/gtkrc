@@ -3,8 +3,6 @@
 # based on "Zuki Blues" by lassekongo83
 # Description: As is the original theme, this theme is 100% free and open source.
 
-# NOTE: Uncommenting means to delete the "#" at the beginning of a line. Commenting means to add a "#" at the beginning of a line. The "#" tells the theme wether to ignore the specified line or not.
-
 # These are the defined colors for the theme, you can change them in GNOME's appearance preferences.
 gtk_color_scheme = "bg_color:#DCDCDC\nselected_bg_color:#7E9EBD\nbase_color:#F7F7F7" # Background, base.
 gtk_color_scheme = "fg_color:#3C3C3C\nselected_fg_color:#f5f5f5\ntext_color:#3C3C3C" # Foreground, text.
@@ -17,7 +15,6 @@ gtk_color_scheme = "frame_color:#CDCDCD\ninactive_frame_color:#CDCDCD" # Fix for
 ### EXTERNAL FILES ###
 include "panel.rc"       # This includes the file that handles panel theming.
 include "scrollbar.rc"   # This includes the file that styles the scrollbars.
-#include "radiocheck.rc"  # Styles the radio check buttons.
 include "bars.rc"        # Styles the menubar.
 
 ### ICONS ###
@@ -42,7 +39,7 @@ style "murrine-default"
 	GtkButton         ::child-displacement-y         = 1
 	GtkButton         ::default-border               = { 0, 0, 0, 0 }
 	GtkCheckButton    ::indicator-size               = 14
-	
+		
 	GtkWidget         ::new-tooltip-style            = 1
 	GtkWidget         ::focus-line-width             = 1
 	GtkWidget         ::focus-padding                = 0
@@ -60,15 +57,19 @@ style "murrine-default"
 	GtkRange          ::stepper_spacing              = 0
 	GtkRange          ::trough-under-steppers        = 0
 
+	GtkScale          ::activate-slider              = 1 # With this option set to TRUE, sliders will be drawn ACTIVE and with shadow IN while they are dragged.
 	GtkScale          ::slider-length                = 14
 	GtkScale          ::slider-width                 = 14
+	GtkScale	  ::trough-side-details		 = 1
+	
+	GtkArrow          ::arrow-scaling                = 0.3 # arrow size (e.g. in combobox or combobox-entry), only works with arrowstyle=0
 	
 	GtkScrollbar      ::min-slider-length            = 15
 	GtkScrollbar      ::activate-slider              = 1
 	GtkMenuBar        ::internal-padding             = 0
-	GtkExpander       ::expander-size                = 16
+	GtkExpander       ::expander-size                = 12
 	GtkToolbar        ::internal-padding             = 0
-	GtkTreeView       ::expander-size                = 14
+	GtkTreeView       ::expander-size                = 12
 	GtkTreeView       ::indent-expanders             = 1
 	GtkTreeView       ::vertical-separator           = 0
 
@@ -121,12 +122,15 @@ style "murrine-default"
 	engine "murrine"
 	{
 		animation           = TRUE
-		arrowstyle          = 1                 # 0 = normal arrows, 1 = filled arrows		
-		border_shades       = { 1.2, 1.0 }      # gradient to draw on border		
+		arrowstyle          = 2                 # 0 = normal arrows, 1 = filled arrows		
+		border_shades       = { 1.2, 1.0 }      # gradient to draw on border
+		cellstyle	    = 0
 		colorize_scrollbar  = FALSE		
 		comboboxstyle       = 0                 # 0 = normal combobox, 1 = colorized combobox below arrow		
 		contrast            = 0.4               # 0.8 for less contrast, more than 1.0 for more contrast on borders
+		expanderstyle	    = 1
 		focus_color         = mix (0.1, @bg_color, shade (1.1, @selected_bg_color))
+		focusstyle	    = 3
 		glazestyle          = 1                 # 0 = flat highlight, 1 = curved highlight, 2 = concave style, 3 = top curved highlight, 4 = beryl highlight
 		gradient_shades     = {1.2,1.0,1.0,0.9} #{1.1,1.0,1.0,0.87}
 		glowstyle           = 0                 # 0,1,2,3,4
@@ -147,13 +151,15 @@ style "murrine-default"
 		scrollbarstyle      = 2                 # 0 = nothing, 1 = circles, 2 = handles, 3 = diagonal stripes, 4 = diagonal stripes and handles, 5 = horizontal stripes, 6 = horizontal stripes and handles
 		separatorstyle      = 1                 # 0 = Hard seperators 1 = Smooth seperators
 		sliderstyle         = 0                 # 0 = nothing added, 1 = handles
+		spinbuttonstyle	    = 1
 		stepperstyle        = 1                 # 0 = standard, 1 = integrated stepper handles, 2 = unknown
 		progressbarstyle    = 1                 # 0 = nothing, 1 = stripes, 2 = lines
 		focus_color         = @selected_bg_color
 		shadow_shades       = { 0.8, 2.2 }      # gradient for shadows.		
-		textstyle           = 1                 # 0 = normal text, 1 = inset		
+		textstyle           = 0                 # 0 = normal text, 1 = inset		
 		toolbarstyle        = 2                 # 0 = flat, 1 = glassy, 2 = gradient		
-		trough_shades       = { 0.88, 2.0 }     # draw gradient on trough of GtkScrollbar and GtkProgressbar
+		trough_shades	    = { 0.75, 0.9 }	# draw gradient on trough of GtkScrollbar and GtkProgressbar
+		trough_border_shades = { 0.9, 0.7 }
 	}
 }
 
@@ -182,12 +188,6 @@ style "murrine-dark" {
 	bg[PRELIGHT]      = shade (1.65, @panel_bg) 
 }
 
-style "murrine-thin"
-{
-	xthickness = 0
-	ythickness = 0
-}
-
 style "murrine-wide"
 {
 	xthickness = 2 # Can't change, or clowns will eat you.
@@ -199,37 +199,6 @@ style "murrine-wider"
 	xthickness = 3 # Can't change, or clowns will eat you.
 	ythickness = 3 # Can't change, or clowns will eat you.
 }
-
-### EQUINOX PARTS ###
-
-style "equinox-default"
-{
-	engine "equinox" {
-		animation	= TRUE
-	}
-}
-
-style "equinox-thin"	=	"equinox-default"	{ xthickness = 0 ythickness = 0 }
-style "equinox-wide"	=	"equinox-default"	{ xthickness = 2 ythickness = 2 }
-style "equinox-wider"	=	"equinox-default"	{ xthickness = 3 ythickness = 3 }
-
-style "equinox-button" = "equinox-wider"
-{
-	GtkWidget	::focus-line-width	= 2
-	GtkWidget	::focus-padding		= 0
-
-	bg[NORMAL]        = shade (1.05, @bg_color) 
-	bg[PRELIGHT]      = shade (1.2, @selected_bg_color) #mix (1.20, @bg_color, @selected_bg_color)
-	bg[ACTIVE]        = shade (0.8, @bg_color)
-	bg[SELECTED]      = shade (1.0, @selected_bg_color)
-	bg[INSENSITIVE]   = shade (0.95, @bg_color) 
-	
-	engine "equinox" {
-		curvature	= 3.0
-	}
-}
-
-### DEFAULT PARTS ###
 
 style "murrine-entry" = "murrine-wider" {
 
@@ -245,9 +214,9 @@ style "murrine-entry" = "murrine-wider" {
 }
 
 style "murrine-button" = "murrine-wider"
-{
+{	
 	bg[NORMAL]        = shade (1.06, @bg_color) 
-	bg[PRELIGHT]      = shade (1.35, @selected_bg_color)  
+	bg[PRELIGHT]      = shade (1.45, @selected_bg_color)  
 	bg[ACTIVE]        = shade (0.85, @bg_color)
 	bg[SELECTED]      = shade (1.0, @selected_bg_color)  
 	bg[INSENSITIVE]   = shade (0.95, @bg_color)
@@ -272,8 +241,8 @@ style "murrine-notebook-bg"
 
 style "murrine-notebook" = "murrine-notebook-bg"
 {
-	xthickness = 2 # Width of tabs and notebook borders.
-	ythickness = 2 # Height of tabs and notebook borders.
+	xthickness = 1 # Width of tabs and notebook borders.
+	ythickness = 1 # Height of tabs and notebook borders.
 
 	engine "murrine" 
 	{
@@ -282,18 +251,6 @@ style "murrine-notebook" = "murrine-notebook-bg"
 		highlight_shade = 1.0
 		gradient_shades = {1.28,1.17,0.92,0.87} 
 	}
-}
-
-style "notebook-close"
-{
-	stock["gtk-close"]	= {{ "Tabs/close.png", *, *, * }}	# Prettier Close icon
-}
-
-style "murrine-menubar" = "murrine-default"
-{
-	bg[NORMAL]        = @bg_color
-	fg[NORMAL]        = @fg_color
-	fg[PRELIGHT]      = @selected_fg_color
 }
 
 style "murrine-menu"
@@ -321,23 +278,6 @@ style "murrine-menu"
 	engine "murrine" 
 	{
 		roundness = 0 # Roundness of menu items.
-	}
-}
-
-style "murrine-menu-item" = "murrine-wider"
-{
-	bg[SELECTED] = shade (0.85, @selected_bg_color)
-	bg[PRELIGHT] = shade (0.85, @selected_bg_color)
-	fg[NORMAL]   = @text_color # Fix for XFCE menu text.
-	fg[PRELIGHT] = @selected_fg_color
-	fg[SELECTED] = @selected_fg_color
-}
-
-style "murrine-separator-menu-item"
-{
-    engine "murrine" 
-	{
-		separatorstyle = 1
 	}
 }
 
@@ -385,25 +325,22 @@ style "murrine-tooltips" = "murrine-wider"
 	}
 }
 
-style "metacity-frame" = "murrine-default"
+style "murrine-progressbar"
 {
-	bg[SELECTED] = shade (0.85, @selected_bg_color) # Color for metacity borders.
-}
-
-style "equinox-progressbar"
-{
-	xthickness = 1
-	ythickness = 1
+	xthickness   = 0
+	ythickness   = 0
 
 	fg[PRELIGHT] = lighter (@selected_fg_color)
-  	bg[NORMAL]   = shade (1.0, @bg_color)
-	bg[SELECTED] = shade (1.0, @selected_bg_color)
+	bg[NORMAL]   = shade (1.05, @bg_color)
+	bg[SELECTED] = shade (1.05, @selected_bg_color)
 
-	engine "equinox"
-	{
-		animation        = TRUE
-		curvature        = 8.0
-		progressbarstyle = 0
+	engine "murrine" {
+		gradient_shades = {1.2,0.85,1.1,0.75}
+		roundness 	= 4
+		contrast	= 0.5
+		border_shades	= { 1.0, 0.8 }
+		glowstyle	= 3
+		glow_shade	= 1.2
 	}
 }
 
@@ -428,24 +365,29 @@ style "murrine-spinbutton"
 	bg[ACTIVE] = shade (0.85, @bg_color) # Color for pressed-spinbuttons.
 }
 
-style "equinox-scale" = "equinox-button"
+style "murrine-scale" = "murrine-button"
 {
-	bg[NORMAL]     = shade (1.05, @bg_color)
-	bg[PRELIGHT]   = shade (1.15, @bg_color)
-	base[SELECTED] = @selected_bg_color
-
-	engine "equinox" 
+	GtkWidget	::focus-line-width	= 0
+	GtkWidget	::focus-padding		= 2
+	
+	bg[PRELIGHT]   = shade (1.25, @bg_color)
+	bg[SELECTED]      = shade (0.9, @selected_bg_color) 
+	
+	engine "murrine"
 	{
-		curvature        = 6
-		scalesliderstyle = 0
+		highlight_shade		= 1.05
+		lightborder_shade	= 0.8
+		roundness 		= 5
+		border_shades		= { 0.8, 0.5 }
+		contrast		= 0.8
 	}
 }
 
-style "equinox-hscale" = "equinox-scale"
+style "murrine-hscale" = "murrine-scale"
 {
 }
 
-style "equinox-vscale" = "equinox-scale"
+style "murrine-vscale" = "murrine-scale"
 {
 }
 
@@ -475,19 +417,17 @@ class "GtkWidget"    style "murrine-default"
 # Increase the x/ythickness in some widgets.
 class "GtkFrame"     style "murrine-wide"
 class "GtkEntry"     style "murrine-entry"
-class "MetaFrames"   style "metacity-frame"
 class "GtkSeparator" style "murrine-wide"
-class "GtkWindow"    style "metacity-frame"
 class "GtkCalendar"  style "murrine-wide"
 class "GtkToolbar"   style "murrine-toolbar" 
 
 class "GtkSpinButton"  style "murrine-spinbutton"
-class "GtkScale"       style "equinox-scale"
-class "GtkVScale"      style "equinox-vscale"
-class "GtkHScale"      style "equinox-hscale"
+class "GtkScale"       style "murrine-scale"
+class "GtkVScale"      style "murrine-vscale"
+class "GtkHScale"      style "murrine-hscale"
 
-#class "GtkRadio*"	style "murrine-radiocheck"
-#class "GtkCheck*"	style "murrine-radiocheck"
+class "GtkRadio*"	style "murrine-radiocheck"
+class "GtkCheck*"	style "murrine-radiocheck"
 
 # General matching following, the order is choosen so that the right styles override each other eg. progressbar needs to be more important then the menu match.
 
@@ -500,22 +440,18 @@ widget_class "*<GtkNotebook>*<GtkScrolledWindow>"	style "murrine-notebook-bg"
 
 widget_class "*<GtkButton>"      style "murrine-button"
 widget_class "*<GtkNotebook>"    style "murrine-notebook"
-widget_class "*<GtkNotebook>*"   style "notebook-close"
 widget_class "*<GtkStatusbar>*"  style "murrine-statusbar"
 
 widget_class "*<GtkComboBoxEntry>*" style "murrine-comboboxentry"
 widget_class "*<GtkCombo>*"         style "murrine-comboboxentry"
 
-#widget_class "*<GtkMenuBar>*"           style "murrine-menubar"
 widget_class "*<GtkMenu>*"              style "murrine-menu"
-#widget_class "*<GtkMenuItem>*"          style "murrine-menu-item"
-widget_class "*<GtkSeparatorMenuItem>*" style "murrine-separator-menu-item"
 
 widget_class "*.<GtkFrame>.<GtkLabel>" style "murrine-frame-title"
 widget_class "*.<GtkTreeView>*"        style "murrine-treeview"
 
-widget_class "*<GtkProgress>"	       style "equinox-progressbar"
-widget_class "*<GtkProgressBar>"       style "equinox-progressbar"
+widget_class "*<GtkProgress>"	       style "murrine-progressbar"
+widget_class "*<GtkProgressBar>"       style "murrine-progressbar"
 
 # Treeview header
 widget_class "*.<GtkTreeView>.<GtkButton>" style "murrine-treeview-header"
@@ -589,16 +525,6 @@ widget_class "*<GtkListItem>*" style "murrine-fg-is-text-color-workaround"
 widget_class "*<GtkCList>" style "murrine-fg-is-text-color-workaround"
 widget_class "*<EelEditableLabel>" style "murrine-fg-is-text-color-workaround"
 
-# XFCE desktop icon text looks weird when murrine textstyle is on.
-style "xfdesktop-icon-view" 
-{
-	engine "murrine"
-	{
-		textstyle = 0
-	}
-}
-widget_class "*XfdesktopIconView*" style "xfdesktop-icon-view"
-
 # Makes the text in the toolbar and statusbar smaller. Remove if you want to use the default size.
 style "smaller-text"
 {
@@ -608,14 +534,11 @@ widget_class "*ToolButton*" style "smaller-text"
 widget_class "*Statusbar*" style "smaller-text"
 
 # Fix Firefox menubar
-style "murrine-menubar-fixes" = "murrine-menu-item"
+style "murrine-menubar-fixes"
 {
 	fg[NORMAL] = @selected_fg_color
 }
 
-widget_class "*Fix*.GtkMenuBar*"	style "murrine-menubar-fixes"
- 
-### EXTERNAL FILES ###
+widget_class "*GtkFixed*.GtkMenuBar*"	style "murrine-menubar-fixes"
 
-include "nautilus.rc" # Nautilus styling
-#include "firefox.rc" # Firefox styling
+include "nautilus.rc"    # Nautilus styling

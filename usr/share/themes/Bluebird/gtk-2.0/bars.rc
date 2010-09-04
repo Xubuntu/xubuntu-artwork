@@ -4,7 +4,8 @@ style "pixbuf-menubar"
 {
 	xthickness			= 1
 	ythickness			= 2
-
+	text[NORMAL]			= @selected_fg_color # Fix Openoffice menubar
+	
 	engine "pixmap"
 	{
 		image
@@ -40,7 +41,7 @@ style "menubar-menuitem"
 {
 	bg[PRELIGHT]   = @selected_bg_color
 	bg[SELECTED]   = @selected_bg_color
-	fg[NORMAL]     = "#F1F1F1"
+	fg[NORMAL]     = @selected_fg_color
 	fg[PRELIGHT]   = @selected_fg_color
 	fg[SELECTED]   = @selected_fg_color
 	text[NORMAL]   = @base_color
