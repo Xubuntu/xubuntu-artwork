@@ -1,3 +1,15 @@
+xubuntu-artwork (10.10.4) UNRELEASED; urgency=low
+
+  * Pull Bluebird 0.2.3 bugfixes:
+    - Use a non-pixmap panel
+    - Improve xfwm4 stick-buttons.
+  * Pull Bluebird 0.3.0 bugfixes:
+    - Remove last (unused) equinox engine reference
+    - Tweak the inactive titlebar border
+    - Smoothed out alt-tab theming.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 10 Sep 2010 20:02:32 +0200
+
 xubuntu-artwork (10.10.3) maverick; urgency=low
 
   * Pull Bluebird 0.2.1 bugfixes:
