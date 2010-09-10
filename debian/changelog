@@ -7,6 +7,8 @@ xubuntu-artwork (10.10.4) UNRELEASED; urgency=low
     - Remove last (unused) equinox engine reference
     - Tweak the inactive titlebar border
     - Smoothed out alt-tab theming.
+  * usr/share/icons/elementaryXubuntu:
+    - Prevent elementaary from overridding the logo in the installer.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 10 Sep 2010 20:02:32 +0200
 
