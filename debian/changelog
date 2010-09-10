@@ -1,4 +1,4 @@
-xubuntu-artwork (10.10.4) UNRELEASED; urgency=low
+xubuntu-artwork (10.10.4) maverick; urgency=low
 
   * Pull Bluebird 0.2.3 bugfixes:
     - Use a non-pixmap panel
@@ -11,7 +11,7 @@ xubuntu-artwork (10.10.4) UNRELEASED; urgency=low
     - Prevent elementary from overridding the logo in the installer
     - Add missing symlinks for xfce4-mixer panel plugin.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 10 Sep 2010 20:02:32 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 10 Sep 2010 21:20:16 +0200
 
 xubuntu-artwork (10.10.3) maverick; urgency=low
 
