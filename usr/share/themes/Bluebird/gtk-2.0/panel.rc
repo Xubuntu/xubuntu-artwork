@@ -22,6 +22,7 @@ style "theme-panel" = "murrine-dark"
 		glowstyle	= 0
 		glow_shade	= 1.4
 		glazestyle	= 2
+		trough_border_shades	= { 3.0, 2.5 } # improve visibility in panel-plugins using the progressbar (xfce4-timer-plugin)
 	}
 }
 
