@@ -3,8 +3,10 @@ xubuntu-artwork (10.10.5) UNRELEASED; urgency=low
   * Pull Bluebird 0.3.1 bugfixes:
     - Make progressbars on the panel more visible.
   * usr/share/icons/elementaryXubuntu: add more symlinks for a few xfce apps.
+  * usr/share/pixmaps/xubuntu-logo-menu.svg: dropped, already available as
+    xubuntu-logo.svg (menus use the same logo now).
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 11 Sep 2010 12:31:16 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 12 Sep 2010 19:36:21 +0200
 
 xubuntu-artwork (10.10.4) maverick; urgency=low
 
