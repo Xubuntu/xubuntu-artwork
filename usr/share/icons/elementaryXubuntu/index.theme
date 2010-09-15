@@ -6,11 +6,21 @@ Inherits=elementary
 Example=directory-x-normal
 
 #Directory list
-Directories=apps/48,panel/16,panel/22,panel/24,panel/48,places/24,places/64,
+Directories=actions/48,apps/48,devices/48,panel/16,panel/22,panel/24,panel/48,places/24,places/64,
+
+[actions/48]
+Size=48
+Context=Actions
+Type=Fixed
 
 [apps/48]
 Size=48
 Context=Applications
+Type=Fixed
+
+[devices/48]
+Size=48
+Context=Devices
 Type=Fixed
 
 [panel/16]
