@@ -1,8 +1,8 @@
-xubuntu-artwork (11.04.0) UNRELEASED; urgency=low
+xubuntu-artwork (11.04.0) natty; urgency=low
 
   * usr/share/themes/greybird: import greybird 0.2.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 25 Jan 2011 22:46:29 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 26 Jan 2011 23:29:00 +0100
 
 xubuntu-artwork (10.10.6) maverick; urgency=low
 
