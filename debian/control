@@ -32,9 +32,10 @@ Description: Xubuntu GDM greeter theme
 
 Package: xubuntu-plymouth-theme
 Architecture: all
-Depends: ${misc:Depends}, plymouth-theme-xubuntu-logo
+Depends: ${misc:Depends}, plymouth-theme-xubuntu-logo, plymouth-theme-xubuntu-text
 Description: Plymouth theme for Xubuntu
- Transitional package for plymouth-theme-xubuntu-logo.
+ Transitional package for plymouth-theme-xubuntu-logo and
+ plymouth-theme-xubuntu-text.
  .
  This package can be safely removed.
 
@@ -49,6 +50,18 @@ Description: graphical boot animation and logger - xubuntu-logo theme
  boot animation while the boot process happens in the background.
  .
  This package contains the default xubuntu-logo theme.
+
+Package: plymouth-theme-xubuntu-text
+Architecture: all
+Depends: ${misc:Depends}, plymouth, plymouth-theme-ubuntu-text
+Provides: plymouth-theme
+Description: graphical boot animation and logger - xubuntu-text theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the default xubuntu-text theme used when no support for
+ a graphical theme is found on your system.
 
 Package: xubuntu-icon-theme
 Architecture: all

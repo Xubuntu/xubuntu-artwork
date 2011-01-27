@@ -20,8 +20,8 @@ set -e
 case "$1" in
     configure)
 	update-alternatives \
-		--install /lib/plymouth/themes/default.plymouth default.plymouth \
-		/lib/plymouth/themes/xubuntu-logo/xubuntu-logo.plymouth 150
+		--install /lib/plymouth/themes/text.plymouth text.plymouth \
+		/lib/plymouth/themes/xubuntu-text/xubuntu-text.plymouth 150
 
 	if which update-initramfs >/dev/null 2>&1
 	then

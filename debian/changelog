@@ -1,3 +1,13 @@
+xubuntu-artwork (11.04.1) UNRELEASED; urgency=low
+
+  * debian/plymouth-theme-xubuntu-text.install,
+    debian/plymouth-theme-xubuntu-text.postinst,
+    debian/plymouth-theme-xubuntu-text.postrm,
+    lib/plymouth/themes/xubuntu-text/xubuntu-text.plymouth:
+    add a text theme.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 27 Jan 2011 20:02:09 +0100
+
 xubuntu-artwork (11.04.0) natty; urgency=low
 
   * usr/share/themes/greybird: import greybird 0.2.
