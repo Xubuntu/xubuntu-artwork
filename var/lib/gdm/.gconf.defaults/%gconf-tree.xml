@@ -11,8 +11,8 @@
 				<entry name="icon_theme" mtime="1284577569" type="string">
 					<stringvalue>elementary</stringvalue>
 				</entry>
-				<entry name="gtk_theme" mtime="1282766983" type="string">
-					<stringvalue>Bluebird</stringvalue>
+				<entry name="gtk_theme" mtime="1296308220" type="string">
+					<stringvalue>greybird</stringvalue>
 				</entry>
 				<entry name="buttons_have_icons" mtime="1265137461" type="bool" value="true"/>
 				<entry name="menus_have_icons" mtime="1265137461" type="bool" value="true"/>
