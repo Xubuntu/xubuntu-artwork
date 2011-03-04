@@ -1,6 +1,7 @@
 xubuntu-artwork (11.04.2) UNRELEASED; urgency=low
 
   * var/lib/gdm/.gconf.defaults/%gconf-tree.xml: set default theme to greybird.
+  * Imported latest fixes from greybird upstream git.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 29 Jan 2011 14:38:15 +0100
 

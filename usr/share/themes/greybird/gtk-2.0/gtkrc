@@ -3,7 +3,7 @@
 # based on "Bluebird" by Simon Steinbeiß and Pasi Lallinaho
 # Description: As is the original theme, this theme is 100% free and open source.
 
-gtk_color_scheme	= "bg_color:#D9D9D9\nselected_bg_color:#8b98a9\nbase_color:#FFFFFF" # Background, base.
+gtk_color_scheme	= "bg_color:#CECECE\nselected_bg_color:#8b98a9\nbase_color:#FFFFFF" # Background, base.
 gtk_color_scheme	= "fg_color:#3C3C3C\nselected_fg_color:#f5f5f5\ntext_color:#000000" # Foreground, text. 
 gtk_color_scheme	= "tooltip_bg_color:#000000\ntooltip_fg_color:#E1E1E1" # Tooltips.
 gtk_color_scheme	= "link_color:#08c" # Hyperlinks
@@ -45,6 +45,8 @@ style "murrine-default"
 	GtkMenu			::vertical-padding			= 0
 
 	GtkPaned		::handle-size          			= 6
+
+	GtkNotebook		::tab-overlap				=-2
 
 	GtkProgressBar		::min-vertical-bar-width		= 10
 	GtkProgressBar		::min-horizontal-bar-height		= 10
@@ -150,6 +152,28 @@ style "murrine-default"
 		trough_border_shades = { 0.9, 0.7 }	}
 }
 
+### RESIZE GRIP PIXMAP Proof of concept ###
+
+style "resize-grip" = "murrine-default"
+{
+	engine "pixmap"	{
+		image {
+			function	= RESIZE_GRIP
+			recolorable	= TRUE
+			overlay_file	= "resize_grip.png"
+			overlay_border	= {0,0,0,0 }
+			overlay_stretch	= FALSE
+		}
+        }
+}
+
+style "murrine-paned" = "murrine-default"
+{
+	engine "murrine"
+	{
+		contrast = 1.0
+	}
+}
 
 ### THEME MODULES ###
 
@@ -224,23 +248,15 @@ style "murrine-button" = "murrine-wider"
 	}
 }
 
-style "murrine-notebook-bg"
+style "murrine-notebook"
 {
-	bg[NORMAL]	= shade (1.1, @bg_color) # Tab background.
-	bg[ACTIVE]	= shade (0.9, @bg_color) # Unfocused tab background.
-}
-
-style "murrine-notebook" = "murrine-notebook-bg"
-{
-	xthickness = 1 # Width of tabs and notebook borders.
-	ythickness = 1 # Height of tabs and notebook borders.
-
+	bg[NORMAL]	= shade (1.05, @bg_color) # Tab background.
+	bg[ACTIVE]	= shade (0.85, @bg_color) # Unfocused tab background.
+	
 	engine "murrine" 
 	{
-		roundness       = 3 # Roundness of notebook tabs.
-		contrast        = 1.0
-		highlight_shade = 1.05
-		gradient_shades = {1.28,1.17,0.92,0.87} 
+		roundness       = 3
+		contrast        = 1.1
 	}
 }
 
@@ -412,11 +428,17 @@ style "murrine-scale" = "murrine-button"
 	
 	engine "murrine"
 	{
+
 		roundness 		= 5
 		border_shades		= { 1.0, 1.0 }
-		contrast		= 0.1
-		trough_shades	    = { 0.8, 0.8 }	# draw gradient on trough of GtkScrollbar and GtkProgressbar
-		trough_border_shades = { 0.9, 0.9 }
+		contrast		= 0.5
+		trough_shades		= { 0.8, 0.8 }
+		trough_border_shades	= { 0.9, 0.9 }
+		highlight_shade		= 1.00
+		lightborder_shade	= 1.7
+		gradient_shades		= {1.0,1.0,1.0,1.0}
+		border_shades		= { 1.0, 1.0 }
+		shadow_shades		= { 0.5, 0.5 }
 	}
 }
 
@@ -454,6 +476,8 @@ style "murrine-toolbar" = "murrine-default"
 # The following part of the gtkrc applies the different styles to the widgets.
 ###############################################################################
 
+class "GtkWindow*" style "resize-grip"
+
 # Murrine default style is applied to every widget.
 class "GtkWidget"    style "murrine-default"
 
@@ -462,7 +486,8 @@ class "GtkFrame"     style "murrine-wide"
 class "GtkEntry"     style "murrine-entry"
 class "GtkSeparator" style "murrine-wide"
 class "GtkCalendar"  style "murrine-wide"
-class "GtkToolbar"   style "murrine-toolbar" 
+class "GtkToolbar"   style "murrine-toolbar"
+class "GtkHandleBox*" style "murrine-toolbar"
 
 class "GtkSpinButton"  style "murrine-spinbutton"
 class "GtkScale"       style "murrine-scale"
@@ -478,11 +503,10 @@ class "GtkCheck*"	style "murrine-radiocheck"
 
 # General matching following, the order is choosen so that the right styles override each other eg. progressbar needs to be more important then the menu match.
 
-# This is not perfect, it could be done better (That is modify *every* widget in the notebook, and change those back that we really don't want changed)
-widget_class "*<GtkNotebook>*<GtkEventBox>"     style "murrine-notebook-bg"
-widget_class "*<GtkNotebook>*<GtkDrawingArea>"  style "murrine-notebook-bg"
-widget_class "*<GtkNotebook>*<GtkLayout>"       style "murrine-notebook-bg"
-widget_class "*<GtkNotebook>*<GtkViewport>"	style "murrine-notebook-bg"
+widget_class "*<GtkNotebook>*<GtkEventBox>"     style "murrine-notebook"
+widget_class "*<GtkNotebook>*<GtkDrawingArea>"  style "murrine-notebook"
+widget_class "*<GtkNotebook>*<GtkLayout>"       style "murrine-notebook"
+widget_class "*<GtkNotebook>*<GtkLabel>"	style "murrine-notebook"
 
 widget_class "*<GtkButton>"      style "murrine-button"
 widget_class "*<GtkNotebook>"    style "murrine-notebook"
@@ -495,9 +519,14 @@ widget_class "*<GtkMenuBar>.<GtkMenuItem>*" style "menubar-menuitem"
 widget_class "*<GtkMenuItem>*" style "menubar-menuitem-prelight"
 widget_class "*<GtkMenu>*"              style "murrine-menu"
 widget_class "*<GtkMenuBar>*"		style "murrine-menu"
+# Scale widget in menus (e.g. ubuntu's sound indicator)
+widget_class "*<GtkMenuItem>.*.<GtkScale>" style "murrine-scale"
 
 widget_class "*.<GtkFrame>.<GtkLabel>" style "murrine-frame-title"
 widget_class "*.<GtkTreeView>*"        style "murrine-treeview"
+
+widget_class "*GtkHPaned" style "murrine-paned"
+widget_class "*GtkVPaned" style "murrine-paned"
 
 widget_class "*<GtkProgress>"	       style "murrine-progressbar"
 widget_class "*<GtkProgressBar>"       style "murrine-progressbar"
