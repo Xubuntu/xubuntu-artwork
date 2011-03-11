@@ -1,4 +1,4 @@
-xubuntu-artwork (11.04.3) UNRELEASED; urgency=low
+xubuntu-artwork (11.04.3) natty; urgency=low
 
   * usr/share/xubuntu/gdm.sh: use the correct path to xfconfd.
   * usr/share/icons/elementaryXubuntu/index.theme: inherits from
@@ -10,7 +10,7 @@ xubuntu-artwork (11.04.3) UNRELEASED; urgency=low
   * usr/share/xubuntu/xdg-gdm/xfce4/xfconf/…/xfwm4.xml: set greybird as
     default xfwm4 theme for gdm too.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 11 Mar 2011 19:55:30 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 11 Mar 2011 21:01:10 +0100
 
 xubuntu-artwork (11.04.2) natty; urgency=low
 
