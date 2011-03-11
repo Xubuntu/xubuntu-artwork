@@ -8,8 +8,8 @@
 				</entry>
 			</dir>
 			<dir name="interface">
-				<entry name="icon_theme" mtime="1284577569" type="string">
-					<stringvalue>elementary</stringvalue>
+				<entry name="icon_theme" mtime="1299870016" type="string">
+					<stringvalue>elementaryXubuntu</stringvalue>
 				</entry>
 				<entry name="gtk_theme" mtime="1296308220" type="string">
 					<stringvalue>greybird</stringvalue>
