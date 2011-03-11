@@ -5,6 +5,8 @@ xubuntu-artwork (11.04.3) UNRELEASED; urgency=low
     elementary-mono-dark instead of elementary.
   * var/lib/gdm/.gconf.defaults/%gconf-tree.xml: use elementaryXubuntu for
     gdm, now that greybird is fixed.
+  * usr/share/themes/greybird: updated to latest git (48be079), contains
+    various bugfixes for xfce4-panel, xfce4-notifyd, gdm, etc.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 11 Mar 2011 19:55:30 +0100
 
