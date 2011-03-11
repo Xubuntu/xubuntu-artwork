@@ -1,6 +1,8 @@
 xubuntu-artwork (11.04.3) UNRELEASED; urgency=low
 
   * usr/share/xubuntu/gdm.sh: use the correct path to xfconfd.
+  * usr/share/icons/elementaryXubuntu/index.theme: inherits from
+    elementary-mono-dark instead of elementary.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 11 Mar 2011 19:55:30 +0100
 
