@@ -4,11 +4,11 @@
 # Simple script to add some fancy stuff to gdm
 
 # if not present in xdg-gdm, uses the default config
-export XDG_CONFIG_DIRS="/usr/share/xubuntu/xdg-gdm:/etc/xdg/xdg-xubuntu"
+export XDG_CONFIG_DIRS="/usr/share/xubuntu/xdg-gdm:/etc/xdg/xdg-xubuntu:/etc/xdg"
 
 # Xfconf
-if [ -x /usr/lib/xfconfd ]; then
-    /usr/lib/xfconfd &
+if [ -x /usr/lib/xfce4/xfconf/xfconfd ]; then
+    /usr/lib/xfce4/xfconf/xfconfd &
 fi
 
 # Window manager
