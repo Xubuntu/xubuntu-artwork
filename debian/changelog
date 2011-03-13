@@ -2,6 +2,7 @@ xubuntu-artwork (11.04.4) UNRELEASED; urgency=low
 
   * usr/share/xfce4/backdrops/*jaunty*: dropped.
   * Resync elementaryXubuntu with latest elementary changes.
+  * Updated greybird to latest git (b735850) to get more bugfixes.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 13 Mar 2011 16:43:54 +0100
 
