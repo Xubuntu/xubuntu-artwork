@@ -3,8 +3,8 @@
 	<dir name="desktop">
 		<dir name="gnome">
 			<dir name="background">
-				<entry name="picture_filename" mtime="1282766983" type="string">
-					<stringvalue>/usr/share/xfce4/backdrops/xubuntu-bluebird-notext.png</stringvalue>
+				<entry name="picture_filename" mtime="1300478211" type="string">
+					<stringvalue>/usr/share/xfce4/backdrops/xubuntu-greybird.png</stringvalue>
 				</entry>
 			</dir>
 			<dir name="interface">
