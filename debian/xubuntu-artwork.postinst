@@ -19,12 +19,9 @@ set -e
 
 case "$1" in
     configure)
-	# Xubuntu prefers legacy VGA and newt colors over Aubergine by default
+	# Xubuntu prefers legacy newt colors over Aubergine by default
 	if update-alternatives --query newt-palette | grep -qs "Status: auto"; then
 		update-alternatives --set newt-palette /etc/newt/palette.original
-	fi
-	if update-alternatives --query vtrgb | grep -qs "Status: auto"; then
-		update-alternatives --set newt-palette /etc/console-setup/vtrgb.vga
 	fi
 	;;
 

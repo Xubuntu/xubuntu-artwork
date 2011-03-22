@@ -33,9 +33,6 @@ case "$1" in
 	if update-alternatives --query newt-palette | grep -qs "Value: /etc/newt/palette.original"; then
 		update-alternatives --auto newt-palette
 	fi
-	if update-alternatives --query vtrgb | grep -qs "Value: /etc/console-setup/vtrgb.vga"; then
-		update-alternatives --auto vtrgb
-	fi
 	;;
 
     purge)
