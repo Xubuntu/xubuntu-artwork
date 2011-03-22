@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="64"
-   height="64"
+   width="48"
+   height="48"
    id="svg2381"
    sodipodi:version="0.32"
    inkscape:version="0.48.0 r9654"
    version="1.0"
-   sodipodi:docname="xubuntu-logo.svg"
+   sodipodi:docname="distributor-logo.svg"
    inkscape:export-filename="/home/knome/Desktop/test.png"
    inkscape:export-xdpi="225"
    inkscape:export-ydpi="225"
@@ -73,7 +73,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-284.39634,5.051147)">
+     transform="translate(-284.39634,-10.948853)">
     <g
        inkscape:label="Layer 1"
        id="g4146"
@@ -87,7 +87,7 @@
        transform="translate(-1334.4762,-1162.9511)" />
     <g
        id="g2824"
-       transform="matrix(1.5192878,0,0,1.5192878,-147.55281,-30.610938)">
+       transform="matrix(1.1394659,0,0,1.1394659,-39.576947,-8.220992)">
       <path
          transform="matrix(1.0972556,0,0,1.1030426,-44.649213,-6.2407256)"
          sodipodi:nodetypes="cccccccc"

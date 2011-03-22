@@ -1,3 +1,10 @@
+xubuntu-artwork (11.04.6) UNRELEASED; urgency=low
+
+  * usr/share/icons/elementaryXubuntu: resync with the latest upstream changes
+    (add a few missing icons for nm-applet and distributor-logo).
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 22 Mar 2011 19:15:53 +0100
+
 xubuntu-artwork (11.04.5) natty; urgency=low
 
   * Updated greybird to latest git (135856b) to get more bugfixes.
