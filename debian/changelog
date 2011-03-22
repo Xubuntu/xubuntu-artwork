@@ -1,11 +1,11 @@
-xubuntu-artwork (11.04.6) UNRELEASED; urgency=low
+xubuntu-artwork (11.04.6) natty; urgency=low
 
   * usr/share/icons/elementaryXubuntu: resync with the latest upstream changes
     (add a few missing icons for nm-applet and distributor-logo).
   * debian/xubuntu-artwork.postinst,debian/xubuntu-artwork.postrm: restore
     default VGA and newt colors.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 22 Mar 2011 19:15:53 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 22 Mar 2011 19:48:36 +0100
 
 xubuntu-artwork (11.04.5) natty; urgency=low
 
