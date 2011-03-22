@@ -1,4 +1,4 @@
-xubuntu-artwork (11.04.7) UNRELEASED; urgency=low
+xubuntu-artwork (11.04.7) natty; urgency=low
 
   * Copy the changes from kubuntu-default-settings 1:11.04ubuntu9…
   * Use the new default virtual terminal color palette instead of forcing the
@@ -6,7 +6,7 @@ xubuntu-artwork (11.04.7) UNRELEASED; urgency=low
   * Depend on libnewt0.52 to make sure that the newt-palette alternatives are
     registered.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 22 Mar 2011 22:50:18 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 22 Mar 2011 22:57:12 +0100
 
 xubuntu-artwork (11.04.6) natty; urgency=low
 
