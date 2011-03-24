@@ -1,10 +1,10 @@
-xubuntu-artwork (11.04.8) UNRELEASED; urgency=low
+xubuntu-artwork (11.04.8) natty; urgency=low
 
   * usr/share/gmusicbrowser/pix/elementary/gmusicbrowser.png,
     debian/xubuntu-artwork.install: ship the same one as elementaryXubuntu,
     for consistency.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 24 Mar 2011 20:33:13 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 24 Mar 2011 21:39:50 +0100
 
 xubuntu-artwork (11.04.7) natty; urgency=low
 
