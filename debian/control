@@ -11,7 +11,7 @@ Package: xubuntu-artwork
 Architecture: all
 Depends: ${misc:Depends}, gtk2-engines-murrine, libnewt0.52 (>= 0.52.11-2ubuntu7)
 Recommends: plymouth-theme-xubuntu-logo, plymouth-theme-xubuntu-text,
- xubuntu-gdm-theme, xubuntu-wallpapers, xubuntu-icon-theme, murrine-themes
+ xubuntu-wallpapers, xubuntu-icon-theme, murrine-themes
 Description: Xubuntu themes and artwork
  This package contains Xubuntu themes and artwork.
 
@@ -20,15 +20,6 @@ Architecture: all
 Depends: ${misc:Depends}
 Description: Xubuntu wallpapers
  This package contains the default wallpapers for Xubuntu.
-
-Package: xubuntu-gdm-theme
-Architecture: all
-Depends: ${misc:Depends}, gdm
-Recommends: gnome-settings-daemon, xfwm4
-Suggests: xfce4-power-manager
-Provides: gdm-theme
-Description: Xubuntu GDM greeter theme
- This package contains the default GDM greeter theme for Xubuntu.
 
 Package: xubuntu-plymouth-theme
 Architecture: all
