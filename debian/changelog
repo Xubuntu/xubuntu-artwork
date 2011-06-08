@@ -1,4 +1,4 @@
-xubuntu-artwork (11.10.1) UNRELEASED; urgency=low
+xubuntu-artwork (11.10.0) oneiric; urgency=low
 
   * debian/control: Drop xubuntu-gdm-theme package
   * debian/copyright: Remove reference to usr/share/gdm
