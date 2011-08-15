@@ -9,9 +9,10 @@ Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-art/xubuntu-artwork/maverick/f
 
 Package: xubuntu-artwork
 Architecture: all
-Depends: ${misc:Depends}, gtk2-engines-murrine, libnewt0.52 (>= 0.52.11-2ubuntu7)
+Depends: ${misc:Depends}, gtk2-engines-murrine, murrine-themes (>> 0.98.2),
+ libnewt0.52 (>= 0.52.11-2ubuntu7)
 Recommends: plymouth-theme-xubuntu-logo, plymouth-theme-xubuntu-text,
- xubuntu-wallpapers, xubuntu-icon-theme, murrine-themes
+ xubuntu-wallpapers, xubuntu-icon-theme
 Description: Xubuntu themes and artwork
  This package contains Xubuntu themes and artwork.
 

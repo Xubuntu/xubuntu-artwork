@@ -2,6 +2,10 @@ xubuntu-artwork (11.10.1) UNRELEASED; urgency=low
 
   * lib/plymouth/themes/xubuntu-text/xubuntu-text.plymouth: update for
     oneiric. lp: #813267
+  * Drop bluebird and greybird themes, move murrine-themes from recommends
+    to depends.
+  * Bumped murrine-themes to (>> 0.98.2) as they include bluebird and
+    greybird.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 25 Jul 2011 15:17:44 +0200
 
