@@ -1,4 +1,4 @@
-xubuntu-artwork (11.10.1) UNRELEASED; urgency=low
+xubuntu-artwork (11.10.1) oneiric; urgency=low
 
   * lib/plymouth/themes/xubuntu-text/xubuntu-text.plymouth: update for
     oneiric. lp: #813267
@@ -8,7 +8,7 @@ xubuntu-artwork (11.10.1) UNRELEASED; urgency=low
     greybird, and handle replaces/breaks correctly.
   * usr/share/gdm: dropped, forgotten by the previous upload.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 25 Jul 2011 15:17:44 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 20 Aug 2011 14:52:16 +0200
 
 xubuntu-artwork (11.10.0) oneiric; urgency=low
 
