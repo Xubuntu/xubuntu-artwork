@@ -1,3 +1,10 @@
+xubuntu-artwork (11.10.2) UNRELEASED; urgency=low
+
+  * lib/plymouth: update xubuntu-logo for oneiric as well.
+  * debian/copyright: clean up references to dropped files.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 20 Aug 2011 17:55:30 +0200
+
 xubuntu-artwork (11.10.1) oneiric; urgency=low
 
   * lib/plymouth/themes/xubuntu-text/xubuntu-text.plymouth: update for
