@@ -1,8 +1,9 @@
 xubuntu-artwork (11.10.3) UNRELEASED; urgency=low
 
   * debian/control: drop breaks/replaces, it's in murrine-themes.
+  * lib/plymouth/themes/xubuntu-logo: fix for 16-color framebuffers. lp: #552000
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 21 Aug 2011 12:39:02 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 24 Aug 2011 10:33:41 +0200
 
 xubuntu-artwork (11.10.2) oneiric; urgency=low
 

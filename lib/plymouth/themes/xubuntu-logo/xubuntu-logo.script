@@ -29,27 +29,39 @@ screen_height = Window.GetHeight(0);
 /**/
 
 /*
- * Images */
- 
+ * Images, check bits per pixel
+ * and load images accordingly */
+
 background_image = Image("xubuntu-greybird.png");
-
-logotype_image = Image("xubuntu-logo.png");
-
-bullet_image = Image("test.png");
-
-progress_meter_image = Image("progress-meter.png");
-progress_fade_image = Image("progress-fade.png");
-
-fsck_progress_meter_image = Image("progress-meter.png");
-fsck_progress_fade_image = Image("fsck-fade.png");
-
 passw_dialog_input_image = Image("passw-dialog.png");
+bullet_image = Image("test.png");
+ 
+bpp = Window.GetBitsPerPixel();
+
+if (bpp == 4) {
+
+	logotype_image = Image("16bit_logo.png");
+	progress_meter_image = Image("progressbar_bg_16bit.png");
+	progress_fade_image = Image("progress_meter_16_bit.png");
+	fsck_progress_meter_image = Image("progressbar_bg_16bit.png");
+	fsck_progress_fade_image = Image("fsck_bar_16bit.png");
+
+}
+else {
+
+	logotype_image = Image("xubuntu-logo.png");
+	progress_meter_image = Image("progress-meter.png");
+	progress_fade_image = Image("progress-fade.png");
+	fsck_progress_meter_image = Image("progress-meter.png");
+	fsck_progress_fade_image = Image("fsck-fade.png");
+	
+}
 
 /**/
 
 /*
  * Sprites */
- 
+
 background_sprite = Sprite(background_image.Scale(screen_width, screen_height));
 
 logotype_sprite = Sprite(logotype_image);
