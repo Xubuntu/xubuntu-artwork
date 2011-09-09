@@ -200,7 +200,7 @@ fun refreshHandler() {
 		}
 		else {
 			
-			fsck_done_fading = 1;inputbox
+			fsck_done_fading = 1;
 			
 		}
 		
