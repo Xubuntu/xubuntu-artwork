@@ -1,8 +1,8 @@
-xubuntu-artwork (11.10.4) UNRELEASED; urgency=low
+xubuntu-artwork (11.10.4) oneiric; urgency=low
 
   * lib/plymouth/themes/xubuntu-logo/xubuntu-logo.script: fix typo. lp: #833833
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 09 Sep 2011 21:51:02 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 09 Sep 2011 22:21:22 +0200
 
 xubuntu-artwork (11.10.3) oneiric; urgency=low
 
