@@ -1,3 +1,10 @@
+xubuntu-artwork (12.04.0) UNRELEASED; urgency=low
+
+  * lib/plymouth/themes/xubuntu-text/xubuntu-text.plymouth: update for
+    precise. lp: #900366
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 07 Jan 2012 16:01:10 +0100
+
 xubuntu-artwork (11.10.4) oneiric; urgency=low
 
   * lib/plymouth/themes/xubuntu-logo/xubuntu-logo.script: fix typo. lp: #833833
