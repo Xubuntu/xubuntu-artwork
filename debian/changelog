@@ -8,7 +8,7 @@ xubuntu-artwork (12.04.0) UNRELEASED; urgency=low
   * /usr/share/icons/elementary-xfce: add elementary-xfce icon theme (fork of elementary-icon-theme) and add xfce-specific icons
   * /usr/share/xfce4/backdrops: replace identical wallpapers by symlinks to save space 
 
- -- Simon Steinbeiss <ochosi@hana>  Mon, 16 Jan 2012 12:31:10 +0100
+ -- Simon Steinbeiss <ochosi@shimmerproject.org>  Mon, 16 Jan 2012 12:31:10 +0100
 
 xubuntu-artwork (11.10.4) oneiric; urgency=low
 
