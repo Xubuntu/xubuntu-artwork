@@ -3,6 +3,7 @@ xubuntu-artwork (12.04.0) UNRELEASED; urgency=low
   [ Lionel Le Folgoc ]
   * lib/plymouth/themes/xubuntu-text/xubuntu-text.plymouth: update for
     precise. lp: #900366
+  * debian/copyright; updated.
 
   [ Simon Steinbeiss ]
   * /usr/share/icons/elementary-xfce: add elementary-xfce icon theme (based on

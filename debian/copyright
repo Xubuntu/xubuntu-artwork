@@ -23,9 +23,9 @@ License: GPL-3+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL-2' file.
 
-Files: usr/share/icons/elementaryXubuntu/*, usr/share/gmusicbrowser/*
+Files: usr/share/icons/*, usr/share/gmusicbrowser/*
 Copyright: 2008-2011, Daniel Fore <Daniel.P.Fore@gmail.com>
-           2010-2011, Simon Steinbeiß <ochosi@shimmerproject.org>
+           2010-2012, Simon Steinbeiß <ochosi@shimmerproject.org>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL-2' file.
@@ -57,7 +57,7 @@ License: CC-BY-SA-3.0
 
 Files: debian/*
 Copyright: 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
-           2007-2011, Lionel Le Folgoc <mrpouit@ubuntu.com>
+           2007-2012, Lionel Le Folgoc <mrpouit@ubuntu.com>
            2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
            2005-2008, Jani Monoses <jani@ubuntu.com>
 License: GPL-2+
