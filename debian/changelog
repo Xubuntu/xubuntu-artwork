@@ -1,4 +1,4 @@
-xubuntu-artwork (12.04.0) UNRELEASED; urgency=low
+xubuntu-artwork (12.04.0) precise; urgency=low
 
   [ Lionel Le Folgoc ]
   * lib/plymouth/themes/xubuntu-text/xubuntu-text.plymouth: update for
@@ -14,7 +14,7 @@ xubuntu-artwork (12.04.0) UNRELEASED; urgency=low
     save space
   * debian/control: drop elementary-icon-theme dependency
 
- -- Simon Steinbeiss <ochosi@shimmerproject.org>  Mon, 16 Jan 2012 15:40:15 +0100
+ -- Simon Steinbeiss <ochosi@shimmerproject.org>  Wed, 18 Jan 2012 23:52:45 +0100
 
 xubuntu-artwork (11.10.4) oneiric; urgency=low
 
