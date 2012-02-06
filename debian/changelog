@@ -1,3 +1,9 @@
+xubuntu-artwork (12.04.1) UNRELEASED; urgency=low
+
+  * usr/share/icons: refreshed, add some missing icons used by xfce4-settings.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 06 Feb 2012 17:52:12 +0100
+
 xubuntu-artwork (12.04.0) precise; urgency=low
 
   [ Lionel Le Folgoc ]
