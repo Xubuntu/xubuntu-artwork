@@ -1,7 +1,11 @@
 xubuntu-artwork (12.04.1) UNRELEASED; urgency=low
 
-  * usr/share/icons: refreshed, add some missing icons used by xfce4-settings
-    and the panel/desktop menu.
+  * usr/share/icons: refreshed,
+    - add some missing icons used by xfce4-settings and the panel/desktop menu.
+    - "Pidgin Notification Area icon does not indicate arrival of new messages"
+      lp: #850376
+    - "Ubuntu Software Center & Synaptic have the same icon in Xubuntu"
+      lp: #883513
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 06 Feb 2012 17:52:12 +0100
 
