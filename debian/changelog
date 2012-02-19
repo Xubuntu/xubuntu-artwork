@@ -1,3 +1,9 @@
+xubuntu-artwork (12.04.2) UNRELEASED; urgency=low
+
+  * debian/control: depends on shimmer-themes instead of all murrine-themes.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 19 Feb 2012 11:27:41 +0100
+
 xubuntu-artwork (12.04.1) precise; urgency=low
 
   * usr/share/icons: refreshed,
