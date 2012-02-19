@@ -1,6 +1,7 @@
 xubuntu-artwork (12.04.2) UNRELEASED; urgency=low
 
   * debian/control: depends on shimmer-themes instead of all murrine-themes.
+  * Fix missing icons for orage_globaltime.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 19 Feb 2012 11:27:41 +0100
 
