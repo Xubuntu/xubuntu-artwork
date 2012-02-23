@@ -1,6 +1,8 @@
 xubuntu-artwork (12.04.3) UNRELEASED; urgency=low
 
   * Fix symbolic icons in elementary-xfce. lp: #939488
+  * Let elementaryXubuntu inherit from elementary-xfce-dark so people upgrading
+    from previous releases don't get dark icons on a dark panel. lp: #936655
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 23 Feb 2012 19:34:21 +0100
 
