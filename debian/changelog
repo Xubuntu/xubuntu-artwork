@@ -1,3 +1,9 @@
+xubuntu-artwork (12.04.4) UNRELEASED; urgency=low
+
+  * lib/plymouth/xubuntu-logo: fixed color mismatch.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 17 Mar 2012 17:15:07 +0100
+
 xubuntu-artwork (12.04.3) precise; urgency=low
 
   * Fix symbolic icons in elementary-xfce. lp: #939488
