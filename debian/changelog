@@ -1,6 +1,11 @@
 xubuntu-artwork (12.04.4) UNRELEASED; urgency=low
 
   * lib/plymouth/xubuntu-logo: fixed color mismatch.
+  * usr/share/icons/elementary-xfce*:
+    - add missing mimetypes and symbolic icons.
+    - use the correct names for dropbox status icons. lp: #955434
+    - add missing symlinks for parole (lp: #954004) and xfdesktop-menu
+      (lp: #937684).
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 17 Mar 2012 17:15:07 +0100
 
