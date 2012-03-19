@@ -1,6 +1,7 @@
 xubuntu-artwork (12.04.5) UNRELEASED; urgency=low
 
   * Really add the new logo for lightdm gtk greeter… (lp #955396 again)
+  * … and fix the xubuntu session badge for unity-greeter.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 19 Mar 2012 23:31:44 +0100
 
