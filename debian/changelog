@@ -2,6 +2,8 @@ xubuntu-artwork (12.04.6) UNRELEASED; urgency=low
 
   * lib/plymouth/themes/xubuntu-logo/xubuntu-logo.script: fix cut messages.
     lp: #961546
+  * usr/share/icons/elementary-xfce-dark: include png files for xfpm systray
+    icons to workaround a weird scaling issue that occurs with svg files.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 21 Mar 2012 23:15:24 +0100
 
