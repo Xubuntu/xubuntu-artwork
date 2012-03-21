@@ -1,3 +1,10 @@
+xubuntu-artwork (12.04.6) UNRELEASED; urgency=low
+
+  * lib/plymouth/themes/xubuntu-logo/xubuntu-logo.script: fix cut messages.
+    lp: #961546
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 21 Mar 2012 23:15:24 +0100
+
 xubuntu-artwork (12.04.5) precise; urgency=low
 
   * Add the new logo for lightdm gtk greeter… (lp: #955396 for real this time)
