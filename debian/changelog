@@ -3,7 +3,7 @@ xubuntu-artwork (12.04.7) precise; urgency=low
   * Drop spurious 'untitled folder' from elementary-xfce icon theme, it makes
     gtk-update-icon-cache-3.0 fail. lp: #962225
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 22 Mar 2012 20:26:42 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 22 Mar 2012 20:45:22 +0100
 
 xubuntu-artwork (12.04.6) precise; urgency=low
 
