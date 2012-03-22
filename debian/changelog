@@ -1,6 +1,6 @@
 xubuntu-artwork (12.04.8) UNRELEASED; urgency=low
 
-  * Fix Plymouth script; messages on multiple lines instead of one.
+  * Fix Plymouth script; messages on multiple lines instead of one. lp: #961546
 
  -- Pasi Lallinaho <pasi@shimmerproject.org>  Thu, 22 Mar 2012 21:21:40 +0100
 
