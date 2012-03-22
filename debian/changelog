@@ -1,4 +1,4 @@
-xubuntu-artwork (12.04.8) UNRELEASED; urgency=low
+xubuntu-artwork (12.04.8) precise; urgency=low
 
   * Fix Plymouth script; messages on multiple lines instead of one. lp: #961546
 
