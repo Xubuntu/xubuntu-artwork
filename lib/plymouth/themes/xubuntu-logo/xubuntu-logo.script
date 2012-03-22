@@ -96,7 +96,8 @@ fsck_done_fading = 0;
 stars_array;
 stars_n = 0;
 
-full_msg = "";
+//full_msg = "";
+msgs_line;
 
 /**/
 
@@ -280,15 +281,60 @@ fun displayNormalHandler() {
 
 Plymouth.SetDisplayNormalFunction(displayNormalHandler);
 
+fun strlen(string) {
+    
+	i = 0;
+    
+	while (String(string).CharAt(i)) {
+	
+		i++;
+    
+	}
+	
+	return i;
+
+}
+
 /*
  * This function will display the most current message */
 fun messageHandler(msg) {
 	
-	full_msg += msg + " ";
-	tmp_image = Image.Text(full_msg, 1, 1, 1);
+	if ((msg == "") || !msg) {
+		
+		return 0;
+		
+	}
+	
+	if (msg.SubString(0, 5) == "keys:") {
+	
+		msg = msg.SubString(5, strlen(msg));
+	
+	}
+	
+	//full_msg += msg + " ";
+	for(i = 4; i > 0; i--) {
+
+		msgs_line[i] = msgs_line[i - 1];
+	
+	}
+	
+	msgs_line[0] = Sprite(Image.Text(msg, 1, 1, 1));
+	//tmp_image = Image.Text(full_msg, 1, 1, 1);
 	/* tmp_image = tmp_image.Scale(tmp_image.GetWidth() - 15, tmp_image.GetHeight() - 5); */
-	msg_label_sprite.SetImage(tmp_image);
-	msg_label_sprite.SetPosition((screen_width / 2) - (tmp_image.GetWidth() / 2), screen_height - tmp_image.GetHeight() - 10);
+	
+	dist = 1;
+	
+	for(i = 0; i < 5; i++) {
+	
+		//msg_label_sprite.SetImage(msgs_line[i]);
+		//msg_label_sprite.SetPosition((screen_width / 2) - (msgs_line[i].GetWidth() / 2), screen_height - msgs_line[i].GetHeight() - (15*dist));
+		msgs_line[i].SetPosition((screen_width / 2) - (msgs_line[i].GetImage().GetWidth() / 2), (screen_height - msgs_line[i].GetImage().GetHeight()) - 20*dist);
+		dist++;
+		
+	}
+	
+	//msg_label_sprite.SetImage(tmp_image);
+	//msg_label_sprite.SetPosition((screen_width / 2) - (tmp_image.GetWidth() / 2), screen_height - tmp_image.GetHeight() - 10);
 
 }
 
