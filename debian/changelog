@@ -1,7 +1,7 @@
 xubuntu-artwork (12.04.10) UNRELEASED; urgency=low
 
   * usr/share/icons/elementary-xfce:
-    - drop superflous 'temp' folder.
+    - drop superfluous 'temp' folder.
     - provide more 64px pngs for the tabwin.
   * usr/share/icons/elementary-xfce-dark:
     - add missing light panel icon for xfce4-clipman.
