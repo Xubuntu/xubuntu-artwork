@@ -1,4 +1,4 @@
-xubuntu-artwork (12.04.10) UNRELEASED; urgency=low
+xubuntu-artwork (12.04.10) precise; urgency=low
 
   * usr/share/icons/elementary-xfce:
     - drop superfluous 'temp' folder.
@@ -6,7 +6,7 @@ xubuntu-artwork (12.04.10) UNRELEASED; urgency=low
   * usr/share/icons/elementary-xfce-dark:
     - add missing light panel icon for xfce4-clipman.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 04 Apr 2012 20:35:22 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 04 Apr 2012 20:53:25 +0200
 
 xubuntu-artwork (12.04.9) precise; urgency=low
 
