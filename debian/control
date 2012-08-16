@@ -21,19 +21,9 @@ Depends: ${misc:Depends}
 Description: Xubuntu wallpapers
  This package contains the default wallpapers for Xubuntu.
 
-Package: xubuntu-plymouth-theme
-Architecture: all
-Depends: ${misc:Depends}, plymouth-theme-xubuntu-logo, plymouth-theme-xubuntu-text
-Description: Plymouth theme for Xubuntu
- Transitional package for plymouth-theme-xubuntu-logo and
- plymouth-theme-xubuntu-text.
- .
- This package can be safely removed.
-
 Package: plymouth-theme-xubuntu-logo
 Architecture: all
 Depends: ${misc:Depends}, plymouth, plymouth-label
-Replaces: xubuntu-plymouth-theme
 Provides: plymouth-theme
 Description: graphical boot animation and logger - xubuntu-logo theme
  Plymouth is an application that runs very early in the boot process

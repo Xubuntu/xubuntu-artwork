@@ -6,6 +6,7 @@ xubuntu-artwork (12.10.0) UNRELEASED; urgency=low
   * Refresh elementary-xfce* icon themes, including fixes:
     - restart icon appears to have a line through it, lp: #980827
     - Simple Scan application menu missing icon, lp: #974549
+  * Drop obsolete xubuntu-plymouth-theme transitional package.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 16 Aug 2012 17:27:27 +0200
 
