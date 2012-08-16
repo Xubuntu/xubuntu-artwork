@@ -1,4 +1,4 @@
-xubuntu-artwork (12.10.0) UNRELEASED; urgency=low
+xubuntu-artwork (12.10.0) quantal; urgency=low
 
   * Update plymouth xubuntu-text version string. lp: #1029128
   * Drop obsolete elementaryXubuntu icon theme.
@@ -8,7 +8,7 @@ xubuntu-artwork (12.10.0) UNRELEASED; urgency=low
     - Simple Scan application menu missing icon, lp: #974549
   * Drop obsolete xubuntu-plymouth-theme transitional package.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 16 Aug 2012 17:27:27 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 16 Aug 2012 18:14:09 +0200
 
 xubuntu-artwork (12.04.11) precise; urgency=low
 
