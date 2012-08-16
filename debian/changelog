@@ -1,3 +1,9 @@
+xubuntu-artwork (12.10.0) UNRELEASED; urgency=low
+
+  * Update plymouth xubuntu-text version string. lp: #1029128
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 16 Aug 2012 17:27:27 +0200
+
 xubuntu-artwork (12.04.11) precise; urgency=low
 
   * usr/share/icons/elementary-xfce:
