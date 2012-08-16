@@ -1,6 +1,8 @@
 xubuntu-artwork (12.10.0) UNRELEASED; urgency=low
 
   * Update plymouth xubuntu-text version string. lp: #1029128
+  * Drop obsolete elementaryXubuntu icon theme.
+  * Drop pre-precise wallpapers, they are available in shimmer-wallpapers too.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 16 Aug 2012 17:27:27 +0200
 
