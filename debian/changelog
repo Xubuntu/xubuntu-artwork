@@ -2,7 +2,8 @@ xubuntu-artwork (12.10.1) UNRELEASED; urgency=low
 
   * Include new wallpaper. lp: #1043170
   * Import elementary-xfce master to fix missing icons. lp: #1006416
-  * usr/share/lightdm-gtk-greeter: dropped, unneeded now.
+  * debian/xubuntu-artwork.install, usr/share/lightdm-gtk-greeter: drop the
+    icons, unneeded now.
   * usr/share/pixmaps/xubuntu-lightdm-computer.png: added, for use by
     lightdm-gtk-greeter. lp: #1043176
 
