@@ -2,6 +2,7 @@ xubuntu-artwork (12.10.1) UNRELEASED; urgency=low
 
   * Include new wallpaper. lp: #1043170
   * Import elementary-xfce master to fix missing icons. lp: #1006416
+  * usr/share/lightdm-gtk-greeter: dropped, unneeded now.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 29 Aug 2012 18:52:22 +0200
 
