@@ -1,3 +1,9 @@
+xubuntu-artwork (12.10.1) UNRELEASED; urgency=low
+
+  * Include new wallpaper. lp: #1043170
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 29 Aug 2012 18:52:22 +0200
+
 xubuntu-artwork (12.10.0) quantal; urgency=low
 
   * Update plymouth xubuntu-text version string. lp: #1029128
