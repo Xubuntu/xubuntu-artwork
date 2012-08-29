@@ -1,4 +1,4 @@
-xubuntu-artwork (12.10.1) UNRELEASED; urgency=low
+xubuntu-artwork (12.10.1) quantal; urgency=low
 
   * Include new wallpaper. lp: #1043170
   * Import elementary-xfce master to fix missing icons. lp: #1006416
@@ -7,7 +7,7 @@ xubuntu-artwork (12.10.1) UNRELEASED; urgency=low
   * usr/share/pixmaps/xubuntu-lightdm-computer.png: added, for use by
     lightdm-gtk-greeter. lp: #1043176
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 29 Aug 2012 18:52:22 +0200
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 29 Aug 2012 19:52:37 +0200
 
 xubuntu-artwork (12.10.0) quantal; urgency=low
 
