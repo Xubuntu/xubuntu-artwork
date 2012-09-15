@@ -1,3 +1,10 @@
+xubuntu-artwork (12.10.2) UNRELEASED; urgency=low
+
+  * Drop more old wallpapers to gain space, and provide a symlink for use
+    by ubiquity-dm.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 15 Sep 2012 15:32:52 +0200
+
 xubuntu-artwork (12.10.1) quantal; urgency=low
 
   * Include new wallpaper. lp: #1043170
