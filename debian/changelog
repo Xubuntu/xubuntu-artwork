@@ -1,3 +1,9 @@
+xubuntu-artwork (13.04.0) UNRELEASED; urgency=low
+
+  * Include updated plymouth theme.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 24 Jan 2013 16:38:08 +0100
+
 xubuntu-artwork (12.10.2) quantal; urgency=low
 
   * Drop more old wallpapers to gain space, provide a symlink for use by

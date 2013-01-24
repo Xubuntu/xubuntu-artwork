@@ -35,7 +35,7 @@ screen_height = Window.GetHeight(0);
 background_image = Image("xubuntu-greybird.png");
 passw_dialog_input_image = Image("passw-dialog.png");
 bullet_image = Image("test.png");
- 
+
 bpp = Window.GetBitsPerPixel();
 
 if (bpp == 4) {
@@ -62,12 +62,32 @@ else {
 /*
  * Sprites */
 
-background_sprite = Sprite(background_image.Scale(screen_width, screen_height));
+ratio = Window.GetHeight() / Window.GetWidth();
+background_ratio = background_image.GetHeight() / background_image.GetWidth();
+factor = 0;
+
+if (ratio > background_ratio) {
+
+	factor = Window.GetHeight() / background_image.GetHeight();
+
+}
+else {
+	
+	factor = Window.GetWidth() / background_image.GetWidth();
+	
+}
+
+scaled = background_image.Scale(background_image.GetWidth() * factor, background_image.GetHeight() * factor);
+background_sprite = Sprite(scaled);
+background_sprite.SetX(Window.GetWidth() / 2 - scaled.GetWidth() / 2);
+background_sprite.SetY(Window.GetHeight() / 2 - scaled.GetHeight() / 2);
+//background_sprite = Sprite(background_image.Scale(screen_width, screen_height));
+
 
 logotype_sprite = Sprite(logotype_image);
 
-progress_meter_sprite = Sprite(progress_meter_image);
-progress_fade_sprite = Sprite(progress_fade_image);
+//progress_meter_sprite = Sprite(progress_meter_image);
+//progress_fade_sprite = Sprite(progress_fade_image);
 
 fsck_progress_meter_sprite = Sprite(fsck_progress_meter_image);
 fsck_progress_fade_sprite = Sprite(fsck_progress_fade_image.Scale(1, fsck_progress_fade_image.GetHeight()));
@@ -121,7 +141,7 @@ fun debugOutput(str) {
  * Setup the graphics properties */
 logotype_sprite.SetPosition((screen_width / 2) - (logotype_image.GetWidth() / 2), (screen_height / 2) - (logotype_image.GetHeight() / 2));
 
-progress_meter_sprite.SetPosition((screen_width / 2) - (progress_meter_image.GetWidth() / 2), (screen_height / 2) + (logotype_image.GetHeight() / 2));
+//progress_meter_sprite.SetPosition((screen_width / 2) - (progress_meter_image.GetWidth() / 2), (screen_height / 2) + (logotype_image.GetHeight() / 2));
 
 fsck_progress_meter_sprite.SetPosition((screen_width / 2) - (progress_meter_image.GetWidth() / 2), (screen_height / 2) + (logotype_image.GetHeight() / 2) + 25);
 fsck_progress_fade_sprite.SetPosition((screen_width / 2) - (progress_meter_image.GetWidth() / 2), (screen_height / 2) + (logotype_image.GetHeight() / 2) + 25);
@@ -132,6 +152,7 @@ passw_dialog_input_sprite.SetPosition((screen_width / 2) - (passw_dialog_input_i
 passw_dialog_input_sprite.SetOpacity(0);
 passw_lbl_sprite.SetOpacity(0);
 
+spin = 0;
 /*
  * this function only goes up to 100
  * because thats all thats needed for
@@ -163,9 +184,57 @@ fun atoi(str) {
  * According to the previous author of the
  * splash script, without this callback
  * the screen is not updated correctly */
+spinner_sprite;
+spinner;
+//foo = 1;
+//dir = 1;
+
 fun refreshHandler() {
 	
-	progress_fade_sprite.SetPosition(fade_pos_x + counter, (screen_height / 2) + (logotype_image.GetHeight() / 2) - 2);
+	if (spin < 3.14*2) {
+	
+		spin = spin + 0.2;
+	
+	}
+	else {
+		spin = 0;
+	}
+	
+	spinner = Image("spinner.png");
+	spinner = spinner.Rotate(spin);
+	spinner_sprite = Sprite(spinner);
+	spinner_sprite.SetPosition((screen_width / 2) - (spinner.GetWidth() / 2), (screen_height / 2) - (spinner.GetHeight() / 2) + 50);	
+
+	
+/*	if (dir == 1) {
+		
+		foo = foo - 0.01;
+		
+		if (foo <= 0.5) {
+	
+			dir = 0;
+			foo = 0.5;
+	
+		}
+	
+	}
+	else {
+		
+		foo = foo + 0.01;
+		
+		if (foo >= 1) {
+		
+			foo = 1.0;
+			dir = 1;
+		
+		}
+		
+	}
+
+	logotype_sprite.SetOpacity(foo);
+
+*/	
+	/*progress_fade_sprite.SetPosition(fade_pos_x + counter, (screen_height / 2) + (logotype_image.GetHeight() / 2) - 2);*/
 	
 	if (fade_dir == 0) {
 		
