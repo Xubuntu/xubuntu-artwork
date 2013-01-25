@@ -1,6 +1,8 @@
 xubuntu-artwork (13.04.0) UNRELEASED; urgency=low
 
   * Include updated plymouth theme.
+  * Include updated elementary-xfce-* icon themes, converted to png, and
+    add a rule to regenerate it easily from the svg files.
 
  -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 24 Jan 2013 16:38:08 +0100
 
