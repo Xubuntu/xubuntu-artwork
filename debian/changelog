@@ -1,4 +1,4 @@
-xubuntu-artwork (13.04.0) UNRELEASED; urgency=low
+xubuntu-artwork (13.04.0) raring; urgency=low
 
   * Include updated plymouth theme. lp: #830464
   * Include updated elementary-xfce-* icon themes, including:
@@ -7,7 +7,7 @@ xubuntu-artwork (13.04.0) UNRELEASED; urgency=low
     - convert the themes to png and add a rule to regenerate them easily
       from the svg files. lp: #1005785
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 24 Jan 2013 16:38:08 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 25 Jan 2013 19:21:34 +0100
 
 xubuntu-artwork (12.10.2) quantal; urgency=low
 
