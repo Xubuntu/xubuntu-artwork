@@ -193,7 +193,7 @@ fun refreshHandler() {
 	
 	if (spin < 3.14*2) {
 	
-		spin = spin + 0.2;
+		spin = spin + 0.1;
 	
 	}
 	else {
@@ -203,7 +203,7 @@ fun refreshHandler() {
 	spinner = Image("spinner.png");
 	spinner = spinner.Rotate(spin);
 	spinner_sprite = Sprite(spinner);
-	spinner_sprite.SetPosition((screen_width / 2) - (spinner.GetWidth() / 2), (screen_height / 2) - (spinner.GetHeight() / 2) + 50);	
+	spinner_sprite.SetPosition((screen_width / 2) - (spinner.GetWidth() / 2), (screen_height / 2) - (spinner.GetHeight() / 2) + 80);	
 
 	
 /*	if (dir == 1) {
