@@ -1,14 +1,14 @@
-xubuntu-artwork (13.04.1) UNRELEASED; urgency=low
+xubuntu-artwork (13.04.1) raring; urgency=low
 
   [ Lionel Le Folgoc ]
   * lib/plymouth/themes/xubuntu-text/xubuntu-text.plymouth: bump version.
   * Refresh elementary-xfce-* icon themes from git.
 
   [ Simon Steinbeiß ]
-  * Add 30px of vertical padding between logo and spinner, reduce spinner speed
-    to a less nervous level
+  * Add 30px of vertical padding between logo and spinner, reduce spinner
+    speed to a less nervous level.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 29 Jan 2013 21:09:01 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 10 Feb 2013 20:10:41 +0100
 
 xubuntu-artwork (13.04.0) raring; urgency=low
 
