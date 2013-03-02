@@ -128,8 +128,6 @@ main (gint    argc,
 {
   gint i;
   
-  g_type_init ();
-  
   for (i = 1; i < argc; i++)
     svgtopng (argv[i]);
 

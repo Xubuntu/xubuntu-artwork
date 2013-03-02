@@ -16,7 +16,7 @@ fi
 cmd="./svgtopng"
 
 echo "Checking dangling symlinks (before)"
-find -L "$icondir" -type l
+find -L "$icondir" -type l -exec /bin/ls -go {} \;
 
 echo "==================================="
 
@@ -42,7 +42,7 @@ echo "==================================="
 
 #ignore the output if the theme depends on another one (e.g. elementary-xfce-dark needs to be converted before elementary-xfce)
 echo "Checking dangling symlinks (after)"
-find -L "$icondir" -type l
+find -L "$icondir" -type l -exec /bin/ls -go {} \;
 
 echo "==================================="
 
