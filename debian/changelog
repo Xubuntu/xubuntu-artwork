@@ -1,9 +1,9 @@
-xubuntu-artwork (13.04.2) UNRELEASED; urgency=low
+xubuntu-artwork (13.04.2) raring; urgency=low
 
   * usr/share/pixmaps/xubuntu-lightdm-computer.png: dropped, unused.
   * Refresh elementary-xfce-* icon themes from git.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 10 Feb 2013 20:25:38 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 02 Mar 2013 20:01:49 +0100
 
 xubuntu-artwork (13.04.1) raring; urgency=low
 
