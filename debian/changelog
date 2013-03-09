@@ -1,3 +1,11 @@
+xubuntu-artwork (13.04.3) UNRELEASED; urgency=low
+
+  [ Simon Steinbeiß ]
+  * lib/plymouth/themes/xubuntu-logo/xubuntu-logo.script: hide the spinner
+    during fsck and password entry stage ebcause they would overlap.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 09 Mar 2013 21:19:06 +0100
+
 xubuntu-artwork (13.04.2) raring; urgency=low
 
   * usr/share/pixmaps/xubuntu-lightdm-computer.png: dropped, unused.
