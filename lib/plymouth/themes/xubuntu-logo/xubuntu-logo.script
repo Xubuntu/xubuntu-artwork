@@ -81,13 +81,8 @@ scaled = background_image.Scale(background_image.GetWidth() * factor, background
 background_sprite = Sprite(scaled);
 background_sprite.SetX(Window.GetWidth() / 2 - scaled.GetWidth() / 2);
 background_sprite.SetY(Window.GetHeight() / 2 - scaled.GetHeight() / 2);
-//background_sprite = Sprite(background_image.Scale(screen_width, screen_height));
-
 
 logotype_sprite = Sprite(logotype_image);
-
-//progress_meter_sprite = Sprite(progress_meter_image);
-//progress_fade_sprite = Sprite(progress_fade_image);
 
 fsck_progress_meter_sprite = Sprite(fsck_progress_meter_image);
 fsck_progress_fade_sprite = Sprite(fsck_progress_fade_image.Scale(1, fsck_progress_fade_image.GetHeight()));
@@ -140,19 +135,16 @@ fun debugOutput(str) {
 /*
  * Setup the graphics properties */
 logotype_sprite.SetPosition((screen_width / 2) - (logotype_image.GetWidth() / 2), (screen_height / 2) - (logotype_image.GetHeight() / 2));
-
-//progress_meter_sprite.SetPosition((screen_width / 2) - (progress_meter_image.GetWidth() / 2), (screen_height / 2) + (logotype_image.GetHeight() / 2));
-
 fsck_progress_meter_sprite.SetPosition((screen_width / 2) - (progress_meter_image.GetWidth() / 2), (screen_height / 2) + (logotype_image.GetHeight() / 2) + 25);
 fsck_progress_fade_sprite.SetPosition((screen_width / 2) - (progress_meter_image.GetWidth() / 2), (screen_height / 2) + (logotype_image.GetHeight() / 2) + 25);
 fsck_progress_meter_sprite.SetOpacity(0);
 fsck_progress_fade_sprite.SetOpacity(0);
-
-passw_dialog_input_sprite.SetPosition((screen_width / 2) - (passw_dialog_input_image.GetWidth() / 2), (screen_height / 2) + (logotype_image.GetHeight() / 2) + 50);
+passw_dialog_input_sprite.SetPosition((screen_width / 2) - (passw_dialog_input_image.GetWidth() / 2), (screen_height / 2) + (logotype_image.GetHeight() / 2) + 70);
 passw_dialog_input_sprite.SetOpacity(0);
 passw_lbl_sprite.SetOpacity(0);
 
 spin = 0;
+
 /*
  * this function only goes up to 100
  * because thats all thats needed for
@@ -186,55 +178,33 @@ fun atoi(str) {
  * the screen is not updated correctly */
 spinner_sprite;
 spinner;
-//foo = 1;
-//dir = 1;
 
 fun refreshHandler() {
 	
-	if (spin < 3.14*2) {
+	if (spin < 3.14 * 2) {
 	
 		spin = spin + 0.1;
 	
 	}
 	else {
+	
 		spin = 0;
-	}
-	
-	spinner = Image("spinner.png");
-	spinner = spinner.Rotate(spin);
-	spinner_sprite = Sprite(spinner);
-	spinner_sprite.SetPosition((screen_width / 2) - (spinner.GetWidth() / 2), (screen_height / 2) - (spinner.GetHeight() / 2) + 80);	
-
-	
-/*	if (dir == 1) {
-		
-		foo = foo - 0.01;
-		
-		if (foo <= 0.5) {
-	
-			dir = 0;
-			foo = 0.5;
-	
-		}
 	
 	}
-	else {
-		
-		foo = foo + 0.01;
-		
-		if (foo >= 1) {
-		
-			foo = 1.0;
-			dir = 1;
-		
-		}
-		
+	
+	/* if fsck is running or the password is prompted, hide the spinner */
+	if (fsck_running == 1 || passw_dialog_input_sprite.GetOpacity() == 1) {
+	
+		spinner_sprite.SetOpacity(0);
+	
+	} else {
+	
+		spinner = Image("spinner.png");
+		spinner = spinner.Rotate(spin);
+		spinner_sprite = Sprite(spinner);
+		spinner_sprite.SetPosition((screen_width / 2) - (spinner.GetWidth() / 2), (screen_height / 2) - (spinner.GetHeight() / 2) + 80);	
+	
 	}
-
-	logotype_sprite.SetOpacity(foo);
-
-*/	
-	/*progress_fade_sprite.SetPosition(fade_pos_x + counter, (screen_height / 2) + (logotype_image.GetHeight() / 2) - 2);*/
 	
 	if (fade_dir == 0) {
 		
@@ -297,9 +267,9 @@ fun showPasswordHandler(prompt, stars) {
 	}
 	
 	tmp_prompt_image = Image.Text(prompt, 1, 1, 1);
-	/* tmp_prompt_image = tmp_prompt_image.Scale(tmp_prompt_image.GetWidth() - 15, tmp_prompt_image.GetHeight() - 5); */
+
 	passw_lbl_sprite.SetImage(tmp_prompt_image);
-	passw_lbl_sprite.SetPosition((screen_width / 2) - (tmp_prompt_image.GetWidth() / 2), (screen_height / 2) + (logotype_image.GetHeight() / 2) + 20);
+	passw_lbl_sprite.SetPosition((screen_width / 2) - (tmp_prompt_image.GetWidth() / 2), (screen_height / 2) + (logotype_image.GetHeight() / 2) + 50);
 	
 	for(i = 0; i < stars_n; i++)  {
 	
@@ -312,7 +282,7 @@ fun showPasswordHandler(prompt, stars) {
 	for(i = 0; (i < stars) && (i < 15); i++) {
 		
 		stars_array[i] = Sprite(bullet_image);
-		stars_array[i].SetPosition((((screen_width / 2) - (passw_dialog_input_image.GetWidth() / 2)) + (18 * i)) + 2, (screen_height / 2) + (logotype_image.GetHeight() / 2) + 55);
+		stars_array[i].SetPosition((((screen_width / 2) - (passw_dialog_input_image.GetWidth() / 2)) + (18 * i)) + 2, (screen_height / 2) + (logotype_image.GetHeight() / 2) + 75);
 		stars_n++;
 		
 	}
@@ -388,22 +358,15 @@ fun messageHandler(msg) {
 	}
 	
 	msgs_line[0] = Sprite(Image.Text(msg, 1, 1, 1));
-	//tmp_image = Image.Text(full_msg, 1, 1, 1);
-	/* tmp_image = tmp_image.Scale(tmp_image.GetWidth() - 15, tmp_image.GetHeight() - 5); */
 	
 	dist = 1;
 	
 	for(i = 0; i < 5; i++) {
 	
-		//msg_label_sprite.SetImage(msgs_line[i]);
-		//msg_label_sprite.SetPosition((screen_width / 2) - (msgs_line[i].GetWidth() / 2), screen_height - msgs_line[i].GetHeight() - (15*dist));
 		msgs_line[i].SetPosition((screen_width / 2) - (msgs_line[i].GetImage().GetWidth() / 2), (screen_height - msgs_line[i].GetImage().GetHeight()) - 20*dist);
 		dist++;
 		
 	}
-	
-	//msg_label_sprite.SetImage(tmp_image);
-	//msg_label_sprite.SetPosition((screen_width / 2) - (tmp_image.GetWidth() / 2), screen_height - tmp_image.GetHeight() - 10);
 
 }
 
