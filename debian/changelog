@@ -1,4 +1,4 @@
-xubuntu-artwork (13.04.3) UNRELEASED; urgency=low
+xubuntu-artwork (13.04.3) raring; urgency=low
 
   [ Simon Steinbeiß ]
   * lib/plymouth/themes/xubuntu-logo/xubuntu-logo.script: hide the spinner
@@ -11,7 +11,7 @@ xubuntu-artwork (13.04.3) UNRELEASED; urgency=low
     - add missing 16px icon for onboard.
     - small fix for the accessibility symbolic icon.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 09 Mar 2013 21:19:06 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 17 Mar 2013 00:13:21 +0100
 
 xubuntu-artwork (13.04.2) raring; urgency=low
 
