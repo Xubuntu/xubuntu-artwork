@@ -1,3 +1,11 @@
+xubuntu-artwork (13.04.5) raring; urgency=low
+
+  [ Pasi Lallinaho ]
+
+  * Last minute wallpaper change
+
+ -- Stephen Michael Kellat <skellat@ubuntu.com>  Fri, 12 Apr 2013 08:50:46 -0400
+
 xubuntu-artwork (13.04.4) UNRELEASED; urgency=low
 
   * Fetch latest bugfixes for elementary-xfce-* icon themes from git:
