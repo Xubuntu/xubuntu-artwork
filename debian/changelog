@@ -1,14 +1,9 @@
-xubuntu-artwork (13.04.5) raring; urgency=low
-
-  [ Pasi Lallinaho ]
-
-  * Last minute wallpaper change
-  * LP Bug #1168339
-
- -- Stephen Michael Kellat <skellat@Fearless.local>  Fri, 12 Apr 2013 09:07:22 -0400
-
 xubuntu-artwork (13.04.4) UNRELEASED; urgency=low
 
+  [ Pasi Lallinaho ]
+  * UIFe - LP: #1168339
+
+  [ Lionel Le Folgoc ]
   * Fetch latest bugfixes for elementary-xfce-* icon themes from git:
     - add missing preferences-desktop-locale-symbolic icon.
   * usr/share/xfce4/backdrops/xubuntu-raring.png: added, new wallpaper.
