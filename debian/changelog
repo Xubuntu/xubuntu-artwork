@@ -1,4 +1,4 @@
-xubuntu-artwork (13.04.4) UNRELEASED; urgency=low
+xubuntu-artwork (13.04.4) raring; urgency=low
 
   [ Pasi Lallinaho ]
   * UIFe - LP: #1168339
@@ -10,7 +10,7 @@ xubuntu-artwork (13.04.4) UNRELEASED; urgency=low
     Update the symlink to let xubuntu-default-settings/ubiquity/etc. use
     it by default.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 20 Mar 2013 21:35:53 +0100
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 14 Apr 2013 01:05:31 -0500
 
 xubuntu-artwork (13.04.3) raring; urgency=low
 
