@@ -11,7 +11,7 @@ override_dh_gconf:
 update-elementary-icons:
 	make -C $(CURDIR)/debian/svgtopng
 	(cd $(CURDIR)/debian/svgtopng && git clone https://github.com/shimmerproject/elementary-xfce.git wip)
-	for d in elementary-xfce-darker elementary-xfce-dark elementary-xfce; do \
+	for d in elementary-xfce-dark elementary-xfce; do \
 		make -C $(CURDIR)/debian/svgtopng convert ICONDIR=wip/$$d && \
 		rm -rf $(CURDIR)/usr/share/icons/$$d && \
 		rm -f $(CURDIR)/debian/svgtopng/wip/$$d/LICENSE && \
