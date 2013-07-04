@@ -1,4 +1,4 @@
-xubuntu-artwork (13.10.0) UNRELEASED; urgency=low
+xubuntu-artwork (13.10.0) saucy; urgency=low
 
   * Improve Plymouth's positioning and scaling when using multiple monitors by
     setting the screen's X/Y coordinates
