@@ -1,3 +1,14 @@
+xubuntu-artwork (13.10.0) UNRELEASED; urgency=low
+
+  * Improve Plymouth's positioning and scaling when using multiple monitors by
+    setting the screen's X/Y coordinates
+  * Plymouth-text: bump the text title to 13.10.
+  * Small fix in Makefile of svgtopng-script
+  * Add elementary-xfce-darker addon and update debian/rules accordingly
+  * Refresh icon themes from git.
+
+ -- Simon Steinbeiss <ochosi@shimmerproject.org>  Thu, 04 Jul 2013 19:30:24 +0200
+
 xubuntu-artwork (13.04.4) raring; urgency=low
 
   [ Pasi Lallinaho ]
