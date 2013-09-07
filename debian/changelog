@@ -6,7 +6,7 @@ xubuntu-artwork (13.10.1) UNRELEASED; urgency=low
       elementary-xfce but uses the action icons from elementary-xfce-darker.
       This should help people using dark toolbar and panel icons.
 
- -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 26 Aug 2013 11:51:34 +0200
+ -- Simon Steinbeiss <ochosi@shimmerproject.org>  Sat, 07 Sep 2013 12:52:06 +0200
 
 xubuntu-artwork (13.10.0) saucy; urgency=low
 
