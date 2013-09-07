@@ -1,4 +1,4 @@
-xubuntu-artwork (13.10.1) UNRELEASED; urgency=low
+xubuntu-artwork (13.10.1) saucy; urgency=low
 
   * Fetch latest bugfixes for elementary-xfce-* icon themes from git:
     - fix missing 16px dir for elementary-xfce-darker
@@ -6,7 +6,7 @@ xubuntu-artwork (13.10.1) UNRELEASED; urgency=low
       elementary-xfce but uses the action icons from elementary-xfce-darker.
       This should help people using dark toolbar and panel icons.
 
- -- Simon Steinbeiss <ochosi@shimmerproject.org>  Sat, 07 Sep 2013 12:52:06 +0200
+ -- Simon Steinbeiss <ochosi@shimmerproject.org>  Sat, 07 Sep 2013 13:27:56 +0200
 
 xubuntu-artwork (13.10.0) saucy; urgency=low
 
