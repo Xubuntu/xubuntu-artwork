@@ -1,3 +1,10 @@
+xubuntu-artwork (13.10.2) UNRELEASED; urgency=low
+
+  * debian/xubuntu-icon-theme.preinst: added, handle symlink to folder change
+    of /usr/share/icons/elementary-xfce-darker/actions/16. lp: #1222156
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 08 Sep 2013 12:00:42 +0200
+
 xubuntu-artwork (13.10.1) saucy; urgency=low
 
   * Fetch latest bugfixes for elementary-xfce-* icon themes from git:

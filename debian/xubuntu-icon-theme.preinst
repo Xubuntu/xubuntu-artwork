@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+# In 13.10.0 elementary-xfce-darker/actions/16 was a symlink to elementary-xfce/actions/16
+case "$1" in
+install|upgrade)
+    if dpkg --compare-versions "$2" lt "13.10.2"; then
+      [ -h /usr/share/icons/elementary-xfce-darker/actions/16 ] && rm /usr/share/icons/elementary-xfce-darker/actions/16 || true
+    fi
+esac
+
+#DEBHELPER#
