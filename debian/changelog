@@ -1,3 +1,10 @@
+xubuntu-artwork (13.10.3) saucy; urgency=low
+
+  * Add new wallpaper for Saucy
+  * Rename wallpaper-greybird to just wallpaper in Plymouth
+
+ -- Simon Steinbeiss <ochosi@shimmerproject.org>  Fri, 20 Sep 2013 14:44:08 +0200
+
 xubuntu-artwork (13.10.2) saucy; urgency=low
 
   * debian/xubuntu-icon-theme.preinst: added, handle symlink to folder change

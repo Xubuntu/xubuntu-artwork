@@ -34,7 +34,7 @@ screen_y = Window.GetY();
  * Images, check bits per pixel
  * and load images accordingly */
 
-background_image = Image("xubuntu-greybird.png");
+background_image = Image("wallpaper.png");
 passw_dialog_input_image = Image("passw-dialog.png");
 bullet_image = Image("test.png");
 
