@@ -1,7 +1,9 @@
-xubuntu-artwork (13.10.3) saucy; urgency=low
+xubuntu-artwork (13.10.3) UNRELEASED; urgency=low
 
   * Add new wallpaper for Saucy
   * Rename wallpaper-greybird to just wallpaper in Plymouth
+  * debian/xubuntu-wallpapers.links: update symlink name to remove 'precise'
+    from it.
 
  -- Simon Steinbeiss <ochosi@shimmerproject.org>  Fri, 20 Sep 2013 14:44:08 +0200
 
