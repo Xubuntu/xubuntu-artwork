@@ -115,6 +115,11 @@ stars_n = 0;
 
 //full_msg = "";
 msgs_line;
+msgs_line[0] = Sprite(Image.Text("", 1, 1, 1));
+msgs_line[1] = Sprite(Image.Text("", 1, 1, 1));
+msgs_line[2] = Sprite(Image.Text("", 1, 1, 1));
+msgs_line[3] = Sprite(Image.Text("", 1, 1, 1));
+msgs_line[4] = Sprite(Image.Text("", 1, 1, 1));
 
 /**/
 
