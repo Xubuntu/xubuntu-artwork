@@ -114,12 +114,7 @@ stars_array;
 stars_n = 0;
 
 //full_msg = "";
-msgs_line;
-msgs_line[0] = Sprite(Image.Text("", 1, 1, 1));
-msgs_line[1] = Sprite(Image.Text("", 1, 1, 1));
-msgs_line[2] = Sprite(Image.Text("", 1, 1, 1));
-msgs_line[3] = Sprite(Image.Text("", 1, 1, 1));
-msgs_line[4] = Sprite(Image.Text("", 1, 1, 1));
+msgs_line = [NULL,NULL,NULL,NULL,NULL];
 
 /**/
 
@@ -369,10 +364,14 @@ fun messageHandler(msg) {
 	dist = 1;
 	
 	for(i = 0; i < 5; i++) {
-	
-		msgs_line[i].SetPosition(screen_x + (screen_width / 2) - (msgs_line[i].GetImage().GetWidth() / 2), screen_y + (screen_height - msgs_line[i].GetImage().GetHeight()) - 20*dist);
-		dist++;
-		
+
+		if (msgs_line[i] != NULL) {
+
+			msgs_line[i].SetPosition(screen_x + (screen_width / 2) - (msgs_line[i].GetImage().GetWidth() / 2), screen_y + (screen_height - msgs_line[i].GetImage().GetHeight()) - 20*dist);
+			dist++;
+
+		}
+
 	}
 
 }
