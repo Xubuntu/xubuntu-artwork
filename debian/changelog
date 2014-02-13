@@ -1,3 +1,10 @@
+xubuntu-artwork (14.04.0) trusty; urgency=low
+
+  * Update icon-theme from github
+  * Bump version in plymouth-theme to 14.04
+
+ -- Simon Steinbeiss <ochosi@shimmerproject.org>  Fri, 14 Feb 2014 00:10:17 +0200
+
 xubuntu-artwork (13.10.3) saucy; urgency=low
 
   * Add new wallpaper for Saucy (lp: #1228098)
