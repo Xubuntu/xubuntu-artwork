@@ -3,6 +3,10 @@ xubuntu-artwork (14.04.0) trusty; urgency=low
   * Update icon-theme from github
   * Bump version in plymouth-theme to 14.04
   * Fix messages in graphical plymouth-theme
+  * debian/control:
+    - Bump standards-version to 3.9.5 (no changes)
+    - Use debhelper 9
+  * Use DEP-5 copyright format
 
  -- Simon Steinbeiss <ochosi@shimmerproject.org>  Tue, 18 Feb 2014 15:24:17 +0200
 

@@ -1,6 +1,7 @@
-Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
-Name: Xubuntu Artwork
-Maintainer: Xubuntu Team <xubuntu-devel@lists.ubuntu.com>
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Xubuntu Artwork
+Upstream-Contact: Xubuntu Team <xubuntu-devel@lists.ubuntu.com>
+Source: https://launchpad.net/xubuntu-artwork
 
 Files: lib/*
 Copyright: 2009 Canonical Ltd.
@@ -60,6 +61,7 @@ Copyright: 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
            2007-2012, Lionel Le Folgoc <mrpouit@ubuntu.com>
            2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
            2005-2008, Jani Monoses <jani@ubuntu.com>
+           2014, Jackson Doak <noskcaj@ubuntu.com>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL-2' file.
