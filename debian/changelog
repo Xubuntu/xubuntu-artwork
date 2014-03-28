@@ -1,3 +1,9 @@
+xubuntu-artwork (14.04.2) trusty; urgency=low
+
+  * Add new wallpaper for Trusty (LP #1298711)
+
+ -- Simon Steinbeiss <ochosi@shimmerproject.org>  Fri, 28 Mar 2014 02:14:04 +0200
+
 xubuntu-artwork (14.04.1) trusty; urgency=low
 
   * Update icon-theme from github
