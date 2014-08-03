@@ -3,7 +3,10 @@ xubuntu-artwork (14.10.0) utopic; urgency=medium
   [ Unit 193 ]
   * Bump version in plymouth-theme to 14.10
 
- -- Unit 193 <unit193@ubuntu.com>  Thu, 31 Jul 2014 15:56:02 -0400
+  [ ochosi ]
+  * Refresh icon-theme from github
+
+ -- Simon Steinbeiss <ochosi@shimmerproject.org>  Sun, 03 Aug 2014 19:08:22 +0200
 
 xubuntu-artwork (14.04.2) trusty; urgency=low
 
