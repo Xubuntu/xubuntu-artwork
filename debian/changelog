@@ -1,3 +1,9 @@
+xubuntu-artwork (14.10.2) utopic; urgency=medium
+
+  * Another small update for our icon-theme
+
+ -- Simon Steinbeiß <ochosi@shimmerproject.org>  Wed, 10 Sep 2014 18:15:40 +0200
+
 xubuntu-artwork (14.10.1) utopic; urgency=medium
 
   * Update icon-theme from github for Beta1
