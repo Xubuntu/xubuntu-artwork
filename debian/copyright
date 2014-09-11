@@ -24,21 +24,12 @@ License: GPL-3+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL-2' file.
 
-Files: usr/share/icons/* usr/share/gmusicbrowser/*
+Files: usr/share/icons/* usr/share/gmusicbrowser/* usr/share/unity-greeter/*
 Copyright: 2008-2011, Daniel Fore <Daniel.P.Fore@gmail.com>
            2010-2012, Simon Steinbeiß <ochosi@shimmerproject.org>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL-2' file.
-
-Files: usr/share/icons/elementaryXubuntu/notifications/*
-Copyright: 2004-2009 Canonical Ltd.
-License: CC-BY-SA-3.0
- Unless otherwise indicated, artwork is available under the Creative Commons
- Attribution Share-alike license v3.0 or any later version.  To view a copy of
- this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a
- letter to Creative Commons, 171 Second Street, Suite 300, San Francisco,
- California, 94105, USA.
 
 Files: usr/share/pixmaps/*
 Copyright: 2009-2010, Pasi Lallinaho <open@knome.fi>
