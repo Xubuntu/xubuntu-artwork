@@ -1,3 +1,10 @@
+xubuntu-artwork (15.04.0) vivid; urgency=medium
+
+  * Update icon theme from git snapshot (2015-01-16)
+  * Bump plymouth-text version number for vivid
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 19 Jan 2015 07:24:13 -0500
+
 xubuntu-artwork (14.10.3) utopic; urgency=medium
 
   * Add new wallpaper for Utopic (LP: #1371555)
