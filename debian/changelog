@@ -1,3 +1,14 @@
+xubuntu-artwork (15.04.1) vivid; urgency=medium
+
+  * usr/share/xfce4/backdrops/xubuntu-development.png
+  * debian/xubuntu-wallpapers.links
+    - New development wallpaper
+  * debian/control
+    - Move Recommends to Depends
+    - Bump Standards-Version to 3.9.6
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 11 Feb 2015 20:29:35 -0500
+
 xubuntu-artwork (15.04.0) vivid; urgency=medium
 
   * Update icon theme from git snapshot (2015-01-16)
