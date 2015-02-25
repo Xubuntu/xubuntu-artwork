@@ -351,6 +351,10 @@ fun messageHandler(msg) {
 		msg = msg.SubString(5, strlen(msg));
 	
 	}
+
+	# Get the message without the "fsckd-cancel-msg" prefix as we don't support i18n
+	if (msg.SubString(0, 17) == "fsckd-cancel-msg:")
+		msg = msg.SubString(17, strlen(msg));
 	
 	//full_msg += msg + " ";
 	for(i = 4; i > 0; i--) {
@@ -479,6 +483,26 @@ fun statusHandler(status) {
 		
 		}
 	
+	}
+
+	# systemd-fsckd pass fsckd:<number_devices>:<progress>:<l10n_string>
+	if (status_array[0] == "fsckd") {
+		fsck_running = 1;
+
+		# remove ",x" as we only care about integers
+		progress_str = status_array[2];
+		progress = atoi(progress_str.SubString(0, strlen(progress_str) - 2));
+
+		fsck_progress_fade_sprite.SetImage(fsck_progress_fade_image.Scale((fsck_progress_meter_image.GetWidth() / 100) * progress, fsck_progress_fade_image.GetHeight()));
+
+		/*
+		 * if the total progress is at maximum, 
+		 * make the progress meter go away,
+		 * we might want to fade this out... */	
+		if (progress == 100) {
+			fsck_progress_meter_sprite.SetOpacity(0);
+			fsck_progress_fade_sprite.SetOpacity(0);
+		}
 	}
 	
 }
