@@ -1,9 +1,9 @@
-xubuntu-artwork (15.04.2) UNRELEASED; urgency=medium
+xubuntu-artwork (15.04.2) vivid; urgency=medium
 
   * Add fsck report and cancel support with systemd to the logo theme
     (LP: #1425434)
 
- -- Didier Roche <didrocks@ubuntu.com>  Wed, 25 Feb 2015 12:46:11 +0100
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 25 Feb 2015 12:46:53 +0100
 
 xubuntu-artwork (15.04.1) vivid; urgency=medium
 
