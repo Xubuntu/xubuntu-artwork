@@ -1,3 +1,17 @@
+xubuntu-artwork (15.04.4) UNRELEASED; urgency=medium
+
+  * usr/share/gtksourceview-{2.0|3.0}/*, usr/share/xfce4/terminal/*
+  * debian/xubuntu-artwork.install:
+    - Add xubuntu-{dark|light} terminal and gtksourceview colorschemes
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 10 Mar 2015 06:33:33 -0400
+
+xubuntu-artwork (15.04.3) vivid; urgency=medium
+
+  * Update elementary-xfce from git shapshot (2015-03-09)
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 09 Mar 2015 21:10:53 -0400
+
 xubuntu-artwork (15.04.2) vivid; urgency=medium
 
   * Add fsck report and cancel support with systemd to the logo theme

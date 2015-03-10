@@ -47,12 +47,22 @@ License: CC-BY-SA-3.0
  letter to Creative Commons, 171 Second Street, Suite 300, San Francisco,
  California, 94105, USA.
 
+Files: usr/share/gtksourceview-2.0/* usr/share/xfce4/terminal/*
+Copyright: 2015, Pasi Lallinaho <open@knome.fi>
+License: CC-BY-SA-3.0
+ Unless otherwise indicated, artwork is available under the Creative Commons
+ Attribution Share-alike license v3.0 or any later version.  To view a copy of
+ this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a
+ letter to Creative Commons, 171 Second Street, Suite 300, San Francisco,
+ California, 94105, USA.
+
 Files: debian/*
 Copyright: 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
            2007-2012, Lionel Le Folgoc <mrpouit@ubuntu.com>
            2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
            2005-2008, Jani Monoses <jani@ubuntu.com>
-           2014, Jackson Doak <noskcaj@ubuntu.com>
+           2014-2015, Jackson Doak <noskcaj@ubuntu.com>
+           2015, Sean Davis <bluesabre@ubuntu.com>
 License: GPL-2+
  On Debian systems the full text of the GNU General Public License can be found
  in the `/usr/share/common-licenses/GPL-2' file.

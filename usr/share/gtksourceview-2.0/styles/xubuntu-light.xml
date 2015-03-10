@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<style-scheme id="xubuntu_light" _name="Xubuntu Light" version="1.0">
+
+	<author>Pasi Lallinaho</author>
+	<_description>A light colorful theme designed for Xubuntu.</_description>
+
+	<!-- Color palette -->
+	<color name="bg" value="#f1f1f1" />
+	<color name="bg_contrast_low" value="#dddddd" />
+	<color name="bg_contrast_high" value="#ffffff" />
+	<color name="text" value="#1f3566" />
+	<color name="text_contrast_high" value="#1a2233" />
+	<color name="text_contrast_low" value="#bbbbbb" />
+	<color name="text_contrast_medium" value="#888888" />
+
+	<color name="black" value="#000000" />
+	<color name="blue_light" value="#6688cc" />
+	<color name="blue_medium" value="#295fcc" />
+	<color name="blue_dark" value="#000033" />
+	<color name="cyan" value="#1a92aa" />
+	<color name="green" value="#228822" />
+	<color name="pink" value="#cc66cc" />
+	<color name="red_dark" value="#aa0000" />
+	<color name="red_medium" value="#aa3333" />
+	<color name="white" value="#ffffff" />
+	<color name="yellow" value="#ab7922" />
+
+	<!-- Global Settings -->
+	<style name="text"                        foreground="text" background="bg" />
+	<style name="selection"                   foreground="text_contrast_high" background="bg_contrast_low" />
+	<style name="cursor"                      foreground="text_contrast_high" />
+	<style name="current-line"                background="bg_contrast_high" />
+	<style name="line-numbers"                foreground="text_contrast_medium" background="bg_contrast_high" />
+	<style name="draw-spaces"                 foreground="text_contrast_low" />
+
+	<!-- Bracket Matching -->
+	<style name="bracket-match"               foreground="white" background="blue_medium" bold="true" />
+	<style name="bracket-mismatch"            foreground="white" background="red_dark" bold="true" />
+
+	<!-- Right Margin -->
+	<style name="right-margin"                foreground="white" background="blue_dark" />
+
+	<!-- Search Matching  ?? -->
+	<style name="search-match"                foreground="white" background="green" />
+
+	<!-- Comments -->
+	<style name="def:comment"                 foreground="text_contrast_medium" />
+	<style name="def:shebang"                 foreground="pink" bold="true" />
+	<style name="def:doc-comment-element"     italic="true" />
+
+	<!-- Constants -->
+	<style name="def:constant"                foreground="yellow" />
+	<style name="def:string"                  foreground="yellow" />
+	<style name="def:special-char"            foreground="red_medium" />
+	<style name="def:special-constant"        foreground="red_medium" />
+	<style name="def:floating-point"          foreground="red_medium" />
+
+	<!-- Identifiers -->
+	<style name="def:identifier"              foreground="cyan" />
+
+	<!-- Statements -->
+	<style name="def:statement"               foreground="text_contrast_high" bold="true" />
+
+	<!-- Types -->
+	<style name="def:type"                    foreground="green" bold="true" /> 
+
+	<!-- Others -->
+	<style name="def:preprocessor"            foreground="pink" />
+	<style name="def:error"                   foreground="white" background="red_dark" bold="true" />
+	<style name="def:note"                    foreground="black" background="yellow" bold="true" />
+	<style name="def:underlined"              italic="true" underline="true" />
+
+	<!-- Language specific -->
+	<style name="diff:added-line"             foreground="green" />
+	<style name="diff:removed-line"           foreground="red_medium" />
+	<style name="diff:changed-line"           foreground="yellow" />
+	<style name="diff:diff-file"              foreground="blue_light" bold="true" /> 
+	<style name="diff:location"               foreground="blue_light" /> 
+	<style name="diff:special-case"           foreground="text_contrast_high" bold="true" />
+
+</style-scheme>
