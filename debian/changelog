@@ -1,4 +1,4 @@
-xubuntu-artwork (15.04.4) UNRELEASED; urgency=medium
+xubuntu-artwork (15.04.4) vivid; urgency=medium
 
   * usr/share/gtksourceview-{2.0|3.0}/*, usr/share/xfce4/terminal/*
   * debian/xubuntu-artwork.install:
@@ -9,7 +9,7 @@ xubuntu-artwork (15.04.4) UNRELEASED; urgency=medium
   * lib/plymouth/themes/xubuntu-logo/wallpaper.png
     - New wallpaper for Xubuntu 15.04
 
- -- Sean Davis <smd.seandavis@gmail.com>  Tue, 10 Mar 2015 19:29:03 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 10 Mar 2015 19:59:44 -0400
 
 xubuntu-artwork (15.04.3) vivid; urgency=medium
 
