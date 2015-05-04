@@ -1,3 +1,10 @@
+xubuntu-artwork (15.10.0) UNRELEASED; urgency=medium
+
+  [ Unit 193 ]
+  * Bump plymouth-text version number for wily
+
+ -- Unit 193 <unit193@ubuntu.com>  Mon, 04 May 2015 18:39:34 -0400
+
 xubuntu-artwork (15.04.4) vivid; urgency=medium
 
   * usr/share/gtksourceview-{2.0|3.0}/*, usr/share/xfce4/terminal/*
