@@ -2,7 +2,7 @@ Source: xubuntu-artwork
 Section: x11
 Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9), zip
 Standards-Version: 3.9.6
 Vcs-Bzr: lp:xubuntu-artwork
 Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-art/xubuntu-artwork/trusty/files
@@ -49,3 +49,13 @@ Architecture: all
 Depends: ${misc:Depends}
 Description: Xubuntu icon theme
  This package contains the default icon theme for Xubuntu.
+
+Package: libreoffice-style-elementary
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: libreoffice-core
+Description: office productivity suite -- elementary symbol style
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the "elementary" symbol style.

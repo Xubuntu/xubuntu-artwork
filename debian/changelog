@@ -1,3 +1,18 @@
+xubuntu-artwork (15.10.1) UNRELEASED; urgency=medium
+
+  * Makefile
+  * debian/control
+  * debian/libreoffice-style-elementary.install
+  * libreoffice-style-elementary/*
+    - Install new LibreOffice elementary theme
+  * debian/copyright
+    - Update copyrights to include libreoffice-style-elementary
+      and clean up lintian warnings
+  * usr/share/icons/*
+    - Update icons to elementary-xfce 0.6
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 19 Jul 2015 10:23:34 -0400
+
 xubuntu-artwork (15.10.0) wily; urgency=medium
 
   [ Unit 193 ]

@@ -7,6 +7,55 @@ Files: lib/*
 Copyright: 2009 Canonical Ltd.
            2011 The Xubuntu Community
 License: GPL-3+
+
+Files: usr/share/icons/* usr/share/gmusicbrowser/* usr/share/unity-greeter/*
+Copyright: 2008-2011, Daniel Fore <Daniel.P.Fore@gmail.com>
+           2010-2012, Simon Steinbeiß <ochosi@shimmerproject.org>
+License: GPL-2+
+
+Files: usr/share/pixmaps/*
+Copyright: 2009-2010, Pasi Lallinaho <open@knome.fi>
+License: GPL-2+
+
+Files: usr/share/xfce4/backdrops/*
+Copyright: 2009-2011, Pasi Lallinaho <open@knome.fi>
+           2010-2011, Simon Steinbeiß <ochosi@shimmerproject.org>
+License: CC-BY-SA-3.0
+
+Files: usr/share/gtksourceview-2.0/* usr/share/xfce4/terminal/*
+Copyright: 2015, Pasi Lallinaho <open@knome.fi>
+License: CC-BY-SA-3.0
+
+Files: libreoffice-style-elementary/*
+Copyright: 2015, Pasi Lallinaho <open@knome.fi>
+           2015, Simon Steinbeiß <ochosi@shimmerproject.org>
+License: GPL-2+
+ 
+Files: Makefile
+Copyright: 2015, Sean Davis <bluesabre@ubuntu.com>
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
+           2007-2012, Lionel Le Folgoc <mrpouit@ubuntu.com>
+           2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
+           2005-2008, Jani Monoses <jani@ubuntu.com>
+           2014-2015, Jackson Doak <noskcaj@ubuntu.com>
+           2015, Sean Davis <bluesabre@ubuntu.com>
+License: GPL-2+
+
+License: CC-BY-SA-3.0
+ Unless otherwise indicated, artwork is available under the Creative Commons
+ Attribution Share-alike license v3.0 or any later version.  To view a copy of
+ this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a
+ letter to Creative Commons, 171 Second Street, Suite 300, San Francisco,
+ California, 94105, USA.
+ 
+License: GPL-2+
+ On Debian systems, the full text of the GNU General Public License version 2 can
+ be found in the `/usr/share/common-licenses/GPL-2' file.
+
+License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 3 of the License, or
@@ -21,48 +70,5 @@ License: GPL-3+
  along with this package; if not, write to the Free Software
  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
  .
- On Debian systems the full text of the GNU General Public License can be found
- in the `/usr/share/common-licenses/GPL-2' file.
-
-Files: usr/share/icons/* usr/share/gmusicbrowser/* usr/share/unity-greeter/*
-Copyright: 2008-2011, Daniel Fore <Daniel.P.Fore@gmail.com>
-           2010-2012, Simon Steinbeiß <ochosi@shimmerproject.org>
-License: GPL-2+
- On Debian systems the full text of the GNU General Public License can be found
- in the `/usr/share/common-licenses/GPL-2' file.
-
-Files: usr/share/pixmaps/*
-Copyright: 2009-2010, Pasi Lallinaho <open@knome.fi>
-License: GPL-2+
- On Debian systems the full text of the GNU General Public License can be found
- in the `/usr/share/common-licenses/GPL-2' file.
-
-Files: usr/share/xfce4/backdrops/*
-Copyright: 2009-2011, Pasi Lallinaho <open@knome.fi>
-           2010-2011, Simon Steinbeiß <ochosi@shimmerproject.org>
-License: CC-BY-SA-3.0
- Unless otherwise indicated, artwork is available under the Creative Commons
- Attribution Share-alike license v3.0 or any later version.  To view a copy of
- this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a
- letter to Creative Commons, 171 Second Street, Suite 300, San Francisco,
- California, 94105, USA.
-
-Files: usr/share/gtksourceview-2.0/* usr/share/xfce4/terminal/*
-Copyright: 2015, Pasi Lallinaho <open@knome.fi>
-License: CC-BY-SA-3.0
- Unless otherwise indicated, artwork is available under the Creative Commons
- Attribution Share-alike license v3.0 or any later version.  To view a copy of
- this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a
- letter to Creative Commons, 171 Second Street, Suite 300, San Francisco,
- California, 94105, USA.
-
-Files: debian/*
-Copyright: 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
-           2007-2012, Lionel Le Folgoc <mrpouit@ubuntu.com>
-           2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
-           2005-2008, Jani Monoses <jani@ubuntu.com>
-           2014-2015, Jackson Doak <noskcaj@ubuntu.com>
-           2015, Sean Davis <bluesabre@ubuntu.com>
-License: GPL-2+
- On Debian systems the full text of the GNU General Public License can be found
- in the `/usr/share/common-licenses/GPL-2' file.
+ On Debian systems, the full text of the GNU General Public License version 3 can 
+ be found in the `/usr/share/common-licenses/GPL-3' file.
