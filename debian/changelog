@@ -1,4 +1,4 @@
-xubuntu-artwork (15.10.1) UNRELEASED; urgency=medium
+xubuntu-artwork (15.10.1) wily; urgency=medium
 
   * Makefile
   * debian/control
@@ -11,7 +11,7 @@ xubuntu-artwork (15.10.1) UNRELEASED; urgency=medium
   * usr/share/icons/*
     - Update icons to elementary-xfce 0.6
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sun, 19 Jul 2015 10:23:34 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 28 Jul 2015 06:14:40 -0400
 
 xubuntu-artwork (15.10.0) wily; urgency=medium
 
