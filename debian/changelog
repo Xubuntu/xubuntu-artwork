@@ -1,3 +1,9 @@
+xubuntu-artwork (15.10.4) UNRELEASED; urgency=medium
+
+  * New wallpaper for 15.10
+
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Sun, 06 Sep 2015 19:55:20 +0300
+
 xubuntu-artwork (15.10.3) wily; urgency=medium
 
   * Update libreoffice-style-elementary to 0.2
