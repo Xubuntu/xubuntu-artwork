@@ -1,8 +1,13 @@
-xubuntu-artwork (15.10.4) UNRELEASED; urgency=medium
+xubuntu-artwork (15.10.4) wily; urgency=medium
 
+  [ Pasi Lallinaho ]
   * New wallpaper for 15.10
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Sun, 06 Sep 2015 19:55:20 +0300
+  [ Sean Davis ]
+  * usr/share/icons/*
+    - Update icons to elementary-xfce 0.7
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 06 Sep 2015 17:40:19 -0400
 
 xubuntu-artwork (15.10.3) wily; urgency=medium
 
