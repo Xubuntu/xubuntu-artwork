@@ -31,7 +31,7 @@ set -e
 case "$1" in
     remove)
 	update-alternatives \
-		--remove default.plymouth /lib/plymouth/themes/xubuntu-logo/xubuntu-logo.plymouth
+		--remove default.plymouth /usr/share/plymouth/themes/xubuntu-logo/xubuntu-logo.plymouth
 
 	if which update-initramfs >/dev/null 2>&1
 	then
