@@ -19,14 +19,6 @@ set -e
 
 case "$1" in
     configure)
-    # transition from /lib to /usr/share theme file. If the symlink is dangling
-    # the call to alternative doesn't work on updating its path. Removing then
-    # the dangling symlink to recreate a clean config with next
-    # update-alternatives call.
-    if [ ! -r $(readlink -m "/etc/alternatives/text.plymouth") ]; then
-        rm -f /etc/alternatives/text.plymouth
-    fi
-
 	update-alternatives \
 		--install /usr/share/plymouth/themes/text.plymouth text.plymouth \
 		/usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth 150
