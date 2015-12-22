@@ -1,3 +1,12 @@
+xubuntu-artwork (15.12.2) xenial; urgency=medium
+
+  * debian/xubuntu-wallpapers.links:
+    - Link to development wallpaper
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
+    - Bump plymouth-text version number for xenial
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 22 Dec 2015 05:58:34 -0500
+
 xubuntu-artwork (15.12.1) xenial; urgency=medium
 
   * Transition with new plymouth from /usr/share to /lib:
