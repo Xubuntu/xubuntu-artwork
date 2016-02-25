@@ -7,7 +7,7 @@
 
 	<!-- Color palette -->
 	<color name="bg" value="#f1f1f1" />
-	<color name="bg_contrast_low" value="#dddddd" />
+	<color name="bg_contrast_low" value="#bbbbbb" />
 	<color name="bg_contrast_high" value="#ffffff" />
 	<color name="text" value="#1f3566" />
 	<color name="text_contrast_high" value="#1a2233" />
