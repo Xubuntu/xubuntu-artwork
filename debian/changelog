@@ -1,3 +1,15 @@
+xubuntu-artwork (15.12.3) UNRELEASED; urgency=medium
+
+  * Dropped libreoffice-style-elementary from package,
+    now packaged from the libreoffice source package.
+    - debian/control
+    - debian/copyright
+    - debian/libreoffice-style-elementary.install
+    - libreoffice-style-elementary
+    - Makefile
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 09 Mar 2016 07:16:37 -0500
+
 xubuntu-artwork (15.12.2) xenial; urgency=medium
 
   * debian/xubuntu-wallpapers.links:

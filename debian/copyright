@@ -26,15 +26,6 @@ Files: usr/share/gtksourceview-2.0/* usr/share/xfce4/terminal/*
 Copyright: 2015, Pasi Lallinaho <open@knome.fi>
 License: CC-BY-SA-3.0
 
-Files: libreoffice-style-elementary/*
-Copyright: 2015, Pasi Lallinaho <open@knome.fi>
-           2015, Simon Steinbeiß <ochosi@shimmerproject.org>
-License: GPL-2+
- 
-Files: Makefile
-Copyright: 2015, Sean Davis <bluesabre@ubuntu.com>
-License: GPL-2+
-
 Files: debian/*
 Copyright: 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
            2007-2012, Lionel Le Folgoc <mrpouit@ubuntu.com>
