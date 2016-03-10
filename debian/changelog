@@ -1,10 +1,14 @@
-xubuntu-artwork (15.12.3) UNRELEASED; urgency=medium
+xubuntu-artwork (15.12.3) xenial; urgency=medium
 
   [ Pasi Lallinaho ]
   * Change the selection color background for a darker one in
     the Xubuntu light themes (LP: #1508192)
     - usr/share/gtksourceview-2.0/styles/xubuntu-light.xml
     - usr/share/xfce4/terminal/colorschemes/xubuntu-light.theme
+  * New wallpaper for Xubuntu 16.o4
+    - debian/xubuntu-wallpapers.links
+    - usr/share/plymouth/themes/xubuntu-logo/wallpaper.png
+    - usr/share/xfce4/backdrops/xubuntu-xenial.png
 
   [ Sean Davis ]
   * Dropped libreoffice-style-elementary from package,
@@ -15,7 +19,7 @@ xubuntu-artwork (15.12.3) UNRELEASED; urgency=medium
     - libreoffice-style-elementary
     - Makefile
 
- -- Sean Davis <smd.seandavis@gmail.com>  Wed, 09 Mar 2016 07:26:49 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 09 Mar 2016 20:53:44 -0500
 
 xubuntu-artwork (15.12.2) xenial; urgency=medium
 
