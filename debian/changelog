@@ -1,3 +1,10 @@
+xubuntu-artwork (16.04.0) xenial; urgency=medium
+
+  * Correct typos in changelog
+  * Bump version to 16.04.0
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 10 Mar 2016 05:12:50 -0500
+
 xubuntu-artwork (15.12.3) xenial; urgency=medium
 
   [ Pasi Lallinaho ]
@@ -5,7 +12,7 @@ xubuntu-artwork (15.12.3) xenial; urgency=medium
     the Xubuntu light themes (LP: #1508192)
     - usr/share/gtksourceview-2.0/styles/xubuntu-light.xml
     - usr/share/xfce4/terminal/colorschemes/xubuntu-light.theme
-  * New wallpaper for Xubuntu 16.o4
+  * New wallpaper for Xubuntu 16.04
     - debian/xubuntu-wallpapers.links
     - usr/share/plymouth/themes/xubuntu-logo/wallpaper.png
     - usr/share/xfce4/backdrops/xubuntu-xenial.png
