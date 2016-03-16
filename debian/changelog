@@ -1,3 +1,9 @@
+xubuntu-artwork (16.04.1) xenial; urgency=medium
+
+  * Include new mimetype icons (LP: #1557803)
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 15 Mar 2016 19:40:26 -0400
+
 xubuntu-artwork (16.04.0) xenial; urgency=medium
 
   * Correct typos in changelog
