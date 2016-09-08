@@ -4,7 +4,7 @@ Description=Text mode theme based on xubuntu-logo theme
 ModuleName=ubuntu-text
 
 [ubuntu-text]
-title=Xubuntu 16.10
+title=Xubuntu 16.04
 black=0x000000
 white=0xffffff
 brown=0x000000
