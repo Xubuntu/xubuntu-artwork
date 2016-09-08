@@ -5,7 +5,7 @@ Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 Vcs-Bzr: lp:xubuntu-artwork
-Vcs-Browser: http://bazaar.launchpad.net/~xubuntu-art/xubuntu-artwork/trusty/files
+Vcs-Browser: https://bazaar.launchpad.net/~xubuntu-art/xubuntu-artwork/yakkety/files
 
 Package: xubuntu-artwork
 Architecture: all
