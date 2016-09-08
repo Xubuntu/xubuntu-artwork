@@ -1,3 +1,9 @@
+xubuntu-artwork (16.04.2) xenial; urgency=medium
+
+  * Fix appearance of secure wireless icons (LP: #1571317)
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 17 Apr 2016 08:50:45 -0400
+
 xubuntu-artwork (16.04.1) xenial; urgency=medium
 
   * Include new mimetype icons (LP: #1557803)
