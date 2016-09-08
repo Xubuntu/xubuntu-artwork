@@ -1,3 +1,17 @@
+xubuntu-artwork (16.10.0) yakkety; urgency=medium
+
+  [ Simon Steinbeiß ]
+  * debian/xubuntu-wallpapers.links:
+    - Link to development wallpaper
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
+    - Bump plymouth-text version number for yakkety
+
+  [ Unit 193 ]
+  * d/control: Update Vcs-Browser for yakkety, https.
+  * Update standards-version to 3.9.8.
+
+ -- Unit 193 <unit193@ubuntu.com>  Thu, 08 Sep 2016 17:51:42 -0400
+
 xubuntu-artwork (16.04.2) xenial; urgency=medium
 
   * Fix appearance of secure wireless icons (LP: #1571317)
