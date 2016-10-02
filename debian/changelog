@@ -1,3 +1,9 @@
+xubuntu-artwork (16.10.1) UNRELEASED; urgency=medium
+
+  * Update wallpaper (desktop and plymouth)
+
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Sun, 02 Oct 2016 13:35:57 +0300
+
 xubuntu-artwork (16.10.0) yakkety; urgency=medium
 
   [ Simon Steinbeiß ]
