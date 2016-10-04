@@ -1,4 +1,4 @@
-xubuntu-artwork (16.10.1) UNRELEASED; urgency=medium
+xubuntu-artwork (16.10.1) yakkety; urgency=medium
 
   [ Pasi Lallinaho ]
   * Update wallpaper (desktop and plymouth) (LP: #1629650)
@@ -8,7 +8,7 @@ xubuntu-artwork (16.10.1) UNRELEASED; urgency=medium
   * Add 64px xfce4-notifyd icon
   * Add audio-volume-off symbolic icon
 
- -- Sean Davis <smd.seandavis@gmail.com>  Mon, 03 Oct 2016 20:43:09 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 04 Oct 2016 17:36:49 -0400
 
 xubuntu-artwork (16.10.0) yakkety; urgency=medium
 
