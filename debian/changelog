@@ -1,8 +1,14 @@
 xubuntu-artwork (16.10.1) UNRELEASED; urgency=medium
 
-  * Update wallpaper (desktop and plymouth)
+  [ Pasi Lallinaho ]
+  * Update wallpaper (desktop and plymouth) (LP: #1629650)
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Sun, 02 Oct 2016 13:35:57 +0300
+  [ Sean Davis ]
+  * Add support for new icon naming for Totem (LP: #1623768)
+  * Add 64px xfce4-notifyd icon
+  * Add audio-volume-off symbolic icon
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 03 Oct 2016 20:43:09 -0400
 
 xubuntu-artwork (16.10.0) yakkety; urgency=medium
 
