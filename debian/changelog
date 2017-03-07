@@ -1,8 +1,15 @@
-xubuntu-artwork (17.04) UNRELEASED; urgency=medium
+xubuntu-artwork (17.04) zesty; urgency=medium
 
+  [ Pasi Lallinaho ]
   * Update wallpaper (desktop and Plymouth)
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Tue, 07 Mar 2017 00:17:42 +0200
+  [ Sean Davis ]
+  * Update elementary-xfce to v0.8
+    - Add symlinks to org.gnome.Nautilus for 3.24 (LP: #1669663)
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth:
+    - Bump version number to 17.04
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 06 Mar 2017 19:49:54 -0500
 
 xubuntu-artwork (16.10.1) yakkety; urgency=medium
 
