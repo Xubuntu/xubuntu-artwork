@@ -1,3 +1,10 @@
+xubuntu-artwork (17.10) artful; urgency=medium
+
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth:
+    - Bump version number to 17.10
+
+ -- Unit 193 <unit193@ubuntu.com>  Mon, 01 May 2017 19:17:01 -0400
+
 xubuntu-artwork (17.04) zesty; urgency=medium
 
   [ Pasi Lallinaho ]
