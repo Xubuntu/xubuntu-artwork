@@ -1,8 +1,14 @@
-xubuntu-artwork (17.10.1) UNRELEASED; urgency=medium
+xubuntu-artwork (17.10.1) artful; urgency=medium
 
+  [ Pasi Lallinaho ]
   * Update desktop and Plymouth wallpapers
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Wed, 13 Sep 2017 14:16:41 +0300
+  [ Sean Davis ]
+  * Update elementary-xfce to v0.9, including two additional commits:
+    - c066041: Move audio-mic and -speakers to the correct directory
+    - be7327d: Fix more gnome-fs-blockdev symlinks
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 13 Sep 2017 20:16:52 -0400
 
 xubuntu-artwork (17.10) artful; urgency=medium
 
