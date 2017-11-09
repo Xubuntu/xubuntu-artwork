@@ -1,11 +1,11 @@
-xubuntu-artwork (18.04) UNRELEASED; urgency=medium
+xubuntu-artwork (18.04) bionic; urgency=medium
 
   * debian/xubuntu-wallpapers.links:
     - Link to development wallpaper
   * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
     - Bump plymouth-text version number for bionic
 
- -- Sean Davis <smd.seandavis@gmail.com>  Tue, 24 Oct 2017 22:09:52 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 09 Nov 2017 06:09:15 -0500
 
 xubuntu-artwork (17.10.1) artful; urgency=medium
 
