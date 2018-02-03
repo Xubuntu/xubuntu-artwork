@@ -1,4 +1,4 @@
-xubuntu-artwork (18.04.1) UNRELEASED; urgency=medium
+xubuntu-artwork (18.04.1) bionic; urgency=medium
 
   * Update elementary-xfce to v0.10
   * debian/changelog:
@@ -18,7 +18,7 @@ xubuntu-artwork (18.04.1) UNRELEASED; urgency=medium
   * debian/xubuntu-icon-theme.links:
     - Added, brands elementary-xfce with the xubuntu logo
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sat, 03 Feb 2018 08:34:18 -0500
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 03 Feb 2018 10:28:15 -0500
 
 xubuntu-artwork (18.04) bionic; urgency=medium
 
