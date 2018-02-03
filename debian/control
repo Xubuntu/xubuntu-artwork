@@ -2,15 +2,15 @@ Source: xubuntu-artwork
 Section: x11
 Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
 Vcs-Bzr: lp:xubuntu-artwork
 Vcs-Browser: https://bazaar.launchpad.net/~xubuntu-art/xubuntu-artwork/yakkety/files
 
 Package: xubuntu-artwork
 Architecture: all
 Depends: ${misc:Depends}, shimmer-themes, libnewt0.52 (>= 0.52.11-2ubuntu7),
- plymouth-theme-xubuntu-logo, plymouth-theme-xubuntu-text, xubuntu-wallpapers, 
+ plymouth-theme-xubuntu-logo, plymouth-theme-xubuntu-text, xubuntu-wallpapers,
  xubuntu-icon-theme
 Description: Xubuntu themes and artwork
  This package contains Xubuntu themes and artwork.
