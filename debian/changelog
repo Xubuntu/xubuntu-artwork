@@ -1,3 +1,11 @@
+xubuntu-artwork (18.04.2) UNRELEASED; urgency=medium
+
+  * New wallpaper for desktop and Plymouth
+  * Remove all wallpapers from before 16.04
+  * Optimize wallpaper PNG files
+
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Tue, 20 Feb 2018 21:59:28 +0200
+
 xubuntu-artwork (18.04.1) bionic; urgency=medium
 
   * Update elementary-xfce to v0.10
