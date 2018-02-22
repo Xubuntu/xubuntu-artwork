@@ -1,4 +1,4 @@
-xubuntu-artwork (18.04.2) UNRELEASED; urgency=medium
+xubuntu-artwork (18.04.2) bionic; urgency=medium
 
   * New wallpaper for desktop and Plymouth
   * Remove all wallpapers from before 16.04
