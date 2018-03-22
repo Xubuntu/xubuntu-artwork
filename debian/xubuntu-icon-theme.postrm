@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+
+# Install icon caches for the included icon themes
+if which update-icon-caches >/dev/null 2>&1 ; then
+	update-icon-caches /usr/share/icons/elementary-xfce /usr/share/icons/elementary-xfce-dark /usr/share/icons/elementary-xfce-darker /usr/share/icons/elementary-xfce-darkest
+fi
+
+#DEBHELPER#
+exit 0

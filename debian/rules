@@ -19,3 +19,5 @@ update-elementary-icons:
 	done
 	rm -rf $(CURDIR)/debian/svgtopng/wip
 	make -C $(CURDIR)/debian/svgtopng clean
+
+override_dh_icons:
