@@ -1,9 +1,9 @@
 xubuntu-artwork (18.04.4) UNRELEASED; urgency=medium
 
   * d/rules, d/xubuntu-icon-theme.{postinst,postrm}:
-    - Generate icon theme cache for all included icon themes
+    - Generate icon theme cache for all included icon themes (LP: #1756054)
 
- -- Sean Davis <smd.seandavis@gmail.com>  Wed, 21 Mar 2018 21:24:00 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Fri, 23 Mar 2018 05:33:12 -0400
 
 xubuntu-artwork (18.04.3) bionic; urgency=medium
 
