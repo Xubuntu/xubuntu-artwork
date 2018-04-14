@@ -1,3 +1,11 @@
+xubuntu-artwork (18.04.5) bionic; urgency=medium
+
+  * Update elementary-xfce to 3ab8783
+    - [UIFe] Fix inconsistencies in the elementary-xfce icon theme
+      (LP: #1761623)
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 14 Apr 2018 06:13:39 -0400
+
 xubuntu-artwork (18.04.4) bionic; urgency=medium
 
   * d/rules, d/xubuntu-icon-theme.{postinst,postrm}:
