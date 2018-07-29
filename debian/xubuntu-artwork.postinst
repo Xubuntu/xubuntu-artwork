@@ -23,6 +23,11 @@ case "$1" in
 	if update-alternatives --query newt-palette | grep -qs "Status: auto"; then
 		update-alternatives --set newt-palette /etc/newt/palette.original
 	fi
+
+	# Adjust elementary-icon-theme to use xubuntu branding
+	for size in 16 24 48 64 96 128; do
+		update-alternatives --install /usr/share/icons/elementary-xfce/places/$size/distributor-logo.svg elementary-xfce-branding-$size /usr/share/icons/elementary-xfce/places/$size/distributor-logo-xubuntu.svg 10
+	done
 	;;
 
     abort-upgrade|abort-deconfigure|abort-remove)

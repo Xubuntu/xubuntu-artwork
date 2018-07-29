@@ -5,19 +5,3 @@ override_dh_gconf:
 
 %:
 	dh $@
-
-# Updates the PNG conversion of our theme
-# Needs git, gcc, gtk+-2.0, libxfce4ui-1 and gdk-pixbuf-2.0
-update-elementary-icons:
-	make -C $(CURDIR)/debian/svgtopng
-	(cd $(CURDIR)/debian/svgtopng && git clone https://github.com/shimmerproject/elementary-xfce.git wip)
-	for d in elementary-xfce-darkest elementary-xfce-darker elementary-xfce-dark elementary-xfce; do \
-		make -C $(CURDIR)/debian/svgtopng convert ICONDIR=wip/$$d && \
-		rm -rf $(CURDIR)/usr/share/icons/$$d && \
-		rm -f $(CURDIR)/debian/svgtopng/wip/$$d/LICENSE && \
-		cp -a $(CURDIR)/debian/svgtopng/wip/$$d $(CURDIR)/usr/share/icons/. ; \
-	done
-	rm -rf $(CURDIR)/debian/svgtopng/wip
-	make -C $(CURDIR)/debian/svgtopng clean
-
-override_dh_icons:

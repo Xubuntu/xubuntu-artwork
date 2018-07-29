@@ -4,8 +4,13 @@ xubuntu-artwork (18.10) UNRELEASED; urgency=medium
     - Link to development wallpaper
   * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
     - Bump plymouth-text version number for cosmic
+  * d/control, d/rules, d/svgtopng/*, d/xubuntu-icon-theme.*
+    - Make xubuntu-icon-theme transitional to
+      elementary-xfce-icon-theme
+  * d/xubuntu-artwork.{prerm,postint}
+    - Use xubuntu branding in elementary-xfce-icon-theme
 
- -- Sean Davis <smd.seandavis@gmail.com>  Tue, 08 May 2018 20:39:22 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sat, 28 Jul 2018 22:07:04 -0400
 
 xubuntu-artwork (18.04.5) bionic; urgency=medium
 
