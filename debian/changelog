@@ -10,7 +10,7 @@ xubuntu-artwork (18.10) UNRELEASED; urgency=medium
   * d/xubuntu-artwork.{prerm,postint}
     - Use xubuntu branding in elementary-xfce-icon-theme
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sat, 28 Jul 2018 22:07:04 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 30 Jul 2018 21:57:52 -0400
 
 xubuntu-artwork (18.04.5) bionic; urgency=medium
 

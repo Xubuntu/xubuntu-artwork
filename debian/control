@@ -47,6 +47,6 @@ Description: graphical boot animation and logger - xubuntu-text theme
 
 Package: xubuntu-icon-theme
 Architecture: all
-Depends: ${misc:Depends}, elementary-xfce-icon-theme (>= 0.12-2)
+Depends: ${misc:Depends}, elementary-xfce-icon-theme
 Description: Xubuntu icon theme
- This package contains the default icon theme for Xubuntu.
+ This package is a transitional package for elementary-xfce-icon-theme.
