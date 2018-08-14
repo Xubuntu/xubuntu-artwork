@@ -1,4 +1,4 @@
-xubuntu-artwork (18.10) UNRELEASED; urgency=medium
+xubuntu-artwork (18.10) cosmic; urgency=medium
 
   * debian/xubuntu-wallpapers.links:
     - Link to development wallpaper
@@ -11,7 +11,7 @@ xubuntu-artwork (18.10) UNRELEASED; urgency=medium
   * d/xubuntu-artwork.{prerm,postint}
     - Use xubuntu branding in elementary-xfce-icon-theme
 
- -- Sean Davis <smd.seandavis@gmail.com>  Mon, 13 Aug 2018 21:35:53 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 13 Aug 2018 21:37:40 -0400
 
 xubuntu-artwork (18.04.5) bionic; urgency=medium
 
