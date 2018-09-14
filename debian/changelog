@@ -1,3 +1,10 @@
+xubuntu-artwork (18.10.1) UNRELEASED; urgency=medium
+
+  * d/xubuntu-artwork.{prerm,postint}
+    - Switch xubuntu branding to support the png theme variant
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 13 Sep 2018 22:16:31 -0400
+
 xubuntu-artwork (18.10) cosmic; urgency=medium
 
   * debian/xubuntu-wallpapers.links:
