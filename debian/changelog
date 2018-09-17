@@ -1,3 +1,11 @@
+xubuntu-artwork (18.10.2) cosmic; urgency=medium
+
+  * d/xubuntu-artwork.{prerm,postint}
+    - Drop 96px distributor logo link, removed in elementary-xfce
+      upstream (LP: #1792865)
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 17 Sep 2018 06:25:36 -0400
+
 xubuntu-artwork (18.10.1) cosmic; urgency=medium
 
   * d/xubuntu-artwork.{prerm,postint}
