@@ -1,3 +1,9 @@
+xubuntu-artwork (18.10.3) UNRELEASED; urgency=medium
+
+  * New wallpaper for desktop and Plymouth (LP: #1794978)
+
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Tue, 09 Oct 2018 11:38:16 +0300
+
 xubuntu-artwork (18.10.2) cosmic; urgency=medium
 
   * d/xubuntu-artwork.{prerm,postint}
