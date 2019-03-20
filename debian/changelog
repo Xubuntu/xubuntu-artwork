@@ -1,8 +1,13 @@
-xubuntu-artwork (19.04) UNRELEASED; urgency=medium
+xubuntu-artwork (19.04) disco; urgency=medium
 
-  * New wallpaper for desktop.
+  [ Pasi Lallinaho ]
+  * New wallpaper for desktop (LP: #1820388)
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Sat, 16 Mar 2019 12:09:42 +0200
+  [ Sean Davis ]
+  * New release-agnostic wallpaper for Plymouth
+  * Update the release version
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 20 Mar 2019 06:28:54 -0400
 
 xubuntu-artwork (18.10.3) cosmic; urgency=medium
 
