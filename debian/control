@@ -47,7 +47,9 @@ Description: graphical boot animation and logger - xubuntu-text theme
  a graphical theme is found on your system.
 
 Package: xubuntu-icon-theme
+Section: oldlibs
+Priority: optional
 Architecture: all
 Depends: ${misc:Depends}, elementary-xfce-icon-theme
-Description: Xubuntu icon theme
+Description: Xubuntu icon theme (transitional package)
  This package is a transitional package for elementary-xfce-icon-theme.
