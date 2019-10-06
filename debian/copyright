@@ -4,26 +4,25 @@ Upstream-Contact: Xubuntu Team <xubuntu-devel@lists.ubuntu.com>
 Source: https://launchpad.net/xubuntu-artwork
 
 Files: usr/share/plymouth/*
-Copyright: 2009 Canonical Ltd.
-           2011 The Xubuntu Community
+Copyright: 2009, Canonical Ltd.
+           2011-2019, The Xubuntu Community
 License: GPL-3+
 
-Files: usr/share/icons/* usr/share/gmusicbrowser/* usr/share/unity-greeter/*
-Copyright: 2008-2011, Daniel Fore <Daniel.P.Fore@gmail.com>
-           2010-2012, Simon Steinbeiß <ochosi@shimmerproject.org>
+Files: usr/share/gmusicbrowser/* usr/share/unity-greeter/*
+Copyright: 2011-2012, Simon Steinbeiß <ochosi@shimmerproject.org>
 License: GPL-2+
 
 Files: usr/share/pixmaps/*
-Copyright: 2009-2010, Pasi Lallinaho <open@knome.fi>
+Copyright: 2009-2012, Pasi Lallinaho <open@knome.fi>
 License: GPL-2+
 
 Files: usr/share/xfce4/backdrops/*
-Copyright: 2009-2011, Pasi Lallinaho <open@knome.fi>
+Copyright: 2009-2019, Pasi Lallinaho <open@knome.fi>
            2010-2011, Simon Steinbeiß <ochosi@shimmerproject.org>
 License: CC-BY-SA-3.0
 
 Files: usr/share/gtksourceview-2.0/* usr/share/xfce4/terminal/*
-Copyright: 2015, Pasi Lallinaho <open@knome.fi>
+Copyright: 2015-2016, Pasi Lallinaho <open@knome.fi>
 License: CC-BY-SA-3.0
 
 Files: debian/*
@@ -32,7 +31,7 @@ Copyright: 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
            2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
            2005-2008, Jani Monoses <jani@ubuntu.com>
            2014-2015, Jackson Doak <noskcaj@ubuntu.com>
-           2015, Sean Davis <bluesabre@ubuntu.com>
+           2015-2019, Sean Davis <bluesabre@ubuntu.com>
 License: GPL-2+
 
 License: CC-BY-SA-3.0
