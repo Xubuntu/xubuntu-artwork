@@ -7,17 +7,16 @@ xubuntu-artwork (19.10.1) UNRELEASED; urgency=medium
   * d/copyright:
     - Include full CC-BY-SA-3.0 (incomplete-creative-commons-license)
   * d/control:
-    - Bump debhelper to 12
     - Bump Standards-Version to 4.4.0
     - Update VCS links
     - Set Rules-Requires-Root: no
     - Updated package descriptions (description-is-pkg-name,
       extended-description-is-probably-too-short)
     - Suggest xubuntu-community-wallpapers for xubuntu-wallpapers
-  * d/compat:
-    - Bump debhelper to 12
+  * d/compat, d/control:
+    - Drop d/compat in favor of debhelper-compat, bump to 12
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sun, 06 Oct 2019 07:08:27 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 06 Oct 2019 07:18:19 -0400
 
 xubuntu-artwork (19.10) eoan; urgency=medium
 
