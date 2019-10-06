@@ -13,13 +13,21 @@ Architecture: all
 Depends: ${misc:Depends}, elementary-xfce-icon-theme, shimmer-themes, libnewt0.52 (>= 0.52.11-2ubuntu7),
  plymouth-theme-xubuntu-logo, plymouth-theme-xubuntu-text, xubuntu-wallpapers
 Description: Xubuntu themes and artwork
- This package contains Xubuntu themes and artwork.
+ This package contains the Xubuntu themes and artwork. Including themes
+ are the GTK and icon themes from the Shimmer Project, as well as Xubuntu
+ application themes. Xubuntu artwork consists of wallpapers and boot
+ backgrounds.
 
 Package: xubuntu-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Description: Xubuntu wallpapers
- This package contains the default wallpapers for Xubuntu.
+Suggests: xubuntu-community-wallpapers
+Description: Xubuntu desktop wallpapers
+ This package contains the default wallpapers for past and current
+ versions of Xubuntu.
+ .
+ For community wallpapers, please see the xubuntu-community-wallpapers
+ package.
 
 Package: plymouth-theme-xubuntu-logo
 Architecture: all
