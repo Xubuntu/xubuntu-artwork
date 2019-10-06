@@ -10,10 +10,11 @@ xubuntu-artwork (19.10.1) UNRELEASED; urgency=medium
     - Bump debhelper to 12
     - Bump Standards-Version to 4.4.0
     - Update VCS links
+    - Set Rules-Requires-Root: no
   * d/compat:
     - Bump debhelper to 12
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sun, 06 Oct 2019 06:01:04 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 06 Oct 2019 06:29:56 -0400
 
 xubuntu-artwork (19.10) eoan; urgency=medium
 

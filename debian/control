@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 Build-Depends: debhelper (>= 12)
 Standards-Version: 4.4.0
+Rules-Requires-Root: no
 Vcs-Git: https://git.launchpad.net/xubuntu-artwork.git
 Vcs-Browser: https://git.launchpad.net/xubuntu-artwork
 
