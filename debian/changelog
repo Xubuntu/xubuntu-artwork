@@ -15,8 +15,10 @@ xubuntu-artwork (19.10.1) UNRELEASED; urgency=medium
     - Suggest xubuntu-community-wallpapers for xubuntu-wallpapers
   * d/compat, d/control:
     - Drop d/compat in favor of debhelper-compat, bump to 12
+  * d/rules:
+    - Drop gh_dconf override, we no longer ship gconf settings
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sun, 06 Oct 2019 07:18:19 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 06 Oct 2019 07:25:41 -0400
 
 xubuntu-artwork (19.10) eoan; urgency=medium
 
