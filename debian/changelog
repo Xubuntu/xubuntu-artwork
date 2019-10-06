@@ -6,8 +6,14 @@ xubuntu-artwork (19.10.1) UNRELEASED; urgency=medium
   [ Sean Davis ]
   * d/copyright:
     - Include full CC-BY-SA-3.0 (incomplete-creative-commons-license)
+  * d/control:
+    - Bump debhelper to 12
+    - Bump Standards-Version to 4.4.0
+    - Update VCS links
+  * d/compat:
+    - Bump debhelper to 12
 
- -- Sean Davis <smd.seandavis@gmail.com>  Sun, 06 Oct 2019 05:38:18 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 06 Oct 2019 06:01:04 -0400
 
 xubuntu-artwork (19.10) eoan; urgency=medium
 

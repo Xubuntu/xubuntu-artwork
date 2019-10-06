@@ -2,10 +2,10 @@ Source: xubuntu-artwork
 Section: x11
 Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Vcs-Bzr: lp:xubuntu-artwork
-Vcs-Browser: https://bazaar.launchpad.net/~xubuntu-art/xubuntu-artwork/yakkety/files
+Build-Depends: debhelper (>= 12)
+Standards-Version: 4.4.0
+Vcs-Git: https://git.launchpad.net/xubuntu-artwork.git
+Vcs-Browser: https://git.launchpad.net/xubuntu-artwork
 
 Package: xubuntu-artwork
 Architecture: all
