@@ -1,3 +1,9 @@
+xubuntu-artwork (20.04.2) focal; urgency=medium
+
+  * Reupload with final version of new wallpaper
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 07 Apr 2020 17:11:02 -0400
+
 xubuntu-artwork (20.04.1) focal; urgency=medium
 
   * New wallpaper (LP: #1871357)
