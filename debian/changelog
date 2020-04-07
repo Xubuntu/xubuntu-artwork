@@ -1,3 +1,10 @@
+xubuntu-artwork (20.04.1) UNRELEASED; urgency=medium
+
+  * New wallpaper (LP: #1871357)
+  * Update copyright
+
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Tue, 07 Apr 2020 13:57:24 +0300
+
 xubuntu-artwork (20.04) focal; urgency=medium
 
   * debian/xubuntu-wallpapers.links:
