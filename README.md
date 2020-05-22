@@ -8,8 +8,8 @@ Packages provided include:
   * xubuntu-icon-theme
   * xubuntu-wallpapers
 
-Find the latest version packaged for each release at [Launchpad](https://launchpad.net/ubuntu/+source/xubuntu-artwork).
-Each Xubuntu release includes its own branch.
+Find the latest version packaged for each release at [Launchpad](https://launchpad.net/ubuntu/+source/xubuntu-artwork).\
+Each Xubuntu release includes its own [branch](https://github.com/Xubuntu/xubuntu-artwork/branches). In-development releases are maintained on master.
 
 Report issues at [Launchpad](https://bugs.launchpad.net/ubuntu/+source/xubuntu-artwork) or with\
 `ubuntu-bug xubuntu-artwork`
