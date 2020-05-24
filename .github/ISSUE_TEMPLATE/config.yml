@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Xubuntu Artwork
+    url: https://bugs.launchpad.net/ubuntu/+source/xubuntu-artwork
+    about: Please report issues for xubuntu-artwork here.
+  - name: elementary-xfce Icon Theme
+    url: https://github.com/shimmerproject/elementary-xfce/issues
+    about: Please report issues for elementary-xfce here.
+  - name: Greybird GTK+ Themes
+    url: https://github.com/shimmerproject/Greybird/issues
+    about: Please report issues for Greybird and Greybird-dark here.
+  - name: Numix GTK+ Theme
+    url: https://github.com/numixproject/numix-gtk-theme/issues
+    about: Please report issues for Numix here.
