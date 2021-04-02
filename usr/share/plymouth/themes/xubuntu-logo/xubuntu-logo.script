@@ -284,7 +284,7 @@ fun showPasswordHandler(prompt, stars) {
 	for(i = 0; (i < stars) && (i < 15); i++) {
 		
 		stars_array[i] = Sprite(bullet_image);
-		stars_array[i].SetPosition(screen_x + (((screen_width / 2) - (passw_dialog_input_image.GetWidth() / 2)) + (18 * i)) + 2, screen_y + (screen_height / 2) + (logotype_image.GetHeight() / 2) + 75);
+		stars_array[i].SetPosition(screen_x + (((screen_width / 2) - (passw_dialog_input_image.GetWidth() / 2)) + (18 * i)) + 8, screen_y + (screen_height / 2) + (logotype_image.GetHeight() / 2) + 80);
 		stars_n++;
 		
 	}
