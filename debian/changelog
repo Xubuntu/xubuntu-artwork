@@ -1,4 +1,4 @@
-xubuntu-artwork (21.04.1) UNRELEASED; urgency=medium
+xubuntu-artwork (21.04.1) hirsute; urgency=medium
 
   [ Pasi Lallinaho ]
   * New wallpaper for Hirsute Hippo (LP: #1922905)
@@ -15,7 +15,7 @@ xubuntu-artwork (21.04.1) UNRELEASED; urgency=medium
   * debian/source/lintian-overrides:
     - Remove unused override testsuite-autopkgtest-missing
 
- -- Sean Davis <smd.seandavis@gmail.com>  Wed, 07 Apr 2021 19:15:46 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 07 Apr 2021 19:24:50 -0400
 
 xubuntu-artwork (21.04.0) hirsute; urgency=medium
 
