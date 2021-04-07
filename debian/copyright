@@ -8,6 +8,10 @@ Copyright: 2009, Canonical Ltd.
            2011-2019, The Xubuntu Community
 License: GPL-3+
 
+Files: .github/ISSUE_TEMPLATE/config.yml README.md
+Copyright: 2020-2021, The Xubuntu Community
+License: GPL-3+
+
 Files: usr/share/gmusicbrowser/* usr/share/unity-greeter/*
 Copyright: 2011-2012, Simon Steinbeiß <ochosi@shimmerproject.org>
 License: GPL-2+
@@ -31,7 +35,7 @@ Copyright: 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
            2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
            2005-2008, Jani Monoses <jani@ubuntu.com>
            2014-2015, Jackson Doak <noskcaj@ubuntu.com>
-           2015-2019, Sean Davis <bluesabre@ubuntu.com>
+           2015-2021, Sean Davis <bluesabre@ubuntu.com>
 License: GPL-2+
 
 License: CC-BY-SA-3.0

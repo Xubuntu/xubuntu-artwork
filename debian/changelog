@@ -7,8 +7,15 @@ xubuntu-artwork (21.04.1) UNRELEASED; urgency=medium
   * usr/share/plymouth/themes/xubuntu-logo/passw-dialog.png,
     usr/share/plymouth/themes/xubuntu-logo/xubuntu-logo.script:
     - Replace password prompt with greybird-dark entry (LP: #1917062)
+  * debian/control:
+    - Bump debhelper-compat to 13
+    - Bump Standards-Version to 4.5.1
+  * debian/copyright:
+    - Add copyright info for README.md and .github/ISSUE_TEMPLATE/config.yml
+  * debian/source/lintian-overrides:
+    - Remove unused override testsuite-autopkgtest-missing
 
- -- Sean Davis <smd.seandavis@gmail.com>  Wed, 07 Apr 2021 06:44:56 -0400
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 07 Apr 2021 19:15:46 -0400
 
 xubuntu-artwork (21.04.0) hirsute; urgency=medium
 
