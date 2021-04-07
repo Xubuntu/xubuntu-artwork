@@ -1,8 +1,14 @@
 xubuntu-artwork (21.04.1) UNRELEASED; urgency=medium
 
-  * New wallpaper for Hirsute Hippo.
+  [ Pasi Lallinaho ]
+  * New wallpaper for Hirsute Hippo (LP: #1922905)
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Wed, 07 Apr 2021 13:23:24 +0300
+  [ Sean Davis ]
+  * usr/share/plymouth/themes/xubuntu-logo/passw-dialog.png,
+    usr/share/plymouth/themes/xubuntu-logo/xubuntu-logo.script:
+    - Replace password prompt with greybird-dark entry (LP: #1917062)
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 07 Apr 2021 06:44:56 -0400
 
 xubuntu-artwork (21.04.0) hirsute; urgency=medium
 
