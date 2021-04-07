@@ -17,12 +17,12 @@ Copyright: 2009-2012, Pasi Lallinaho <pasi@shimmerproject.org>
 License: GPL-2+
 
 Files: usr/share/xfce4/backdrops/*
-Copyright: 2009-2020, Pasi Lallinaho <pasi@shimmerproject.org>
+Copyright: 2009-2021, Pasi Lallinaho <pasi@shimmerproject.org>
            2010-2011, Simon Steinbeiß <ochosi@shimmerproject.org>
 License: CC-BY-SA-3.0
 
 Files: usr/share/gtksourceview-2.0/* usr/share/xfce4/terminal/*
-Copyright: 2015-2016, Pasi Lallinaho <open@knome.fi>
+Copyright: 2015-2016, Pasi Lallinaho <pasi@shimmerproject.org>
 License: CC-BY-SA-3.0
 
 Files: debian/*

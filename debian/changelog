@@ -1,3 +1,9 @@
+xubuntu-artwork (21.04.1) UNRELEASED; urgency=medium
+
+  * New wallpaper for Hirsute Hippo.
+
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Wed, 07 Apr 2021 13:23:24 +0300
+
 xubuntu-artwork (21.04.0) hirsute; urgency=medium
 
   * debian/xubuntu-wallpapers.links:
