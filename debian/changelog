@@ -1,3 +1,12 @@
+xubuntu-artwork (21.10) impish; urgency=medium
+
+  * debian/xubuntu-wallpapers.links:
+    - Link to development wallpaper
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
+    - Bump plymouth-text version number for impish
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 21 Jul 2021 06:54:03 -0400
+
 xubuntu-artwork (21.04.1) hirsute; urgency=medium
 
   [ Pasi Lallinaho ]
