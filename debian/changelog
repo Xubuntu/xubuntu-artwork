@@ -1,3 +1,12 @@
+xubuntu-artwork (22.04) jammy; urgency=medium
+
+  * debian/xubuntu-wallpapers.links:
+    - Link to development wallpaper
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
+    - Bump plymouth-text version number for jammy
+
+ -- Sean Davis <sean@bluesabre.org>  Thu, 04 Nov 2021 21:26:23 -0400
+
 xubuntu-artwork (21.10.1) impish; urgency=medium
 
   * New wallpaper for Impish Indri (LP: #1945579)
