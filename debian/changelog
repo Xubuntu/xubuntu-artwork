@@ -1,9 +1,11 @@
 xubuntu-artwork (22.10) UNRELEASED; urgency=medium
 
+  * debian/copyright:
+    - Update and sort copyrights
   * usr/share/gtksourceview-4:
     - Install xubuntu-light/dark themes (LP: #1986935)
 
- -- Sean Davis <sean@bluesabre.org>  Wed, 14 Sep 2022 07:47:08 -0400
+ -- Sean Davis <sean@bluesabre.org>  Wed, 14 Sep 2022 17:01:12 -0400
 
 xubuntu-artwork (22.04.1) jammy; urgency=medium
 

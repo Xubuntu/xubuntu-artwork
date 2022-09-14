@@ -3,31 +3,9 @@ Upstream-Name: Xubuntu Artwork
 Upstream-Contact: Xubuntu Team <xubuntu-devel@lists.ubuntu.com>
 Source: https://launchpad.net/xubuntu-artwork
 
-Files: usr/share/plymouth/*
-Copyright: 2009, Canonical Ltd.
-           2011-2019, The Xubuntu Community
+Files: .github/* README.md
+Copyright: 2020-2022, The Xubuntu Community
 License: GPL-3+
-
-Files: .github/ISSUE_TEMPLATE/config.yml README.md
-Copyright: 2020-2021, The Xubuntu Community
-License: GPL-3+
-
-Files: usr/share/gmusicbrowser/* usr/share/unity-greeter/*
-Copyright: 2011-2012, Simon Steinbeiß <ochosi@shimmerproject.org>
-License: GPL-2+
-
-Files: usr/share/pixmaps/*
-Copyright: 2009-2012, Pasi Lallinaho <pasi@shimmerproject.org>
-License: GPL-2+
-
-Files: usr/share/xfce4/backdrops/*
-Copyright: 2009-2021, Pasi Lallinaho <pasi@shimmerproject.org>
-           2010-2011, Simon Steinbeiß <ochosi@shimmerproject.org>
-License: CC-BY-SA-3.0
-
-Files: usr/share/gtksourceview-2.0/* usr/share/xfce4/terminal/*
-Copyright: 2015-2016, Pasi Lallinaho <pasi@shimmerproject.org>
-License: CC-BY-SA-3.0
 
 Files: debian/*
 Copyright: 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
@@ -35,8 +13,30 @@ Copyright: 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
            2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
            2005-2008, Jani Monoses <jani@ubuntu.com>
            2014-2015, Jackson Doak <noskcaj@ubuntu.com>
-           2015-2021, Sean Davis <bluesabre@ubuntu.com>
+           2015-2022, Sean Davis <bluesabre@ubuntu.com>
 License: GPL-2+
+
+Files: usr/share/gmusicbrowser/* usr/share/unity-greeter/*
+Copyright: 2011-2012, Simon Steinbeiß <ochosi@shimmerproject.org>
+License: GPL-2+
+
+Files: usr/share/gtksourceview-2.0/* usr/share/xfce4/terminal/*
+Copyright: 2015-2016, Pasi Lallinaho <pasi@shimmerproject.org>
+License: CC-BY-SA-3.0
+
+Files: usr/share/pixmaps/*
+Copyright: 2009-2012, Pasi Lallinaho <pasi@shimmerproject.org>
+License: GPL-2+
+
+Files: usr/share/plymouth/*
+Copyright: 2009, Canonical Ltd.
+           2011-2019, The Xubuntu Community
+License: GPL-3+
+
+Files: usr/share/xfce4/backdrops/*
+Copyright: 2009-2021, Pasi Lallinaho <pasi@shimmerproject.org>
+           2010-2011, Simon Steinbeiß <ochosi@shimmerproject.org>
+License: CC-BY-SA-3.0
 
 License: CC-BY-SA-3.0
  Creative Commons Attribution-ShareAlike 3.0 Unported
