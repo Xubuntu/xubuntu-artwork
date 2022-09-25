@@ -1,4 +1,4 @@
-xubuntu-artwork (22.10) UNRELEASED; urgency=medium
+xubuntu-artwork (22.10) kinetic; urgency=medium
 
   * debian/copyright:
     - Update and sort copyrights
@@ -9,7 +9,7 @@ xubuntu-artwork (22.10) UNRELEASED; urgency=medium
   * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
     - Bump plymouth-text version number for kinetic
 
- -- Sean Davis <sean@bluesabre.org>  Sun, 25 Sep 2022 04:55:24 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sun, 25 Sep 2022 04:57:29 -0400
 
 xubuntu-artwork (22.04.1) jammy; urgency=medium
 
