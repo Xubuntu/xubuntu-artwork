@@ -6,8 +6,10 @@ xubuntu-artwork (22.10) UNRELEASED; urgency=medium
     - Link to development wallpaper
   * usr/share/gtksourceview-4:
     - Install xubuntu-light/dark themes (LP: #1986935)
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
+    - Bump plymouth-text version number for kinetic
 
- -- Sean Davis <sean@bluesabre.org>  Sun, 25 Sep 2022 04:54:02 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sun, 25 Sep 2022 04:55:24 -0400
 
 xubuntu-artwork (22.04.1) jammy; urgency=medium
 
