@@ -5,8 +5,8 @@ Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.6.1.0
 Rules-Requires-Root: no
-Vcs-Git: https://git.launchpad.net/xubuntu-artwork.git
-Vcs-Browser: https://git.launchpad.net/xubuntu-artwork
+Vcs-Git: https://github.com/Xubuntu/xubuntu-artwork.git
+Vcs-Browser: https://github.com/Xubuntu/xubuntu-artwork
 
 Package: xubuntu-artwork
 Architecture: all
