@@ -1,3 +1,12 @@
+xubuntu-artwork (23.04) UNRELEASED; urgency=medium
+
+  * debian/xubuntu-wallpapers.links:
+    - Link to development wallpaper
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
+    - Bump plymouth-text version number for lunar
+
+ -- Sean Davis <sean@bluesabre.org>  Sat, 29 Oct 2022 17:29:11 -0400
+
 xubuntu-artwork (22.10.1) kinetic; urgency=medium
 
   * New walpaper for 22.10 (LP: #1992956)
