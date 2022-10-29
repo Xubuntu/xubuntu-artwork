@@ -4,8 +4,10 @@ xubuntu-artwork (23.04) UNRELEASED; urgency=medium
     - Link to development wallpaper
   * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
     - Bump plymouth-text version number for lunar
+  * debian/control:
+    - Bump Standards-Version to 4.6.1.0
 
- -- Sean Davis <sean@bluesabre.org>  Sat, 29 Oct 2022 17:29:11 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sat, 29 Oct 2022 17:32:52 -0400
 
 xubuntu-artwork (22.10.1) kinetic; urgency=medium
 
