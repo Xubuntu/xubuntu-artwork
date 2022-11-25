@@ -1,4 +1,4 @@
-xubuntu-artwork (23.04) UNRELEASED; urgency=medium
+xubuntu-artwork (23.04) lunar; urgency=medium
 
   * debian/xubuntu-wallpapers.links:
     - Link to development wallpaper
@@ -11,7 +11,7 @@ xubuntu-artwork (23.04) UNRELEASED; urgency=medium
     - Rename binary-control-field-duplicates-source to
       installable-field-mirrors-source
 
- -- Sean Davis <sean@bluesabre.org>  Sat, 29 Oct 2022 17:41:34 -0400
+ -- Sean Davis <sean@bluesabre.org>  Fri, 25 Nov 2022 06:21:06 -0500
 
 xubuntu-artwork (22.10.1) kinetic; urgency=medium
 
