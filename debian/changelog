@@ -1,3 +1,9 @@
+xubuntu-artwork (23.04.1) UNRELEASED; urgency=medium
+
+  * New wallpaper for 23.04 (LP: #2016062)
+
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Thu, 13 Apr 2023 10:33:52 +0300
+
 xubuntu-artwork (23.04) lunar; urgency=medium
 
   * debian/xubuntu-wallpapers.links:
