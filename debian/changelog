@@ -1,4 +1,4 @@
-xubuntu-artwork (23.04.1) UNRELEASED; urgency=medium
+xubuntu-artwork (23.04.1) lunar; urgency=medium
 
   [ Pasi Lallinaho ]
   * New wallpaper for 23.04 (LP: #2016062)
@@ -7,7 +7,7 @@ xubuntu-artwork (23.04.1) UNRELEASED; urgency=medium
   * debian/copyright:
     - Update copyright years
 
- -- Sean Davis <sean@bluesabre.org>  Thu, 13 Apr 2023 04:42:46 -0400
+ -- Sean Davis <sean@bluesabre.org>  Thu, 13 Apr 2023 04:45:28 -0400
 
 xubuntu-artwork (23.04) lunar; urgency=medium
 
