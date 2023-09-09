@@ -21,7 +21,8 @@ Description: Xubuntu themes and artwork
 Package: xubuntu-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Suggests: xubuntu-community-wallpapers
+Suggests: xubuntu-community-wallpapers, xubuntu-wallpapers-jammy, xubuntu-wallpapers-focal,
+ xubuntu-wallpapers-bionic, xubuntu-wallpapers-xenial
 Description: Xubuntu desktop wallpapers
  This package contains the default wallpapers for past and current
  versions of Xubuntu.
@@ -32,6 +33,8 @@ Description: Xubuntu desktop wallpapers
 Package: xubuntu-wallpapers-jammy
 Architecture: all
 Depends: ${misc:Depends}
+Replaces: xubuntu-wallpapers (<< 23.10)
+Breaks: xubuntu-wallpapers (<< 23.10)
 Description: Xubuntu desktop wallpapers (Jammy)
  This package contains the default wallpapers for Xubuntu during the Jammy development
  cycle: Groovy, Hirsute, Impish, and Jammy.
@@ -39,6 +42,8 @@ Description: Xubuntu desktop wallpapers (Jammy)
 Package: xubuntu-wallpapers-focal
 Architecture: all
 Depends: ${misc:Depends}
+Replaces: xubuntu-wallpapers (<< 23.10)
+Breaks: xubuntu-wallpapers (<< 23.10)
 Description: Xubuntu desktop wallpapers (Focal)
  This package contains the default wallpapers for Xubuntu during the Focal development
  cycle: Cosmic, Disco, Eoan, and Focal.
@@ -46,6 +51,8 @@ Description: Xubuntu desktop wallpapers (Focal)
 Package: xubuntu-wallpapers-bionic
 Architecture: all
 Depends: ${misc:Depends}
+Replaces: xubuntu-wallpapers (<< 23.10)
+Breaks: xubuntu-wallpapers (<< 23.10)
 Description: Xubuntu desktop wallpapers (Bionic)
  This package contains the default wallpapers for Xubuntu during the Bionic development
  cycle: Yakkety, Zesty, Artful, and Bionic.
@@ -53,6 +60,8 @@ Description: Xubuntu desktop wallpapers (Bionic)
 Package: xubuntu-wallpapers-xenial
 Architecture: all
 Depends: ${misc:Depends}
+Replaces: xubuntu-wallpapers (<< 23.10)
+Breaks: xubuntu-wallpapers (<< 23.10)
 Description: Xubuntu desktop wallpapers (Xenial)
  This package contains the default wallpapers for Xubuntu during the Xenial development
  cycle: Utopic, Vivid, Wily, and Xenial.
