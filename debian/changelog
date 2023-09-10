@@ -1,9 +1,10 @@
 xubuntu-artwork (23.10) UNRELEASED; urgency=medium
 
+  * d/control: Bump Standards-Version to 4.6.2
   * Split wallpapers into LTS-based packages (LP: #2035023)
     - Trusty wallpaper available in xubuntu-wallpapers-trusty (LP: #1966034)
 
- -- Sean Davis <sean@bluesabre.org>  Sat, 10 Sep 2023 07:37:12 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sun, 10 Sep 2023 07:58:36 -0400
 
 xubuntu-artwork (23.04.1) lunar; urgency=medium
 

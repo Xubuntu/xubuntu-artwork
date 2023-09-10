@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
 Build-Depends: debhelper-compat (= 13)
-Standards-Version: 4.6.1.0
+Standards-Version: 4.6.2
 Rules-Requires-Root: no
 Vcs-Git: https://github.com/Xubuntu/xubuntu-artwork.git
 Vcs-Browser: https://github.com/Xubuntu/xubuntu-artwork
