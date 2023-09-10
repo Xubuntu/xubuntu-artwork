@@ -18,17 +18,6 @@ Description: Xubuntu themes and artwork
  application themes. Xubuntu artwork consists of wallpapers and boot
  backgrounds.
 
-Package: xubuntu-wallpapers
-Architecture: all
-Depends: ${misc:Depends}
-Suggests: xubuntu-community-wallpapers
-Description: Xubuntu desktop wallpapers
- This package contains the default wallpapers for past and current
- versions of Xubuntu.
- .
- For community wallpapers, please see the xubuntu-community-wallpapers
- package.
-
 Package: plymouth-theme-xubuntu-logo
 Architecture: all
 Depends: ${misc:Depends}, plymouth, plymouth-label
@@ -61,3 +50,86 @@ Architecture: all
 Depends: ${misc:Depends}, elementary-xfce-icon-theme
 Description: Xubuntu icon theme (transitional package)
  This package is a transitional package for elementary-xfce-icon-theme.
+
+Package: xubuntu-wallpapers
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: xubuntu-community-wallpapers, xubuntu-wallpapers-jammy, xubuntu-wallpapers-focal,
+ xubuntu-wallpapers-bionic, xubuntu-wallpapers-xenial
+Description: Xubuntu desktop wallpapers
+ This package contains the default wallpapers for past and current
+ versions of Xubuntu.
+ .
+ For community wallpapers, please see the xubuntu-community-wallpapers
+ package.
+
+Package: xubuntu-wallpapers-jammy
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: xubuntu-wallpapers (<< 23.10)
+Breaks: xubuntu-wallpapers (<< 23.10)
+Description: Xubuntu desktop wallpapers (Jammy)
+ This package contains the default wallpapers for Xubuntu during the Jammy development
+ cycle: Groovy, Hirsute, Impish, and Jammy.
+
+Package: xubuntu-wallpapers-focal
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: xubuntu-wallpapers (<< 23.10)
+Breaks: xubuntu-wallpapers (<< 23.10)
+Description: Xubuntu desktop wallpapers (Focal)
+ This package contains the default wallpapers for Xubuntu during the Focal development
+ cycle: Cosmic, Disco, Eoan, and Focal.
+
+Package: xubuntu-wallpapers-bionic
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: xubuntu-wallpapers (<< 23.10)
+Breaks: xubuntu-wallpapers (<< 23.10)
+Description: Xubuntu desktop wallpapers (Bionic)
+ This package contains the default wallpapers for Xubuntu during the Bionic development
+ cycle: Yakkety, Zesty, Artful, and Bionic.
+
+Package: xubuntu-wallpapers-xenial
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: xubuntu-wallpapers (<< 23.10)
+Breaks: xubuntu-wallpapers (<< 23.10)
+Description: Xubuntu desktop wallpapers (Xenial)
+ This package contains the default wallpapers for Xubuntu during the Xenial development
+ cycle: Utopic, Vivid, Wily, and Xenial.
+
+Package: xubuntu-wallpapers-trusty
+Architecture: all
+Depends: ${misc:Depends}
+Description: Xubuntu desktop wallpapers (Trusty)
+ This package contains the default wallpapers for Xubuntu during the Trusty development
+ cycle: Quantal, Raring, Saucy, and Trusty.
+
+Package: xubuntu-wallpapers-precise
+Architecture: all
+Depends: ${misc:Depends}
+Description: Xubuntu desktop wallpapers (Precise)
+ This package contains the default wallpapers for Xubuntu during the Precise development
+ cycle: Maverick, Natty, Oneiric, and Precise.
+
+Package: xubuntu-wallpapers-lucid
+Architecture: all
+Depends: ${misc:Depends}
+Description: Xubuntu desktop wallpapers (Lucid)
+ This package contains the default wallpapers for Xubuntu during the Lucid development
+ cycle: Intrepid, Jaunty, Karmic, and Lucid.
+
+Package: xubuntu-wallpapers-hardy
+Architecture: all
+Depends: ${misc:Depends}
+Description: Xubuntu desktop wallpapers (Hardy)
+ This package contains the default wallpapers for Xubuntu during the Hardy development
+ cycle: Edgy, Feisty, Gutsy, and Hardy.
+
+Package: xubuntu-wallpapers-dapper
+Architecture: all
+Depends: ${misc:Depends}
+Description: Xubuntu desktop wallpapers (Dapper)
+ This package contains the default wallpapers for Xubuntu during the Dapper development
+ cycle: Warty, Hoary, Breezy, and Dapper.
