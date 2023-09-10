@@ -18,6 +18,39 @@ Description: Xubuntu themes and artwork
  application themes. Xubuntu artwork consists of wallpapers and boot
  backgrounds.
 
+Package: plymouth-theme-xubuntu-logo
+Architecture: all
+Depends: ${misc:Depends}, plymouth, plymouth-label
+Provides: plymouth-theme
+Breaks: plymouth (<< 0.9.2-3ubuntu1~)
+Description: graphical boot animation and logger - xubuntu-logo theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the default xubuntu-logo theme.
+
+Package: plymouth-theme-xubuntu-text
+Architecture: all
+Depends: ${misc:Depends}, plymouth, plymouth-theme-ubuntu-text
+Provides: plymouth-theme
+Breaks: plymouth (<< 0.9.2-3ubuntu1~)
+Description: graphical boot animation and logger - xubuntu-text theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the default xubuntu-text theme used when no support for
+ a graphical theme is found on your system.
+
+Package: xubuntu-icon-theme
+Section: oldlibs
+Priority: optional
+Architecture: all
+Depends: ${misc:Depends}, elementary-xfce-icon-theme
+Description: Xubuntu icon theme (transitional package)
+ This package is a transitional package for elementary-xfce-icon-theme.
+
 Package: xubuntu-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
@@ -100,36 +133,3 @@ Depends: ${misc:Depends}
 Description: Xubuntu desktop wallpapers (Dapper)
  This package contains the default wallpapers for Xubuntu during the Dapper development
  cycle: Warty, Hoary, Breezy, and Dapper.
-
-Package: plymouth-theme-xubuntu-logo
-Architecture: all
-Depends: ${misc:Depends}, plymouth, plymouth-label
-Provides: plymouth-theme
-Breaks: plymouth (<< 0.9.2-3ubuntu1~)
-Description: graphical boot animation and logger - xubuntu-logo theme
- Plymouth is an application that runs very early in the boot process
- (even before the root filesystem is mounted!) that provides a graphical
- boot animation while the boot process happens in the background.
- .
- This package contains the default xubuntu-logo theme.
-
-Package: plymouth-theme-xubuntu-text
-Architecture: all
-Depends: ${misc:Depends}, plymouth, plymouth-theme-ubuntu-text
-Provides: plymouth-theme
-Breaks: plymouth (<< 0.9.2-3ubuntu1~)
-Description: graphical boot animation and logger - xubuntu-text theme
- Plymouth is an application that runs very early in the boot process
- (even before the root filesystem is mounted!) that provides a graphical
- boot animation while the boot process happens in the background.
- .
- This package contains the default xubuntu-text theme used when no support for
- a graphical theme is found on your system.
-
-Package: xubuntu-icon-theme
-Section: oldlibs
-Priority: optional
-Architecture: all
-Depends: ${misc:Depends}, elementary-xfce-icon-theme
-Description: Xubuntu icon theme (transitional package)
- This package is a transitional package for elementary-xfce-icon-theme.
