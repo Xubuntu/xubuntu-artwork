@@ -1,8 +1,9 @@
 xubuntu-artwork (23.10) UNRELEASED; urgency=medium
 
   * Split wallpapers into LTS-based packages
+    - Trusty wallpaper available in xubuntu-wallpapers-trusty (LP: #1966034)
 
- -- Sean Davis <sean@bluesabre.org>  Sat, 09 Sep 2023 07:53:42 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sat, 10 Sep 2023 07:09:50 -0400
 
 xubuntu-artwork (23.04.1) lunar; urgency=medium
 
