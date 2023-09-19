@@ -1,3 +1,10 @@
+xubuntu-artwork (23.10.1) UNRELEASED; urgency=medium
+
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
+    - Bump plymouth-text version number for mantic
+
+ -- Sean Davis <sean@bluesabre.org>  Tue, 19 Sep 2023 07:10:05 -0400
+
 xubuntu-artwork (23.10) mantic; urgency=medium
 
   * d/control: Bump Standards-Version to 4.6.2
