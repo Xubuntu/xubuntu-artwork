@@ -5,7 +5,7 @@ xubuntu-artwork (23.10.1) UNRELEASED; urgency=medium
     - Bump plymouth-text version number for mantic
 
   [ Pasi Lallinaho ]
-  * - New wallpaper for 21.10 (LP: #2037708)
+  * - New wallpaper for 23.10 (LP: #2037708)
 
  -- Pasi Lallinaho <pasi@shimmerproject.org>  Fri, 29 Sep 2023 12:56:12 +0300
 
