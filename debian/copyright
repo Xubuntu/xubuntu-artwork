@@ -4,24 +4,25 @@ Upstream-Contact: Xubuntu Team <xubuntu-devel@lists.ubuntu.com>
 Source: https://launchpad.net/xubuntu-artwork
 
 Files: .github/* README.md
-Copyright: 2020-2023, The Xubuntu Community
+Copyright: 2020-2024, The Xubuntu Community
 License: GPL-3+
 
 Files: debian/*
-Copyright: 2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
-           2007-2012, Lionel Le Folgoc <mrpouit@ubuntu.com>
+Copyright: 2005-2008, Jani Monoses <jani@ubuntu.com>
            2006-2008, Gauvain Pocentek <gauvainpocentek@ubuntu.com>
-           2005-2008, Jani Monoses <jani@ubuntu.com>
+           2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
+           2007-2012, Lionel Le Folgoc <mrpouit@ubuntu.com>
            2014-2015, Jackson Doak <noskcaj@ubuntu.com>
-           2015-2023, Sean Davis <bluesabre@ubuntu.com>
+           2015-2024, Sean Davis <bluesabre@ubuntu.com>
 License: GPL-2+
 
 Files: usr/share/gmusicbrowser/* usr/share/unity-greeter/*
 Copyright: 2011-2012, Simon Steinbeiß <ochosi@shimmerproject.org>
 License: GPL-2+
 
-Files: usr/share/gtksourceview-2.0/* usr/share/xfce4/terminal/*
+Files: usr/share/gtksourceview-2.0/* usr/share/gtksourceview-5/* usr/share/xfce4/terminal/*
 Copyright: 2015-2016, Pasi Lallinaho <pasi@shimmerproject.org>
+           2024, Sean Davis <bluesabre@ubuntu.com>
 License: CC-BY-SA-3.0
 
 Files: usr/share/pixmaps/*

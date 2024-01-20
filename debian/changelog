@@ -1,5 +1,7 @@
 xubuntu-artwork (24.04) UNRELEASED; urgency=medium
 
+  * debian/copyright:
+    - Update copyrights
   * debian/xubuntu-wallpapers.links:
     - Link to development wallpaper
   * usr/share/gtksourceview-5/*
@@ -9,7 +11,7 @@ xubuntu-artwork (24.04) UNRELEASED; urgency=medium
   * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
     - Bump plymouth-text version number for noble
 
- -- Sean Davis <sean@bluesabre.org>  Sat, 20 Jan 2024 10:06:07 -0500
+ -- Sean Davis <sean@bluesabre.org>  Sat, 20 Jan 2024 10:12:12 -0500
 
 xubuntu-artwork (23.10.1) mantic; urgency=medium
 
