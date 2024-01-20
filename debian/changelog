@@ -1,4 +1,4 @@
-xubuntu-artwork (24.04) UNRELEASED; urgency=medium
+xubuntu-artwork (24.04) noble; urgency=medium
 
   * debian/copyright:
     - Update copyrights
@@ -11,7 +11,7 @@ xubuntu-artwork (24.04) UNRELEASED; urgency=medium
   * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
     - Bump plymouth-text version number for noble
 
- -- Sean Davis <sean@bluesabre.org>  Sat, 20 Jan 2024 10:12:12 -0500
+ -- Sean Davis <sean@bluesabre.org>  Sat, 20 Jan 2024 10:15:18 -0500
 
 xubuntu-artwork (23.10.1) mantic; urgency=medium
 
