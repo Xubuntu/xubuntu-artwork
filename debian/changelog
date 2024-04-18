@@ -1,3 +1,9 @@
+xubuntu-artwork (24.04.1) UNRELEASED; urgency=medium
+
+  * New wallpaper for 24.04 (LP: #2062399)
+
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Thu, 18 Apr 2024 21:09:21 +0300
+
 xubuntu-artwork (24.04) noble; urgency=medium
 
   * debian/copyright:
