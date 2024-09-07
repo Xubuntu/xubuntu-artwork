@@ -1,3 +1,12 @@
+xubuntu-artwork (24.10) UNRELEASED; urgency=medium
+
+  * debian/xubuntu-wallpapers.links:
+    - Link to development wallpaper
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
+    - Bump plymouth-text version number for oracular
+
+ -- Sean Davis <sean@bluesabre.org>  Sat, 07 Sep 2024 09:17:59 -0400
+
 xubuntu-artwork (24.04.1) noble; urgency=medium
 
   [ Pasi Lallinaho ]
