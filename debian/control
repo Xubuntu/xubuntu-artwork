@@ -55,13 +55,22 @@ Package: xubuntu-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: xubuntu-community-wallpapers, xubuntu-wallpapers-jammy, xubuntu-wallpapers-focal,
- xubuntu-wallpapers-bionic, xubuntu-wallpapers-xenial
+ xubuntu-wallpapers-bionic, xubuntu-wallpapers-xenial, xubuntu-wallpapers-noble
 Description: Xubuntu desktop wallpapers
  This package contains the default wallpapers for past and current
  versions of Xubuntu.
  .
  For community wallpapers, please see the xubuntu-community-wallpapers
  package.
+
+Package: xubuntu-wallpapers-noble
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: xubuntu-wallpapers (<< 24.10)
+Breaks: xubuntu-wallpapers (<< 24.10)
+Description: Xubuntu desktop wallpapers (Noble)
+ This package contains the default wallpapers for Xubuntu during the Noble development
+ cycle: Kinetic, Lunar, Mantic, and Noble.
 
 Package: xubuntu-wallpapers-jammy
 Architecture: all
