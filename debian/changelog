@@ -1,5 +1,7 @@
 xubuntu-artwork (24.10) UNRELEASED; urgency=medium
 
+  * debian/control:
+    - Reshape descriptions to fix extended-description-line-too-long
   * debian/control,
     debian/xubuntu-wallpapers.install,
     debian/xubuntu-wallpapers-noble.install:
@@ -11,7 +13,7 @@ xubuntu-artwork (24.10) UNRELEASED; urgency=medium
   * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
     - Bump plymouth-text version number for oracular
 
- -- Sean Davis <sean@bluesabre.org>  Sun, 08 Sep 2024 06:28:41 -0400
+ -- Sean Davis <sean@bluesabre.org>  Sun, 08 Sep 2024 06:38:40 -0400
 
 xubuntu-artwork (24.04.1) noble; urgency=medium
 
