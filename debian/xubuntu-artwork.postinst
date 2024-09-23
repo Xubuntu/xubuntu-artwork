@@ -27,6 +27,7 @@ case "$1" in
 	# Adjust elementary-icon-theme to use xubuntu branding
 	for size in 16 24 48 64 96 128; do
 		update-alternatives --install /usr/share/icons/elementary-xfce/places/$size/distributor-logo.png elementary-xfce-branding-$size /usr/share/icons/elementary-xfce/places/$size/distributor-logo-xubuntu.png 10
+		update-alternatives --install /usr/share/icons/elementary-xfce/places/$size/ubuntu-logo.png elementary-xfce-ubuntu-branding-$size /usr/share/icons/elementary-xfce/places/$size/distributor-logo-xubuntu.png 10
 	done
 	;;
 

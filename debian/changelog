@@ -2,8 +2,9 @@ xubuntu-artwork (24.10.1) UNRELEASED; urgency=medium
 
   * debian/xubuntu-artwork.postinst:
     - Install missing 96 size distributor-logo
+    - Install xubuntu-branded ubuntu-logo
 
- -- Sean Davis <sean@bluesabre.org>  Mon, 23 Sep 2024 06:11:46 -0400
+ -- Sean Davis <sean@bluesabre.org>  Mon, 23 Sep 2024 06:14:58 -0400
 
 xubuntu-artwork (24.10) oracular; urgency=medium
 
