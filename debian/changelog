@@ -3,6 +3,8 @@ xubuntu-artwork (24.10.1) UNRELEASED; urgency=medium
   * debian/xubuntu-artwork.postinst:
     - Install missing 96 size distributor-logo
     - Install xubuntu-branded ubuntu-logo
+  [ Pasi Lallinaho ]
+  * New wallpaper for 24.10 (LP: #2083637)
 
  -- Sean Davis <sean@bluesabre.org>  Mon, 23 Sep 2024 06:14:58 -0400
 
