@@ -1,4 +1,4 @@
-xubuntu-artwork (24.10.1) UNRELEASED; urgency=medium
+xubuntu-artwork (24.10.1) oracular; urgency=medium
 
   [ Sean Davis ]
   * debian/xubuntu-artwork.postinst:
@@ -8,7 +8,7 @@ xubuntu-artwork (24.10.1) UNRELEASED; urgency=medium
   [ Pasi Lallinaho ]
   * New wallpaper for 24.10 (LP: #2083637)
 
- -- Sean Davis <sean@bluesabre.org>  Thu, 03 Oct 2024 16:54:35 -0400
+ -- Sean Davis <sean@bluesabre.org>  Thu, 03 Oct 2024 16:56:03 -0400
 
 xubuntu-artwork (24.10) oracular; urgency=medium
 
