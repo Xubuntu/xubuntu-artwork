@@ -1,3 +1,12 @@
+xubuntu-artwork (25.04) UNRELEASED; urgency=medium
+
+  * debian/xubuntu-wallpapers.links:
+    - Link to development wallpaper
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
+    - Bump plymouth-text version number for plucky
+
+ -- Sean Davis <sean@bluesabre.org>  Fri, 22 Nov 2024 23:45:14 -0500
+
 xubuntu-artwork (24.10.1) oracular; urgency=medium
 
   [ Sean Davis ]
