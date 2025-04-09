@@ -1,3 +1,9 @@
+xubuntu-artwork (25.04.1) UNRELEASED; urgency=medium
+
+  * New wallpaper for 25.10 (LP: #2106623)
+
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Wed, 09 Apr 2025 15:15:48 +0300
+
 xubuntu-artwork (25.04) plucky; urgency=medium
 
   * debian/xubuntu-wallpapers.links:
