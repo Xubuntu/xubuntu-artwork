@@ -1,8 +1,9 @@
-xubuntu-artwork (25.04.1) UNRELEASED; urgency=medium
+xubuntu-artwork (25.04.1) plucky; urgency=medium
 
+  [ Pasi Lallinaho ]
   * New wallpaper for 25.10 (LP: #2106623)
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Wed, 09 Apr 2025 15:15:48 +0300
+ -- Sean Davis <sean@bluesabre.org>  Wed, 09 Apr 2025 08:34:51 -0400
 
 xubuntu-artwork (25.04) plucky; urgency=medium
 
