@@ -1,8 +1,13 @@
-xubuntu-artwork (25.10) UNRELEASED; urgency=medium
+xubuntu-artwork (25.10) questing; urgency=medium
 
+  [ Pasi Lallinaho ]
   * New wallpaper for 25.10 (LP: #2127033)
+  
+  [ Sean Davis ]
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
+    - Bump plymouth-text version number for questing
 
- -- Pasi Lallinaho <pasi@shimmerproject.org>  Tue, 07 Oct 2025 21:55:25 +0300
+ -- Sean Davis <sean@bluesabre.org>  Tue, 07 Oct 2025 19:12:16 +0000
 
 xubuntu-artwork (25.04.1) plucky; urgency=medium
 
