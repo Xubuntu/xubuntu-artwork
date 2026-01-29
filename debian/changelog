@@ -1,3 +1,12 @@
+xubuntu-artwork (26.04) resolute; urgency=medium
+
+  * debian/xubuntu-wallpapers.links:
+    - Link to development wallpaper
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
+    - Bump plymouth-text version number for resolute
+
+ -- Sean Davis <sean@bluesabre.org>  Wed, 28 Jan 2026 23:25:38 -0500
+
 xubuntu-artwork (25.10) questing; urgency=medium
 
   [ Pasi Lallinaho ]
