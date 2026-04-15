@@ -1,3 +1,9 @@
+xubuntu-artwork (26.04.1) UNRELEASED; urgency=medium
+
+  * New wallpapers for 26.04 (LP: #2148465)
+
+ -- Pasi Lallinaho <pasi@shimmerproject.org>  Wed, 15 Apr 2026 15:30:52 +0300
+
 xubuntu-artwork (26.04) resolute; urgency=medium
 
   * debian/xubuntu-wallpapers.links:
