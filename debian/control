@@ -56,13 +56,23 @@ Architecture: all
 Depends: ${misc:Depends}
 Suggests: xubuntu-community-wallpapers, xubuntu-wallpapers-jammy,
  xubuntu-wallpapers-focal, xubuntu-wallpapers-bionic,
- xubuntu-wallpapers-xenial, xubuntu-wallpapers-noble
+ xubuntu-wallpapers-xenial, xubuntu-wallpapers-noble,
+ xubuntu-wallpapers-resolute
 Description: Xubuntu desktop wallpapers
  This package contains the default wallpapers for past and current
  versions of Xubuntu.
  .
  For community wallpapers, please see the xubuntu-community-wallpapers
  package.
+
+Package: xubuntu-wallpapers-resolute
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: xubuntu-wallpapers (<< 26.10)
+Breaks: xubuntu-wallpapers (<< 26.10)
+Description: Xubuntu desktop wallpapers (Resolute)
+ This package contains the default wallpapers for Xubuntu during the Resolute
+ development cycle: Oracular, Plucky, Questing, and Resolute.
 
 Package: xubuntu-wallpapers-noble
 Architecture: all
