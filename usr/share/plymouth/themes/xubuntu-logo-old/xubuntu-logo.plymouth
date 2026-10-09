@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Xubuntu Logo
+Description=A theme that features a background with a logo.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/xubuntu-logo
+ScriptFile=/usr/share/plymouth/themes/xubuntu-logo/xubuntu-logo.script
