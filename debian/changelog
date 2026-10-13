@@ -1,3 +1,10 @@
+xubuntu-artwork (26.10.1) stonking; urgency=medium
+
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
+    - Bump plymouth-text version number for stonking (LP: #2170662)
+
+ -- Sean Davis <sean@bluesabre.org>  Tue, 13 Oct 2026 12:19:36 -0400
+
 xubuntu-artwork (26.10) stonking; urgency=medium
 
   * New wallpaper for 26.10 (LP: #2169945)
