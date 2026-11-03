@@ -1,4 +1,4 @@
-xubuntu-artwork (27.04) UNRELEASED; urgency=medium
+xubuntu-artwork (27.04) tenacious; urgency=medium
 
   * debian/control:
     - Bump Standards-Version to 4.7.4
@@ -15,7 +15,7 @@ xubuntu-artwork (27.04) UNRELEASED; urgency=medium
   * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
     - Bump plymouth-text version number for tenacious
 
- -- Sean Davis <sean@bluesabre.org>  Mon, 02 Nov 2026 22:04:08 -0500
+ -- Sean Davis <sean@bluesabre.org>  Tue, 03 Nov 2026 07:33:44 -0500
 
 xubuntu-artwork (26.10.1) stonking; urgency=medium
 
