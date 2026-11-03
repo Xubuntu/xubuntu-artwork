@@ -1,3 +1,22 @@
+xubuntu-artwork (27.04) UNRELEASED; urgency=medium
+
+  * debian/control:
+    - Bump Standards-Version to 4.7.4
+    - Bump debhelper-compat to 14
+    - Remove redundant priority-optional fields
+    - Remove redundant rules-require-root fields
+  * debian/copyright:
+    - Refresh copyright years
+    - Replace reference to old FSF postal address
+  * debian/source/lintian-overrides:
+    - Drop unused override installable-field-mirrors-source
+  * debian/xubuntu-wallpapers.links:
+    - Link to development wallpaper
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
+    - Bump plymouth-text version number for tenacious
+
+ -- Sean Davis <sean@bluesabre.org>  Mon, 02 Nov 2026 22:04:08 -0500
+
 xubuntu-artwork (26.10.1) stonking; urgency=medium
 
   * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
@@ -31,7 +50,7 @@ xubuntu-artwork (25.10) questing; urgency=medium
 
   [ Pasi Lallinaho ]
   * New wallpaper for 25.10 (LP: #2127033)
-  
+
   [ Sean Davis ]
   * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
     - Bump plymouth-text version number for questing

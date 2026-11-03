@@ -1,0 +1,53 @@
+name: Build and lint package
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build and run lintian
+    runs-on: ubuntu-latest
+    container:
+      image: ubuntu:devel
+
+    steps:
+      - name: Install build tools
+        run: |
+          apt-get update
+          DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+            build-essential devscripts equivs lintian git ca-certificates
+
+      # Checkout code into a subdirectory so build artifacts land in the workspace
+      - uses: actions/checkout@v7
+        with:
+          path: src
+
+      # Run outside src so mk-build-deps leftovers don't end up in the source tarball
+      - name: Install build dependencies
+        run: |
+          mkdir -p build-deps && cd build-deps
+          DEBIAN_FRONTEND=noninteractive mk-build-deps --install --remove \
+            --tool 'apt-get -y --no-install-recommends' ../src/debian/control
+
+      - name: Build package
+        working-directory: src
+        run: |
+          dpkg-buildpackage --no-sign --build=full
+
+      - name: Run lintian
+        run: |
+          lintian --info --display-info --pedantic --fail-on warning *.changes
+
+      - name: Upload packages
+        uses: actions/upload-artifact@v7
+        with:
+          name: packages
+          path: |
+            *.deb
+            *.dsc
+            *.tar.*
+            *.buildinfo
+            *.changes

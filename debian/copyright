@@ -4,7 +4,7 @@ Upstream-Contact: Xubuntu Team <xubuntu-devel@lists.ubuntu.com>
 Source: https://launchpad.net/xubuntu-artwork
 
 Files: .github/* README.md
-Copyright: 2020-2024, The Xubuntu Community
+Copyright: 2020-2026, The Xubuntu Community
 License: GPL-3+
 
 Files: debian/*
@@ -13,7 +13,7 @@ Copyright: 2005-2008, Jani Monoses <jani@ubuntu.com>
            2007-2009, Cody A.W. Somerville <cody-somerville@ubuntu.com>
            2007-2012, Lionel Le Folgoc <mrpouit@ubuntu.com>
            2014-2015, Jackson Doak <noskcaj@ubuntu.com>
-           2015-2024, Sean Davis <bluesabre@ubuntu.com>
+           2015-2026, Sean Davis <bluesabre@ubuntu.com>
 License: GPL-2+
 
 Files: usr/share/gmusicbrowser/* usr/share/unity-greeter/*
@@ -433,8 +433,7 @@ License: GPL-3+
  GNU General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
- along with this package; if not, write to the Free Software
- Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
  .
  On Debian systems, the full text of the GNU General Public License version 3 can
  be found in the `/usr/share/common-licenses/GPL-3' file.

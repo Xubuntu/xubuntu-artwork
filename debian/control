@@ -1,10 +1,8 @@
 Source: xubuntu-artwork
 Section: x11
-Priority: optional
 Maintainer: Xubuntu Developers <xubuntu-devel@lists.ubuntu.com>
-Build-Depends: debhelper-compat (= 13)
-Standards-Version: 4.6.2
-Rules-Requires-Root: no
+Build-Depends: debhelper-compat (= 14)
+Standards-Version: 4.7.4
 Vcs-Git: https://github.com/Xubuntu/xubuntu-artwork.git
 Vcs-Browser: https://github.com/Xubuntu/xubuntu-artwork
 
@@ -45,7 +43,6 @@ Description: graphical boot animation and logger - xubuntu-text theme
 
 Package: xubuntu-icon-theme
 Section: oldlibs
-Priority: optional
 Architecture: all
 Depends: ${misc:Depends}, elementary-xfce-icon-theme
 Description: Xubuntu icon theme (transitional package)
