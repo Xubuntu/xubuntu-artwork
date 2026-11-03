@@ -39,7 +39,7 @@ jobs:
 
       - name: Run lintian
         run: |
-          lintian --info --display-info --pedantic --fail-on error *.changes
+          lintian --info --display-info --pedantic --fail-on warning *.changes
 
       - name: Upload packages
         uses: actions/upload-artifact@v7
