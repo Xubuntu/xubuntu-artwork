@@ -1,3 +1,12 @@
+xubuntu-artwork (27.04) UNRELEASED; urgency=medium
+
+  * debian/xubuntu-wallpapers.links:
+    - Link to development wallpaper
+  * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
+    - Bump plymouth-text version number for tenacious
+
+ -- Sean Davis <sean@bluesabre.org>  Mon, 02 Nov 2026 22:04:08 -0500
+
 xubuntu-artwork (26.10.1) stonking; urgency=medium
 
   * usr/share/plymouth/themes/xubuntu-text/xubuntu-text.plymouth
