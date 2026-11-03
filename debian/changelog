@@ -7,6 +7,7 @@ xubuntu-artwork (27.04) UNRELEASED; urgency=medium
     - Remove redundant rules-require-root fields
   * debian/copyright:
     - Refresh copyright years
+    - Replace reference to old FSF postal address
   * debian/source/lintian-overrides:
     - Drop unused override installable-field-mirrors-source
   * debian/xubuntu-wallpapers.links:
